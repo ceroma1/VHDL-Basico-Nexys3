@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumaBCD1Bit/tes1_isim_beh.exe" -prj "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumaBCD1Bit/tes1_beh.prj" "work.tes1" 

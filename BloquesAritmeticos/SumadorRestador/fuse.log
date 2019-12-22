@@ -1,0 +1,33 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/tes1_isim_beh.exe -prj /home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/tes1_beh.prj work.tes1 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/SumaMedia.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/Icxor.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/SumadorN.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/presenta.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/complemento.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/SumadoRestador.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/tes1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96796 KB
+Fuse CPU Usage: 1230 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity Icxor [icxor_default]
+Compiling architecture behavioral of entity complemento [complemento_default]
+Compiling architecture behavioral of entity SumaMedia [sumamedia_default]
+Compiling architecture behavioral of entity SumadorN [sumadorn_default]
+Compiling architecture behavioral of entity presenta [presenta_default]
+Compiling architecture behavioral of entity SumadoRestador [sumadorestador_default]
+Compiling architecture behavior of entity tes1
+Time Resolution for simulation is 1ps.
+Compiled 17 VHDL Units
+Built simulation executable /home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorRestador/tes1_isim_beh.exe
+Fuse Memory Usage: 112076 KB
+Fuse CPU Usage: 1440 ms
+GCC CPU Usage: 520 ms

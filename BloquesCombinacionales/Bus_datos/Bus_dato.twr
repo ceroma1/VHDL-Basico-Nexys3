@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Bus_dato.twx Bus_dato.ncd -o Bus_dato.twr Bus_dato.pcf -ucf
+pines.ucf
+
+Design file:              Bus_dato.ncd
+Physical constraint file: Bus_dato.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DatoA<0>       |segmento<0>    |    9.197|
+DatoA<0>       |segmento<1>    |    8.999|
+DatoA<0>       |segmento<2>    |    9.446|
+DatoA<0>       |segmento<3>    |    9.064|
+DatoA<0>       |segmento<4>    |    9.120|
+DatoA<0>       |segmento<5>    |    8.945|
+DatoA<0>       |segmento<6>    |    8.988|
+DatoA<1>       |segmento<0>    |    9.362|
+DatoA<1>       |segmento<1>    |    9.314|
+DatoA<1>       |segmento<2>    |    9.313|
+DatoA<1>       |segmento<3>    |    8.890|
+DatoA<1>       |segmento<4>    |    8.911|
+DatoA<1>       |segmento<5>    |    8.733|
+DatoA<1>       |segmento<6>    |    8.824|
+DatoA<2>       |segmento<0>    |    8.908|
+DatoA<2>       |segmento<1>    |    9.136|
+DatoA<2>       |segmento<2>    |    8.439|
+DatoA<2>       |segmento<3>    |    8.258|
+DatoA<2>       |segmento<4>    |    8.465|
+DatoA<2>       |segmento<5>    |    8.047|
+DatoA<2>       |segmento<6>    |    8.523|
+DatoA<3>       |segmento<0>    |    9.328|
+DatoA<3>       |segmento<1>    |    9.139|
+DatoA<3>       |segmento<2>    |    9.245|
+DatoA<3>       |segmento<3>    |    9.059|
+DatoA<3>       |segmento<4>    |    8.916|
+DatoA<3>       |segmento<5>    |    8.635|
+DatoA<3>       |segmento<6>    |    9.255|
+DatoB<0>       |segmento<0>    |    9.391|
+DatoB<0>       |segmento<1>    |    9.193|
+DatoB<0>       |segmento<2>    |    9.640|
+DatoB<0>       |segmento<3>    |    9.258|
+DatoB<0>       |segmento<4>    |    9.314|
+DatoB<0>       |segmento<5>    |    9.139|
+DatoB<0>       |segmento<6>    |    9.182|
+DatoB<1>       |segmento<0>    |    9.511|
+DatoB<1>       |segmento<1>    |    9.463|
+DatoB<1>       |segmento<2>    |    9.462|
+DatoB<1>       |segmento<3>    |    9.039|
+DatoB<1>       |segmento<4>    |    9.060|
+DatoB<1>       |segmento<5>    |    8.882|
+DatoB<1>       |segmento<6>    |    8.973|
+DatoB<2>       |segmento<0>    |    9.345|
+DatoB<2>       |segmento<1>    |    9.043|
+DatoB<2>       |segmento<2>    |    8.815|
+DatoB<2>       |segmento<3>    |    8.620|
+DatoB<2>       |segmento<4>    |    8.312|
+DatoB<2>       |segmento<5>    |    8.207|
+DatoB<2>       |segmento<6>    |    8.540|
+DatoB<3>       |segmento<0>    |    9.865|
+DatoB<3>       |segmento<1>    |    9.676|
+DatoB<3>       |segmento<2>    |    9.782|
+DatoB<3>       |segmento<3>    |    9.596|
+DatoB<3>       |segmento<4>    |    9.453|
+DatoB<3>       |segmento<5>    |    9.172|
+DatoB<3>       |segmento<6>    |    9.792|
+Sel_dato       |segmento<0>    |   14.154|
+Sel_dato       |segmento<1>    |   14.106|
+Sel_dato       |segmento<2>    |   14.231|
+Sel_dato       |segmento<3>    |   13.849|
+Sel_dato       |segmento<4>    |   13.905|
+Sel_dato       |segmento<5>    |   13.730|
+Sel_dato       |segmento<6>    |   13.970|
+Sel_display<0> |anodo<0>       |   10.662|
+Sel_display<0> |anodo<1>       |   10.885|
+Sel_display<0> |anodo<2>       |   10.603|
+Sel_display<0> |anodo<3>       |   10.826|
+Sel_display<1> |anodo<0>       |   10.699|
+Sel_display<1> |anodo<1>       |   10.922|
+Sel_display<1> |anodo<2>       |   10.699|
+Sel_display<1> |anodo<3>       |   10.922|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Dec  3 15:37:09 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

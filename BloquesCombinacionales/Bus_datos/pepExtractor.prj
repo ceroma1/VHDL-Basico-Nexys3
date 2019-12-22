@@ -1,0 +1,4 @@
+work	"Bus_dato.vhd"
+work	"Display.vhd"
+work	"Mux_anodos.vhd"
+work	"Mux_dato.vhd"

@@ -1,0 +1,20 @@
+NET "Respuesta<0>"     LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "Respuesta<1>"     LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "Respuesta<2>"     LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+NET "Respuesta<3>"     LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD3
+NET "Respuesta<4>"     LOC = "M11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD4
+NET "Respuesta<5>"  	  LOC = "N11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD5
+
+## Switches
+NET "DatA<0>"          LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Sch name = SW0
+NET "DatA<1>"          LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+NET "DatA<2>"          LOC = "V9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW2
+NET "DatA<3>"          LOC = "M8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW3
+NET "DatB<0>"          LOC = "N8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW4
+NET "DatB<1>"          LOC = "U8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW5
+NET "DatB<2>"          LOC = "V8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW6
+NET "DatB<3>"          LOC = "T5"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW7
+
+## Buttons
+NET "Selec"            LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNS
+  

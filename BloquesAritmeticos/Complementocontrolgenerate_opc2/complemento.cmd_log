@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/Complementocontrolgenerate_opc2/complemento.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/Complementocontrolgenerate_opc2/complemento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 complemento.ngc complemento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o complemento_map.ncd complemento.ngd complemento.pcf 
+par -w -intstyle ise -ol high -mt off complemento_map.ncd complemento.ncd complemento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml complemento.twx complemento.ncd -o complemento.twr complemento.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f complemento.ut complemento.ncd 

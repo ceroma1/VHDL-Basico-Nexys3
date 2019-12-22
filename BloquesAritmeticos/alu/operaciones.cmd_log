@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 operaciones.ngc operaciones.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o operaciones_map.ncd operaciones.ngd operaciones.pcf 
+par -w -intstyle ise -ol high -t 1 operaciones_map.ncd operaciones.ncd operaciones.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml operaciones.twx operaciones.ncd -o operaciones.twr operaciones.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f operaciones.ut operaciones.ncd 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 operaciones.ngc operaciones.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o operaciones_map.ncd operaciones.ngd operaciones.pcf 
+par -w -intstyle ise -ol high -t 1 operaciones_map.ncd operaciones.ncd operaciones.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml operaciones.twx operaciones.ncd -o operaciones.twr operaciones.pcf -ucf pines.ucf 
+xst -intstyle ise -ifn "C:/Temp/alu/operaciones.xst" -ofn "C:/Temp/alu/operaciones.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 operaciones.ngc operaciones.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o operaciones_map.ncd operaciones.ngd operaciones.pcf 
+par -w -intstyle ise -ol high -t 1 operaciones_map.ncd operaciones.ncd operaciones.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml operaciones.twx operaciones.ncd -o operaciones.twr operaciones.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f operaciones.ut operaciones.ncd 
+xst -intstyle ise -ifn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/alu/operaciones.xst" -ofn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/alu/operaciones.syr" 
+xst -intstyle ise -ifn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/alu/operaciones.xst" -ofn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/alu/operaciones.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 "operaciones.ngc" operaciones.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o operaciones_map.ncd operaciones.ngd operaciones.pcf 
+par -w -intstyle ise -ol high -t 1 operaciones_map.ncd operaciones.ncd operaciones.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml operaciones.twx operaciones.ncd -o operaciones.twr operaciones.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f operaciones.ut operaciones.ncd 
+xst -intstyle ise -ifn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/alu/operaciones.xst" -ofn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/alu/operaciones.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 "operaciones.ngc" operaciones.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o operaciones_map.ncd operaciones.ngd operaciones.pcf 
+par -w -intstyle ise -ol high -t 1 operaciones_map.ncd operaciones.ncd operaciones.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml operaciones.twx operaciones.ncd -o operaciones.twr operaciones.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f operaciones.ut operaciones.ncd 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/alu/operaciones.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/alu/operaciones.syr" 

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumaBCD1Bit/SumBCD1Bit.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumaBCD1Bit/SumBCD1Bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SumBCD1Bit.ngc SumBCD1Bit.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumBCD1Bit_map.ncd SumBCD1Bit.ngd SumBCD1Bit.pcf 
+par -w -intstyle ise -ol high -mt off SumBCD1Bit_map.ncd SumBCD1Bit.ncd SumBCD1Bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumBCD1Bit.twx SumBCD1Bit.ncd -o SumBCD1Bit.twr SumBCD1Bit.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumBCD1Bit.ut SumBCD1Bit.ncd 

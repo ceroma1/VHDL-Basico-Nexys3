@@ -1,0 +1,2 @@
+vhdl isim_temp "bin_dec.vhd"
+vhdl isim_temp "tes.vhd"

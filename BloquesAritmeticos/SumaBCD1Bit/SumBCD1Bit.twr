@@ -1,0 +1,154 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml SumBCD1Bit.twx SumBCD1Bit.ncd -o SumBCD1Bit.twr
+SumBCD1Bit.pcf -ucf pines.ucf
+
+Design file:              SumBCD1Bit.ncd
+Physical constraint file: SumBCD1Bit.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Cin            |Fcarry         |   12.046|
+Cin            |Fsuma<0>       |   11.870|
+Cin            |Fsuma<1>       |   12.604|
+Cin            |Fsuma<2>       |   12.400|
+Cin            |Fsuma<3>       |   12.907|
+Cin            |segmentos<0>   |   13.382|
+Cin            |segmentos<1>   |   13.532|
+Cin            |segmentos<2>   |   14.299|
+Cin            |segmentos<3>   |   13.413|
+Cin            |segmentos<4>   |   14.048|
+Cin            |segmentos<5>   |   13.993|
+Cin            |segmentos<6>   |   13.813|
+NumA<0>        |Fcarry         |    8.782|
+NumA<0>        |Fsuma<0>       |    8.330|
+NumA<0>        |Fsuma<1>       |    9.340|
+NumA<0>        |Fsuma<2>       |    9.136|
+NumA<0>        |Fsuma<3>       |    9.643|
+NumA<0>        |segmentos<0>   |   10.118|
+NumA<0>        |segmentos<1>   |   10.268|
+NumA<0>        |segmentos<2>   |   11.035|
+NumA<0>        |segmentos<3>   |   10.149|
+NumA<0>        |segmentos<4>   |   10.784|
+NumA<0>        |segmentos<5>   |   10.729|
+NumA<0>        |segmentos<6>   |   10.549|
+NumA<1>        |Fcarry         |    9.277|
+NumA<1>        |Fsuma<1>       |    9.835|
+NumA<1>        |Fsuma<2>       |    9.631|
+NumA<1>        |Fsuma<3>       |   10.138|
+NumA<1>        |segmentos<0>   |   10.613|
+NumA<1>        |segmentos<1>   |   10.763|
+NumA<1>        |segmentos<2>   |   11.530|
+NumA<1>        |segmentos<3>   |   10.644|
+NumA<1>        |segmentos<4>   |   11.279|
+NumA<1>        |segmentos<5>   |   11.224|
+NumA<1>        |segmentos<6>   |   11.044|
+NumA<2>        |Fcarry         |    7.995|
+NumA<2>        |Fsuma<1>       |    8.645|
+NumA<2>        |Fsuma<2>       |    9.210|
+NumA<2>        |Fsuma<3>       |    8.868|
+NumA<2>        |segmentos<0>   |    9.646|
+NumA<2>        |segmentos<1>   |    9.579|
+NumA<2>        |segmentos<2>   |   10.248|
+NumA<2>        |segmentos<3>   |    9.677|
+NumA<2>        |segmentos<4>   |    9.997|
+NumA<2>        |segmentos<5>   |    9.942|
+NumA<2>        |segmentos<6>   |    9.762|
+NumA<3>        |Fcarry         |    8.447|
+NumA<3>        |Fsuma<1>       |    8.940|
+NumA<3>        |Fsuma<2>       |    9.210|
+NumA<3>        |Fsuma<3>       |    9.021|
+NumA<3>        |segmentos<0>   |    9.783|
+NumA<3>        |segmentos<1>   |    9.933|
+NumA<3>        |segmentos<2>   |   10.700|
+NumA<3>        |segmentos<3>   |    9.814|
+NumA<3>        |segmentos<4>   |   10.449|
+NumA<3>        |segmentos<5>   |   10.394|
+NumA<3>        |segmentos<6>   |   10.214|
+NumB<0>        |Fcarry         |    8.919|
+NumB<0>        |Fsuma<0>       |    8.621|
+NumB<0>        |Fsuma<1>       |    9.477|
+NumB<0>        |Fsuma<2>       |    9.273|
+NumB<0>        |Fsuma<3>       |    9.780|
+NumB<0>        |segmentos<0>   |   10.255|
+NumB<0>        |segmentos<1>   |   10.405|
+NumB<0>        |segmentos<2>   |   11.172|
+NumB<0>        |segmentos<3>   |   10.286|
+NumB<0>        |segmentos<4>   |   10.921|
+NumB<0>        |segmentos<5>   |   10.866|
+NumB<0>        |segmentos<6>   |   10.686|
+NumB<1>        |Fcarry         |    9.051|
+NumB<1>        |Fsuma<1>       |    9.609|
+NumB<1>        |Fsuma<2>       |    9.405|
+NumB<1>        |Fsuma<3>       |    9.912|
+NumB<1>        |segmentos<0>   |   10.387|
+NumB<1>        |segmentos<1>   |   10.537|
+NumB<1>        |segmentos<2>   |   11.304|
+NumB<1>        |segmentos<3>   |   10.418|
+NumB<1>        |segmentos<4>   |   11.053|
+NumB<1>        |segmentos<5>   |   10.998|
+NumB<1>        |segmentos<6>   |   10.818|
+NumB<2>        |Fcarry         |    8.007|
+NumB<2>        |Fsuma<1>       |    8.417|
+NumB<2>        |Fsuma<2>       |    8.777|
+NumB<2>        |Fsuma<3>       |    8.917|
+NumB<2>        |segmentos<0>   |    9.343|
+NumB<2>        |segmentos<1>   |    9.493|
+NumB<2>        |segmentos<2>   |   10.260|
+NumB<2>        |segmentos<3>   |    9.374|
+NumB<2>        |segmentos<4>   |   10.009|
+NumB<2>        |segmentos<5>   |    9.954|
+NumB<2>        |segmentos<6>   |    9.774|
+NumB<3>        |Fcarry         |    8.644|
+NumB<3>        |Fsuma<1>       |    9.150|
+NumB<3>        |Fsuma<2>       |    9.753|
+NumB<3>        |Fsuma<3>       |    9.587|
+NumB<3>        |segmentos<0>   |   10.189|
+NumB<3>        |segmentos<1>   |   10.130|
+NumB<3>        |segmentos<2>   |   10.897|
+NumB<3>        |segmentos<3>   |   10.220|
+NumB<3>        |segmentos<4>   |   10.646|
+NumB<3>        |segmentos<5>   |   10.591|
+NumB<3>        |segmentos<6>   |   10.411|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec  9 20:48:53 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

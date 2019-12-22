@@ -1,0 +1,2 @@
+vhdl isim_temp "decogeneric.vhd"
+vhdl isim_temp "tes.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL/BloquesAritmeticos/contar/pr1_isim_beh.exe" -prj "/home/ise/Codigos_VHDL/BloquesAritmeticos/contar/pr1_beh.prj" "work.pr1" 

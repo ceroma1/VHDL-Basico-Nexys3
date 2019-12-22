@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/SumadorRestador/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/SumadorRestador/SumadorN.syr" 

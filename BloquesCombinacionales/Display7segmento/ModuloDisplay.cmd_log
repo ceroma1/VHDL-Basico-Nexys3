@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "E:/unillanosA2015/plantillaDisplay/ModuloDisplay.xst" -ofn "E:/unillanosA2015/plantillaDisplay/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "E:/unillanosA2015/plantillaDisplay/ModuloDisplay.xst" -ofn "E:/unillanosA2015/plantillaDisplay/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "E:/EjemplosVHDL/Display7segmento/ModuloDisplay.xst" -ofn "E:/EjemplosVHDL/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "E:/Display7segmento/ModuloDisplay.xst" -ofn "E:/Display7segmento/ModuloDisplay.syr" 
+xst -intstyle ise -ifn "E:/Display7segmento/ModuloDisplay.xst" -ofn "E:/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "E:/Display7segmento/ModuloDisplay.xst" -ofn "E:/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "E:/Display7segmento/ModuloDisplay.xst" -ofn "E:/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Display7segmento/ModuloDisplay.xst" -ofn "/home/ise/OSwin7/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Display7segmento/ModuloDisplay.xst" -ofn "/home/ise/OSwin7/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Display7segmento/ModuloDisplay.xst" -ofn "/home/ise/OSwin7/Display7segmento/ModuloDisplay.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/ModuloDisplay.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/ModuloDisplay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc ModuloDisplay.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ModuloDisplay_map.ncd ModuloDisplay.ngd ModuloDisplay.pcf 
+par -w -intstyle ise -ol high -mt off ModuloDisplay_map.ncd ModuloDisplay.ncd ModuloDisplay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ModuloDisplay.twx ModuloDisplay.ncd -o ModuloDisplay.twr ModuloDisplay.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f ModuloDisplay.ut ModuloDisplay.ncd 

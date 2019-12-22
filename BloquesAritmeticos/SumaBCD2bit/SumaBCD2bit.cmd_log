@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumaBCD2bit/SumaBCD2bit.syr" 

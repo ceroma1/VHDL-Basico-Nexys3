@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL/BloquesAritmeticos/Complementocontrolgenerate_opc2/tes_isim_beh.exe" -prj "/home/ise/Codigos_VHDL/BloquesAritmeticos/Complementocontrolgenerate_opc2/tes_beh.prj" "work.tes" 

@@ -1,0 +1,327 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: Modulo_BinBcd.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Modulo_BinBcd.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Modulo_BinBcd"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Modulo_BinBcd
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/Modulo_BinBcd.vhd" into library work
+Parsing entity <Modulo_BinBcd>.
+Parsing architecture <Behavioral> of entity <modulo_binbcd>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Modulo_BinBcd> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Modulo_BinBcd>.
+    Related source file is "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/Modulo_BinBcd.vhd".
+    Found 4-bit adder for signal <GND_5_o_GND_5_o_add_1_OUT> created at line 24.
+    Found 4-bit adder for signal <DatoIN[7]_GND_5_o_add_3_OUT> created at line 24.
+    Found 4-bit adder for signal <DatoIN[6]_GND_5_o_add_5_OUT> created at line 24.
+    Found 4-bit adder for signal <DatoIN[5]_GND_5_o_add_7_OUT> created at line 24.
+    Found 4-bit adder for signal <GND_5_o_GND_5_o_add_9_OUT> created at line 27.
+    Found 4-bit adder for signal <DatoIN[4]_GND_5_o_add_11_OUT> created at line 24.
+    Found 4-bit adder for signal <GND_5_o_GND_5_o_add_13_OUT> created at line 27.
+    Found 3-bit comparator greater for signal <PWR_5_o_DatoIN[7]_LessThan_1_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_5_o_DatoIN[7]_LessThan_3_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_5_o_DatoIN[6]_LessThan_5_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_5_o_DatoIN[5]_LessThan_7_o> created at line 23
+    Found 3-bit comparator greater for signal <PWR_5_o_GND_5_o_LessThan_9_o> created at line 26
+    Found 4-bit comparator greater for signal <GND_5_o_DatoIN[4]_LessThan_11_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_5_o_GND_5_o_LessThan_13_o> created at line 26
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  28 Multiplexer(s).
+Unit <Modulo_BinBcd> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 4-bit adder                                           : 7
+# Comparators                                          : 7
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 5
+# Multiplexers                                         : 28
+ 1-bit 2-to-1 multiplexer                              : 28
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 4-bit adder                                           : 7
+# Comparators                                          : 7
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 5
+# Multiplexers                                         : 28
+ 1-bit 2-to-1 multiplexer                              : 28
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Modulo_BinBcd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Modulo_BinBcd, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Modulo_BinBcd.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 17
+#      LUT3                        : 2
+#      LUT4                        : 1
+#      LUT5                        : 5
+#      LUT6                        : 9
+# IO Buffers                       : 18
+#      IBUF                        : 8
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   17  out of   9112     0%  
+    Number used as Logic:                17  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     17
+   Number with an unused Flip Flop:      17  out of     17   100%  
+   Number with an unused LUT:             0  out of     17     0%  
+   Number of fully used LUT-FF pairs:     0  out of     17     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    232     7%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.930ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 313 / 10
+-------------------------------------------------------------------------
+Delay:               8.930ns (Levels of Logic = 6)
+  Source:            DatoIN<5> (PAD)
+  Destination:       DatoOut<7> (PAD)
+
+  Data Path: DatoIN<5> to DatoOut<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   1.147  DatoIN_5_IBUF (DatoIN_5_IBUF)
+     LUT5:I0->O            8   0.203   1.031  GND_5_o_DatoIN[6]_LessThan_5_o1 (Madd_GND_5_o_GND_5_o_add_9_OUT_cy<0>)
+     LUT6:I3->O            4   0.205   0.912  Mmux_DatoIN[5]_DatoIN[5]_MUX_20_o11 (Madd_GND_5_o_GND_5_o_add_13_OUT_cy<0>)
+     LUT6:I3->O            3   0.205   0.651  Mmux_z<16>11 (DatoOut_8_OBUF)
+     LUT3:I2->O            1   0.205   0.579  Mmux_z<14>12 (DatoOut_6_OBUF)
+     OBUF:I->O                 2.571          DatoOut_6_OBUF (DatoOut<6>)
+    ----------------------------------------
+    Total                      8.930ns (4.611ns logic, 4.319ns route)
+                                       (51.6% logic, 48.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.01 secs
+ 
+--> 
+
+
+Total memory usage is 475216 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

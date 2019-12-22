@@ -1,0 +1,4 @@
+vhdl work "ModuloDisplay.vhd"
+vhdl work "cuenta.vhd"
+vhdl work "superior.vhd"
+vhdl work "pr1.vhd"

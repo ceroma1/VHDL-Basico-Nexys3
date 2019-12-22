@@ -1,0 +1,4 @@
+vhdl work "Mux_dato.vhd"
+vhdl work "Mux_anodos.vhd"
+vhdl work "Display.vhd"
+vhdl work "Bus_dato.vhd"

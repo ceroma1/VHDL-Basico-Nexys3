@@ -1,0 +1,8 @@
+vhdl isim_temp "SumaMedia1.vhd"
+vhdl isim_temp "SumaMedia.vhd"
+vhdl isim_temp "SumaParalela1.vhd"
+vhdl isim_temp "SumaParalela.vhd"
+vhdl isim_temp "control.vhd"
+vhdl isim_temp "SumBCD1Bit.vhd"
+vhdl isim_temp "SumaBCD2bit.vhd"
+vhdl isim_temp "tes.vhd"

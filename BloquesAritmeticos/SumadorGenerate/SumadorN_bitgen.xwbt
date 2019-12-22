@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\circuitos aritmeticosB2015\3SumadorGenerate\SumadorN.ncd
+OUTFILE=E:\circuitos aritmeticosB2015\3SumadorGenerate\SumadorN.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\circuitos aritmeticosB2015\3SumadorGenerate
+LICENSE=WebPack
+USER_INFO=__0_0_0

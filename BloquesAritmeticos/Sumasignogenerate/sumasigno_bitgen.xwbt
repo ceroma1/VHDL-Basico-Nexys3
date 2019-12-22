@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Codigos_VHDL/BloquesAritmeticos/Sumasignogenerate/sumasigno.ncd
+OUTFILE=/home/ise/Codigos_VHDL/BloquesAritmeticos/Sumasignogenerate/sumasigno.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/Codigos_VHDL/BloquesAritmeticos/Sumasignogenerate
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

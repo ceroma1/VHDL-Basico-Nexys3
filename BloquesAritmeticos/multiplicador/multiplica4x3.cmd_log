@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 multiplica4x3.ngc multiplica4x3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiplica4x3_map.ncd multiplica4x3.ngd multiplica4x3.pcf 
+par -w -intstyle ise -ol high -mt off multiplica4x3_map.ncd multiplica4x3.ncd multiplica4x3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiplica4x3.twx multiplica4x3.ncd -o multiplica4x3.twr multiplica4x3.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f multiplica4x3.ut multiplica4x3.ncd 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 multiplica4x3.ngc multiplica4x3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiplica4x3_map.ncd multiplica4x3.ngd multiplica4x3.pcf 
+par -w -intstyle ise -ol high -mt off multiplica4x3_map.ncd multiplica4x3.ncd multiplica4x3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiplica4x3.twx multiplica4x3.ncd -o multiplica4x3.twr multiplica4x3.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f multiplica4x3.ut multiplica4x3.ncd 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/multiplicador/multiplica4x3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 multiplica4x3.ngc multiplica4x3.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 multiplica4x3.ngc multiplica4x3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o multiplica4x3_map.ncd multiplica4x3.ngd multiplica4x3.pcf 
+par -w -intstyle ise -ol high -mt off multiplica4x3_map.ncd multiplica4x3.ncd multiplica4x3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml multiplica4x3.twx multiplica4x3.ncd -o multiplica4x3.twr multiplica4x3.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f multiplica4x3.ut multiplica4x3.ncd 

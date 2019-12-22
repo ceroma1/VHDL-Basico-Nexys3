@@ -1,0 +1,6 @@
+NET "suma" LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "cout" LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+
+NET "cin"  LOC = "T10" | IOSTANDARD = "LVCMOS33";#Sch name = SW0
+NET "b"    LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+NET "a"    LOC = "V9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW2

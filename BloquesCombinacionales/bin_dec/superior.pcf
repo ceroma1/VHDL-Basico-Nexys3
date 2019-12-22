@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Wed Aug 28 22:31:02 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "entrada<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "entrada<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "entrada<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "entrada<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "segmentos<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "segmentos<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "segmentos<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "segmentos<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "segmentos<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "segmentos<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "segmentos<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "signo" LOCATE = SITE "U16" LEVEL 1;
+COMP "anodos<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "anodos<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "anodos<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "anodos<3>" LOCATE = SITE "P17" LEVEL 1;
+SCHEMATIC END;
+

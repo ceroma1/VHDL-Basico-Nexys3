@@ -1,0 +1,25 @@
+NET "segmento<0>"         LOC = "T17" | IOSTANDARD = "LVCMOS33";   #Sch name = CA
+NET "segmento<1>"         LOC = "T18" | IOSTANDARD = "LVCMOS33";   #Sch name = CB
+NET "segmento<2>"         LOC = "U17" | IOSTANDARD = "LVCMOS33";   #Sch name = CC
+NET "segmento<3>"         LOC = "U18" | IOSTANDARD = "LVCMOS33";   #Sch name = CD
+NET "segmento<4>"         LOC = "M14" | IOSTANDARD = "LVCMOS33";   #Sch name = CE
+NET "segmento<5>"         LOC = "N14" | IOSTANDARD = "LVCMOS33";   #Sch name = CF
+NET "segmento<6>"         LOC = "L14" | IOSTANDARD = "LVCMOS33";   #Sch name = CG
+
+NET "anodo<0>"          LOC = "N16" | IOSTANDARD = "LVCMOS33";   #Sch name = AN0
+NET "anodo<1>"          LOC = "N15" | IOSTANDARD = "LVCMOS33";   #Sch name = AN1
+NET "anodo<2>"          LOC = "P18" | IOSTANDARD = "LVCMOS33";   #Sch name = AN2
+NET "anodo<3>"          LOC = "P17" | IOSTANDARD = "LVCMOS33";   #Sch name = AN3
+
+NET "DatoA<0>"          LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Sch name = SW0
+NET "DatoA<1>"          LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+NET "DatoA<2>"          LOC = "V9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW2
+NET "DatoA<3>"          LOC = "M8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW3
+NET "DatoB<0>"          LOC = "N8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW4
+NET "DatoB<1>"          LOC = "U8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW5
+NET "DatoB<2>"          LOC = "V8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW6
+NET "DatoB<3>"          LOC = "T5"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW7
+
+NET "Sel_dato"         LOC = "C4"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNL
+NET "Sel_display<1>"         LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNS
+NET "Sel_display<0>"         LOC = "D9"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNR

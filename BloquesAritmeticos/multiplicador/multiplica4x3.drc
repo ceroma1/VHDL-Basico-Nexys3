@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Dec  8 11:27:20 2019
+
+drc -z multiplica4x3.ncd multiplica4x3.pcf
+
+DRC detected 0 errors and 0 warnings.

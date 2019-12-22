@@ -1,0 +1,15 @@
+1. Mediosumador
+2. SumadorGenerate
+3. sumasignogenerate
+4. complementocontrolgenerate
+5. sumadorrestador
+6. contarunos
+
+ojo
+
+conv_integer(std_logic_vector);
+convierte de vector a entero
+
+conv_std_logic_vector(integer,numerobits);
+convierte de integer a vector segun numero de bits
+

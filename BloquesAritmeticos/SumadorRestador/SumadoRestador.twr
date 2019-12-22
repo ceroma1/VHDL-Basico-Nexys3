@@ -1,0 +1,93 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml SumadoRestador.twx SumadoRestador.ncd -o SumadoRestador.twr
+SumadoRestador.pcf -ucf pines.ucf
+
+Design file:              SumadoRestador.ncd
+Physical constraint file: SumadoRestador.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DatA<0>        |Respuesta<0>   |    8.033|
+DatA<0>        |Respuesta<1>   |    8.858|
+DatA<0>        |Respuesta<2>   |    9.165|
+DatA<0>        |Respuesta<3>   |    9.404|
+DatA<0>        |Respuesta<4>   |    8.872|
+DatA<0>        |Respuesta<5>   |    8.909|
+DatA<1>        |Respuesta<1>   |    8.505|
+DatA<1>        |Respuesta<2>   |    8.812|
+DatA<1>        |Respuesta<3>   |    9.051|
+DatA<1>        |Respuesta<4>   |    8.519|
+DatA<1>        |Respuesta<5>   |    8.556|
+DatA<2>        |Respuesta<2>   |    8.476|
+DatA<2>        |Respuesta<3>   |    8.248|
+DatA<2>        |Respuesta<4>   |    7.696|
+DatA<2>        |Respuesta<5>   |    7.927|
+DatA<3>        |Respuesta<3>   |    8.804|
+DatA<3>        |Respuesta<4>   |    8.181|
+DatA<3>        |Respuesta<5>   |    8.431|
+DatB<0>        |Respuesta<0>   |    8.490|
+DatB<0>        |Respuesta<1>   |    8.622|
+DatB<0>        |Respuesta<2>   |    8.929|
+DatB<0>        |Respuesta<3>   |    9.168|
+DatB<0>        |Respuesta<4>   |    8.636|
+DatB<0>        |Respuesta<5>   |    8.673|
+DatB<1>        |Respuesta<1>   |    8.537|
+DatB<1>        |Respuesta<2>   |    8.844|
+DatB<1>        |Respuesta<3>   |    9.083|
+DatB<1>        |Respuesta<4>   |    8.551|
+DatB<1>        |Respuesta<5>   |    8.588|
+DatB<2>        |Respuesta<2>   |    8.506|
+DatB<2>        |Respuesta<3>   |    8.638|
+DatB<2>        |Respuesta<4>   |    7.734|
+DatB<2>        |Respuesta<5>   |    8.473|
+DatB<3>        |Respuesta<3>   |    8.598|
+DatB<3>        |Respuesta<4>   |    8.213|
+DatB<3>        |Respuesta<5>   |    8.515|
+Selec          |Respuesta<1>   |   11.736|
+Selec          |Respuesta<2>   |   12.043|
+Selec          |Respuesta<3>   |   12.282|
+Selec          |Respuesta<4>   |   11.750|
+Selec          |Respuesta<5>   |   11.787|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 13 00:53:55 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 389 MB
+
+
+

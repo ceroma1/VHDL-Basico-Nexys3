@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorPropagacion/TopAdditionSpeed.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorPropagacion/TopAdditionSpeed.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorPropagacion/TopAdditionSpeed.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorPropagacion/TopAdditionSpeed.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorPropagacion/TopAdditionSpeed.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/SumadorPropagacion/TopAdditionSpeed.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 TopAdditionSpeed.ngc TopAdditionSpeed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopAdditionSpeed_map.ncd TopAdditionSpeed.ngd TopAdditionSpeed.pcf 
+par -w -intstyle ise -ol high -mt off TopAdditionSpeed_map.ncd TopAdditionSpeed.ncd TopAdditionSpeed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopAdditionSpeed.twx TopAdditionSpeed.ncd -o TopAdditionSpeed.twr TopAdditionSpeed.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 TopAdditionSpeed.ngc TopAdditionSpeed.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 TopAdditionSpeed.ngc TopAdditionSpeed.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 TopAdditionSpeed.ngc TopAdditionSpeed.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopAdditionSpeed_map.ncd TopAdditionSpeed.ngd TopAdditionSpeed.pcf 
+par -w -intstyle ise -ol high -mt off TopAdditionSpeed_map.ncd TopAdditionSpeed.ncd TopAdditionSpeed.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopAdditionSpeed.twx TopAdditionSpeed.ncd -o TopAdditionSpeed.twr TopAdditionSpeed.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f TopAdditionSpeed.ut TopAdditionSpeed.ncd 

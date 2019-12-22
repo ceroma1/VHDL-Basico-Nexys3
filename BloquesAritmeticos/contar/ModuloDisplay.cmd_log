@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ModuloDisplay.vhd -prj contar -o ModuloDisplay.spl -module ModuloDisplay -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ModuloDisplay.spl {E:/circuitos aritmeticosA2015/contar/ModuloDisplay.sym} 

@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 14 12:05:00 2016
+
+drc -z SumadorN.ncd SumadorN.pcf
+
+DRC detected 0 errors and 0 warnings.

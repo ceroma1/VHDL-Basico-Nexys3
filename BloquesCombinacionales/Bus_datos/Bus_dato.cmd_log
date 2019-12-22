@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Bus_dato.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Bus_dato.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 Bus_dato.ngc Bus_dato.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 Bus_dato.ngc Bus_dato.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Bus_dato_map.ncd Bus_dato.ngd Bus_dato.pcf 
+par -w -intstyle ise -ol high -mt off Bus_dato_map.ncd Bus_dato.ncd Bus_dato.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Bus_dato.twx Bus_dato.ncd -o Bus_dato.twr Bus_dato.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f Bus_dato.ut Bus_dato.ncd 

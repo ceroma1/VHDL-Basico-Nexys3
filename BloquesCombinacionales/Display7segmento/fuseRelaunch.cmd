@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/tes0_isim_beh.exe" -prj "/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/tes0_beh.prj" "work.tes0" 

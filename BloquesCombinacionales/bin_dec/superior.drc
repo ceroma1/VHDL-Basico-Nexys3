@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Aug 28 22:31:40 2019
+
+drc -z superior.ncd superior.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,3 @@
+vhdl work "SumaMedia.vhd"
+vhdl work "SumaParalela.vhd"
+vhdl work "multiplica4x3.vhd"

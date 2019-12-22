@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml superior.twx superior.ncd -o superior.twr superior.pcf -ucf
+pines.ucf
+
+Design file:              superior.ncd
+Physical constraint file: superior.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Fentrada<0>    |seg<0>         |   11.783|
+Fentrada<0>    |seg<1>         |   11.783|
+Fentrada<0>    |seg<2>         |   11.403|
+Fentrada<0>    |seg<3>         |   11.403|
+Fentrada<0>    |seg<4>         |   11.628|
+Fentrada<0>    |seg<5>         |   11.227|
+Fentrada<0>    |seg<6>         |   11.490|
+Fentrada<1>    |seg<0>         |   12.022|
+Fentrada<1>    |seg<1>         |   12.022|
+Fentrada<1>    |seg<2>         |   11.642|
+Fentrada<1>    |seg<3>         |   11.642|
+Fentrada<1>    |seg<4>         |   11.867|
+Fentrada<1>    |seg<5>         |   11.466|
+Fentrada<1>    |seg<6>         |   11.729|
+Fentrada<2>    |seg<0>         |   12.048|
+Fentrada<2>    |seg<1>         |   12.048|
+Fentrada<2>    |seg<2>         |   11.668|
+Fentrada<2>    |seg<3>         |   11.668|
+Fentrada<2>    |seg<4>         |   11.893|
+Fentrada<2>    |seg<5>         |   11.492|
+Fentrada<2>    |seg<6>         |   11.755|
+Fentrada<3>    |seg<0>         |   12.321|
+Fentrada<3>    |seg<1>         |   12.321|
+Fentrada<3>    |seg<2>         |   11.941|
+Fentrada<3>    |seg<3>         |   11.941|
+Fentrada<3>    |seg<4>         |   12.166|
+Fentrada<3>    |seg<5>         |   11.765|
+Fentrada<3>    |seg<6>         |   12.028|
+Fentrada<4>    |seg<0>         |   11.808|
+Fentrada<4>    |seg<1>         |   11.808|
+Fentrada<4>    |seg<2>         |   11.428|
+Fentrada<4>    |seg<3>         |   11.428|
+Fentrada<4>    |seg<4>         |   11.653|
+Fentrada<4>    |seg<5>         |   11.252|
+Fentrada<4>    |seg<6>         |   11.515|
+Fentrada<5>    |seg<0>         |   10.735|
+Fentrada<5>    |seg<1>         |   10.735|
+Fentrada<5>    |seg<2>         |   10.355|
+Fentrada<5>    |seg<3>         |   10.355|
+Fentrada<5>    |seg<4>         |   10.580|
+Fentrada<5>    |seg<5>         |   10.179|
+Fentrada<5>    |seg<6>         |   10.442|
+Fentrada<6>    |seg<0>         |   10.732|
+Fentrada<6>    |seg<1>         |   10.732|
+Fentrada<6>    |seg<2>         |   10.352|
+Fentrada<6>    |seg<3>         |   10.352|
+Fentrada<6>    |seg<4>         |   10.577|
+Fentrada<6>    |seg<5>         |   10.176|
+Fentrada<6>    |seg<6>         |   10.439|
+Fentrada<7>    |seg<0>         |   10.986|
+Fentrada<7>    |seg<1>         |   10.986|
+Fentrada<7>    |seg<2>         |   10.606|
+Fentrada<7>    |seg<3>         |   10.606|
+Fentrada<7>    |seg<4>         |   10.470|
+Fentrada<7>    |seg<5>         |   10.430|
+Fentrada<7>    |seg<6>         |   10.398|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Sep  9 19:21:09 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

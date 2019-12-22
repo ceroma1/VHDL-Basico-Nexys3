@@ -1,0 +1,5 @@
+vhdl isim_temp "Mux_dato.vhd"
+vhdl isim_temp "Mux_anodos.vhd"
+vhdl isim_temp "Display.vhd"
+vhdl isim_temp "Bus_dato.vhd"
+vhdl isim_temp "tes.vhd"

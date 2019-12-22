@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/OSwin7/BloquesAritmeticos/Sumador4bit/sim_isim_beh.exe" -prj "/home/ise/OSwin7/BloquesAritmeticos/Sumador4bit/sim_beh.prj" "work.sim" 

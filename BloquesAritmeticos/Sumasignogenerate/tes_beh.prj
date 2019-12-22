@@ -1,0 +1,3 @@
+vhdl work "SumaMedia.vhd"
+vhdl work "sumasigno.vhd"
+vhdl work "tes.vhd"

@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sat Aug 31 02:38:42 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cin" LOCATE = SITE "B8" LEVEL 1;
+COMP "des" LOCATE = SITE "N11" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "V8" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "T5" LEVEL 1;
+COMP "suma<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "suma<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "suma<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "suma<3>" LOCATE = SITE "V15" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cesar Romero/Desktop/clase 27 septiembre/Sumasignogenerate/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cesar Romero/Desktop/clase 27 septiembre/Sumasignogenerate/xst"
+elaborate
+-ifn SumaMedia.prj
+-ifmt mixed

@@ -1,0 +1,21 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Temp/alu/tes1_isim_beh.exe -prj C:/Temp/alu/tes1_beh.prj work.tes1 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Temp/alu/operaciones.vhd" into library work
+Parsing VHDL file "C:/Temp/alu/tes1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity operaciones [operaciones_default]
+Compiling architecture behavior of entity tes1
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Temp/alu/tes1_isim_beh.exe
+Fuse Memory Usage: 32464 KB
+Fuse CPU Usage: 514 ms

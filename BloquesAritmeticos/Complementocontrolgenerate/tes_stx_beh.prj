@@ -1,0 +1,3 @@
+vhdl isim_temp "Icxor.vhd"
+vhdl isim_temp "complemento.vhd"
+vhdl isim_temp "tes.vhd"

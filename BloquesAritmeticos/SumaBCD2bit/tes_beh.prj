@@ -1,0 +1,8 @@
+vhdl work "SumaMedia1.vhd"
+vhdl work "SumaMedia.vhd"
+vhdl work "SumaParalela1.vhd"
+vhdl work "SumaParalela.vhd"
+vhdl work "control.vhd"
+vhdl work "SumBCD1Bit.vhd"
+vhdl work "SumaBCD2bit.vhd"
+vhdl work "tes.vhd"

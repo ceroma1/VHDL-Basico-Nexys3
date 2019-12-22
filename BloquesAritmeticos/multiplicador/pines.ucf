@@ -1,0 +1,19 @@
+NET "Multi<0>"         LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "Multi<1>"         LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "Multi<2>"         LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+NET "Multi<3>"         LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD3
+NET "Multi<4>"         LOC = "M11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD4
+NET "Multi<5>"         LOC = "N11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD5
+NET "Multi<6>"         LOC = "R11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD6
+NET "Multi<7>"         LOC = "T11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD7
+
+NET "DatA<0>"          LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Sch name = SW0
+NET "DatA<1>"          LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+NET "DatA<2>"          LOC = "V9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW2
+NET "DatA<3>"          LOC = "M8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW3
+NET "DatB<0>"          LOC = "N8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW4
+NET "DatB<1>"          LOC = "U8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW5
+NET "DatB<2>"          LOC = "V8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW6
+NET "DatB<3>"          LOC = "T5"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW7
+
+ 

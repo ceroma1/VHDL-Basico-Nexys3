@@ -1,0 +1,4 @@
+vhdl work "display.vhd"
+vhdl work "bin_dec.vhd"
+vhdl work "superior.vhd"
+vhdl work "tes_sup.vhd"

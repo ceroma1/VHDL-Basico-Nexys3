@@ -1,0 +1,86 @@
+xst -intstyle ise -ifn "C:/digitalesB2012/SumadorGenerate/SumadorN.xst" -ofn "C:/digitalesB2012/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 SumadorN.ngc SumadorN.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "C:/digitalesB2012/SumadorGenerate/SumadorN.xst" -ofn "C:/digitalesB2012/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 SumadorN.ngc SumadorN.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "C:/CodigoVhdl/SumadorGenerate/SumadorN.xst" -ofn "C:/CodigoVhdl/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "C:/CodigoVhdl/SumadorGenerate/SumadorN.xst" -ofn "C:/CodigoVhdl/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "C:/CodigoVhdl/SumadorGenerate/SumadorN.xst" -ofn "C:/CodigoVhdl/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "C:/CodigoVhdl/codigos clase 27 septiembre/SumadorGenerate/SumadorN.xst" -ofn "C:/CodigoVhdl/codigos clase 27 septiembre/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "C:/CodigoVhdl/codigos clase 27 septiembre/SumadorGenerate/SumadorN.xst" -ofn "C:/CodigoVhdl/codigos clase 27 septiembre/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s500e-fg320-5 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "C:/Temp/SumadorGenerate/SumadorN.xst" -ofn "C:/Temp/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 SumadorN.ngc SumadorN.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 SumadorN.ngc SumadorN.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/circuitos aritmeticos/SumadorGenerate/SumadorN.xst" -ofn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/circuitos aritmeticos/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/circuitos aritmeticos/SumadorGenerate/SumadorN.xst" -ofn "C:/Users/Cesar Romero/Dropbox/clase digitales A2013/circuitos aritmeticos/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s100e-cp132-5 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticos/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticos/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticos/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticos/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/2SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "E:/circuitos aritmeticosB2015/3SumadorGenerate/SumadorN.xst" -ofn "E:/circuitos aritmeticosB2015/3SumadorGenerate/SumadorN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 "SumadorN.ngc" SumadorN.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumadorN_map.ncd SumadorN.ngd SumadorN.pcf 
+par -w -intstyle ise -ol high -mt off SumadorN_map.ncd SumadorN.ncd SumadorN.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SumadorN.ut SumadorN.ncd 
+xst -intstyle ise -ifn "/home/ise/OSwin7/BloquesAritmeticos/SumadorGenerate/SumadorN.xst" -ofn "/home/ise/OSwin7/BloquesAritmeticos/SumadorGenerate/SumadorN.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/BloquesAritmeticos/SumadorGenerate/SumadorN.xst" -ofn "/home/ise/OSwin7/BloquesAritmeticos/SumadorGenerate/SumadorN.syr" 

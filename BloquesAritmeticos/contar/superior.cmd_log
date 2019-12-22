@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesAritmeticos/contar/superior.xst" -ofn "/home/ise/Codigos_VHDL/BloquesAritmeticos/contar/superior.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 superior.ngc superior.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 superior.ngc superior.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o superior_map.ncd superior.ngd superior.pcf 
+par -w -intstyle ise -ol high -mt off superior_map.ncd superior.ncd superior.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml superior.twx superior.ncd -o superior.twr superior.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f superior.ut superior.ncd 

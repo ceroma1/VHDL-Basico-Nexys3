@@ -1,0 +1,4 @@
+vhdl isim_temp "ModuloDisplay.vhd"
+vhdl isim_temp "cuenta.vhd"
+vhdl isim_temp "superior.vhd"
+vhdl isim_temp "pr1.vhd"

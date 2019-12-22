@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml SumadorN.twx SumadorN.ncd -o SumadorN.twr SumadorN.pcf -ucf
+pines.ucf
+
+Design file:              SumadorN.ncd
+Physical constraint file: SumadorN.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.21 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |suma<0>        |    8.266|
+a<0>           |suma<1>        |    8.261|
+a<0>           |suma<2>        |    9.090|
+a<0>           |suma<3>        |    9.162|
+a<0>           |suma<4>        |    8.458|
+a<1>           |suma<1>        |    8.171|
+a<1>           |suma<2>        |    9.000|
+a<1>           |suma<3>        |    9.072|
+a<1>           |suma<4>        |    8.368|
+a<2>           |suma<2>        |    8.934|
+a<2>           |suma<3>        |    8.424|
+a<2>           |suma<4>        |    7.720|
+a<3>           |suma<3>        |    8.853|
+a<3>           |suma<4>        |    8.149|
+b<0>           |suma<0>        |    8.340|
+b<0>           |suma<1>        |    8.355|
+b<0>           |suma<2>        |    9.184|
+b<0>           |suma<3>        |    9.256|
+b<0>           |suma<4>        |    8.552|
+b<1>           |suma<1>        |    8.696|
+b<1>           |suma<2>        |    9.525|
+b<1>           |suma<3>        |    9.597|
+b<1>           |suma<4>        |    8.893|
+b<2>           |suma<2>        |    8.892|
+b<2>           |suma<3>        |    8.925|
+b<2>           |suma<4>        |    8.221|
+b<3>           |suma<3>        |    9.297|
+b<3>           |suma<4>        |    8.593|
+cin            |suma<0>        |   11.698|
+cin            |suma<1>        |   11.591|
+cin            |suma<2>        |   12.420|
+cin            |suma<3>        |   12.492|
+cin            |suma<4>        |   11.788|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Apr 14 12:04:37 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 162 MB
+
+
+

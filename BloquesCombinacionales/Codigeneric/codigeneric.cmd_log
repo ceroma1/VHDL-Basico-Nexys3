@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Codigeneric/codigeneric.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Codigeneric/codigeneric.syr" 

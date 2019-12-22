@@ -1,0 +1,4 @@
+vhdl isim_temp "SumaMedia.vhd"
+vhdl isim_temp "SumaParalela.vhd"
+vhdl isim_temp "multiplica4x3.vhd"
+vhdl isim_temp "tes.vhd"
