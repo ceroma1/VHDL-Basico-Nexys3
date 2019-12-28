@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml camparageneric.twx camparageneric.ncd -o camparageneric.twr
+camparageneric.pcf -ucf pines.ucf
+
+Design file:              camparageneric.ncd
+Physical constraint file: camparageneric.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |salidaigual    |    8.580|
+a<0>           |salidamayor    |    9.111|
+a<0>           |salidamenor    |    8.864|
+a<1>           |salidaigual    |    9.159|
+a<1>           |salidamayor    |    9.233|
+a<1>           |salidamenor    |    9.443|
+a<2>           |salidaigual    |    8.315|
+a<2>           |salidamayor    |    9.039|
+a<2>           |salidamenor    |    8.147|
+a<3>           |salidaigual    |    8.834|
+a<3>           |salidamayor    |    7.973|
+a<3>           |salidamenor    |    8.347|
+b<0>           |salidaigual    |    9.209|
+b<0>           |salidamayor    |    9.283|
+b<0>           |salidamenor    |    9.493|
+b<1>           |salidaigual    |    8.862|
+b<1>           |salidamayor    |    8.936|
+b<1>           |salidamenor    |    9.146|
+b<2>           |salidaigual    |    8.599|
+b<2>           |salidamayor    |    8.711|
+b<2>           |salidamenor    |    8.467|
+b<3>           |salidaigual    |    9.029|
+b<3>           |salidamayor    |    8.576|
+b<3>           |salidamenor    |    8.838|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Dec 28 12:36:02 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 389 MB
+
+
+

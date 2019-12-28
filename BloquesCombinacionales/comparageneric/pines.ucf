@@ -1,0 +1,12 @@
+NET "salidaigual"  LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "salidamayor"  LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "salidamenor"  LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+
+NET "a<0>"   LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Sch name = SW0
+NET "a<1>"   LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+NET "a<2>"   LOC = "V9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW2
+NET "a<3>"   LOC = "M8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW3
+NET "b<0>"   LOC = "N8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW4
+NET "b<1>"   LOC = "U8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW5
+NET "b<2>"   LOC = "V8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW6
+NET "b<3>"   LOC = "T5"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW7

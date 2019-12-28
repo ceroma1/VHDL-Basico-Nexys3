@@ -12,3 +12,13 @@ xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.
 xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionales/comparageneric/camparageneric.syr" 
 xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionales/comparageneric/camparageneric.syr" 
 xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/camparageneric.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 camparageneric.ngc camparageneric.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o camparageneric_map.ncd camparageneric.ngd camparageneric.pcf 
+par -w -intstyle ise -ol high -mt off camparageneric_map.ncd camparageneric.ncd camparageneric.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml camparageneric.twx camparageneric.ncd -o camparageneric.twr camparageneric.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 camparageneric.ngc camparageneric.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 camparageneric.ngc camparageneric.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o camparageneric_map.ncd camparageneric.ngd camparageneric.pcf 
+par -w -intstyle ise -ol high -mt off camparageneric_map.ncd camparageneric.ncd camparageneric.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml camparageneric.twx camparageneric.ncd -o camparageneric.twr camparageneric.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f camparageneric.ut camparageneric.ncd 

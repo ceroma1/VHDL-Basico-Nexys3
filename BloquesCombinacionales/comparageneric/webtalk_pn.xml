@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Wed Aug 28 20:36:35 2019">
+<application name="pn" timeStamp="Sat Dec 28 12:35:37 2019">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="ECF31BE4031F4390A18759FB6777CA84" type="project"/>
-<property name="ProjectIteration" value="0" type="project"/>
+<property name="ProjectIteration" value="2" type="project"/>
 <property name="ProjectFile" value="/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/comparageneric.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2012-10-07T09:35:04" type="project"/>
 </section>
@@ -25,8 +25,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2012-10-07T09:35:04" type="design"/>
 <property name="PROP_intWbtProjectID" value="ECF31BE4031F4390A18759FB6777CA84" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="2" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
 <property name="PROP_selectedSimRootSourceNode_behav" value="work.tes" type="process"/>
 <property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
 <property name="PROPEXT_mapTimingMode_spartan6" value="Non Timing Driven" type="process"/>
@@ -38,6 +40,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-3" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
+<property name="FILE_UCF" value="1" type="source"/>
 <property name="FILE_VHDL" value="2" type="source"/>
 </section>
 </application>
