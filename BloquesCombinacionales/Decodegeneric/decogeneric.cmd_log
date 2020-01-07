@@ -43,3 +43,13 @@ xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegene
 xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.syr" 
 xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.syr" 
 xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 decogeneric.ngc decogeneric.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decogeneric_map.ncd decogeneric.ngd decogeneric.pcf 
+par -w -intstyle ise -ol high -mt off decogeneric_map.ncd decogeneric.ncd decogeneric.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml decogeneric.twx decogeneric.ncd -o decogeneric.twr decogeneric.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 decogeneric.ngc decogeneric.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 decogeneric.ngc decogeneric.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decogeneric_map.ncd decogeneric.ngd decogeneric.pcf 
+par -w -intstyle ise -ol high -mt off decogeneric_map.ncd decogeneric.ncd decogeneric.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml decogeneric.twx decogeneric.ncd -o decogeneric.twr decogeneric.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f decogeneric.ut decogeneric.ncd 

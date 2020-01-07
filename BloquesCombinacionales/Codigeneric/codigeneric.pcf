@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Tue Jan 07 11:51:28 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "entrada<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "entrada<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "entrada<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "entrada<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "entrada<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "entrada<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "entrada<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "entrada<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "valido" LOCATE = SITE "T11" LEVEL 1;
+COMP "salida<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "salida<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "salida<2>" LOCATE = SITE "U15" LEVEL 1;
+SCHEMATIC END;
+

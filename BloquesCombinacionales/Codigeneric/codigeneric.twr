@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml codigeneric.twx codigeneric.ncd -o codigeneric.twr
+codigeneric.pcf -ucf pines.ucf
+
+Design file:              codigeneric.ncd
+Physical constraint file: codigeneric.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+entrada<0>     |valido         |    7.618|
+entrada<1>     |salida<0>      |    9.269|
+entrada<1>     |valido         |    7.692|
+entrada<2>     |salida<0>      |    9.248|
+entrada<2>     |salida<1>      |   10.037|
+entrada<2>     |valido         |    7.671|
+entrada<3>     |salida<0>      |    8.822|
+entrada<3>     |salida<1>      |   10.232|
+entrada<3>     |valido         |    8.244|
+entrada<4>     |salida<0>      |    9.144|
+entrada<4>     |salida<1>      |   10.316|
+entrada<4>     |salida<2>      |    8.725|
+entrada<4>     |valido         |    8.650|
+entrada<5>     |salida<0>      |    8.571|
+entrada<5>     |salida<1>      |    9.821|
+entrada<5>     |salida<2>      |    8.618|
+entrada<5>     |valido         |    8.543|
+entrada<6>     |salida<0>      |    8.671|
+entrada<6>     |salida<1>      |    9.533|
+entrada<6>     |salida<2>      |    8.591|
+entrada<6>     |valido         |    8.516|
+entrada<7>     |salida<0>      |    8.783|
+entrada<7>     |salida<1>      |   10.139|
+entrada<7>     |salida<2>      |    8.640|
+entrada<7>     |valido         |    8.565|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Jan  7 11:51:56 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 389 MB
+
+
+
