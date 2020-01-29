@@ -1,0 +1,3 @@
+vhdl work "compnot.vhd"
+vhdl work "compand.vhd"
+vhdl work "IC_deco.vhd"

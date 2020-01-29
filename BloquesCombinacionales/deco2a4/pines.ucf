@@ -1,0 +1,8 @@
+NET "Y3"         LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "Y2"         LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "Y1"         LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+NET "Y0"         LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD3
+
+NET "G0"         LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Sch name = SW0
+NET "G1"         LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+ 
