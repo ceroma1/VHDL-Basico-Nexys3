@@ -1,0 +1,6 @@
+[Inputs]
+clk
+reset
+[Outputs]
+=Fsalida[13:0]=
+[BiDir]

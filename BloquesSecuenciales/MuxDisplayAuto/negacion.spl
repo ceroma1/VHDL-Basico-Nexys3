@@ -1,0 +1,5 @@
+[Inputs]
+btn
+[Outputs]
+=anodo[3:0]=
+[BiDir]

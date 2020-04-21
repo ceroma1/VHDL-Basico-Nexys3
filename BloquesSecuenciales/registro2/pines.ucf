@@ -1,0 +1,15 @@
+## Clock signal
+NET "clk" LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+NET "datout<0>"         LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "datout<1>"         LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "datout<2>"         LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+NET "datout<3>"         LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD3
+NET "datout<4>"         LOC = "M11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD4
+NET "datout<5>"         LOC = "N11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD5
+NET "datout<6>"         LOC = "R11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD6
+NET "datout<7>"         LOC = "T11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD7
+
+NET "clear"         LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNS

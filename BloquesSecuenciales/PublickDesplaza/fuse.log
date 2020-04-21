@@ -1,0 +1,35 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/tes_isim_beh.exe -prj /home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/tes_beh.prj work.tes 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/Modulodisplay.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/ModuloBotones.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/divfre.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/contador.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/arreglo_reg.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/modulotop.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/tes.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96764 KB
+Fuse CPU Usage: 1180 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity divfre [divfre_default]
+Compiling architecture behavioral of entity arreglo_reg [arreglo_reg_default]
+Compiling architecture behavioral of entity mux4a1 [mux4a1_default]
+Compiling architecture behavioral of entity Modulodisplay [modulodisplay_default]
+Compiling architecture behavioral of entity contador [contador_default]
+Compiling architecture behavioral of entity ModuloBotones [modulobotones_default]
+Compiling architecture behavioral of entity modulotop [modulotop_default]
+Compiling architecture behavior of entity tes
+Time Resolution for simulation is 1ps.
+Compiled 19 VHDL Units
+Built simulation executable /home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/tes_isim_beh.exe
+Fuse Memory Usage: 112100 KB
+Fuse CPU Usage: 1360 ms
+GCC CPU Usage: 2120 ms

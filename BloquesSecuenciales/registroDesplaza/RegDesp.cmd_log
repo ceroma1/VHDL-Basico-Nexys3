@@ -1,0 +1,2 @@
+vhdtdtfi -lib work RegDesp.vhd -prj registroDesplaza -o RegDesp.spl -module RegDesp -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 RegDesp.spl /home/ise/OSwin7/BloquesRegistros/registroDesplaza/RegDesp.sym 

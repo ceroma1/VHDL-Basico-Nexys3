@@ -1,0 +1,7 @@
+MODULE SuperiorContadorDisplayVer2
+	SUBMODULE ModuloCuenta
+		INSTANCE XLXI_1
+	SUBMODULE SuperiorBinarioDecimal
+		INSTANCE XLXI_2
+	SUBMODULE ModuloDivide
+		INSTANCE XLXI_3

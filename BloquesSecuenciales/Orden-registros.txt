@@ -1,0 +1,9 @@
+1. Registro
+   Carga paralelo y salida paralelo
+2.RegistroDesplaza
+  Registro desplazamiento izquierda/derecha controlado un bit entrada salida paralelo
+3.RegistroDesplazaE
+  Registro desplazamiento izquierda/derecha controlado, entrada habilitación de reloj
+  un bit entrada salida paralelo
+4.Registro2
+  Registro de desplazamiento por arreglo "Ejemplo PublickLed"

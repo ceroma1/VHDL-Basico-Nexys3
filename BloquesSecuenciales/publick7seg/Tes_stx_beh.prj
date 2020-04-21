@@ -1,0 +1,6 @@
+vhdl isim_temp "negacion.vhd"
+vhdl isim_temp "mux4a1.vhd"
+vhdl isim_temp "divide.vhd"
+vhdl isim_temp "cuenta.vhd"
+vhdl isim_temp "SuperiorPublick.vhd"
+vhdl isim_temp "Tes.vhd"

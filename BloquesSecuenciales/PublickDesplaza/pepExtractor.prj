@@ -1,0 +1,7 @@
+work	"ModuloBotones.vhd"
+work	"Modulodisplay.vhd"
+work	"arreglo_reg.vhd"
+work	"contador.vhd"
+work	"divfre.vhd"
+work	"modulotop.vhd"
+work	"mux4a1.vhd"

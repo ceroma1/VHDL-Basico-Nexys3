@@ -1,0 +1,2 @@
+vhdtdtfi -lib work divide.vhd -prj ContadorModulo -o divide.spl -module divide -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 divide.spl E:/secuenciales/ContadorModulo/divide.sym 

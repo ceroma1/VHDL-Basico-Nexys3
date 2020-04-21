@@ -1,0 +1,5 @@
+MODULE SuperiorRegistro2
+	SUBMODULE arreglo_reg
+		INSTANCE XLXI_1
+	SUBMODULE divfre
+		INSTANCE XLXI_2

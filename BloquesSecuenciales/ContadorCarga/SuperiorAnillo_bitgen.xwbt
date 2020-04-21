@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/OSwin7/BloquesRegistros/ContadorAnillo/SuperiorAnillo.ncd
+OUTFILE=/home/ise/OSwin7/BloquesRegistros/ContadorAnillo/SuperiorAnillo.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/OSwin7/BloquesRegistros/ContadorAnillo
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

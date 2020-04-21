@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Thu Apr 09 12:46:44 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "u4/unseg" BEL "u4/aux" BEL "u4/cuenta_0" BEL
+        "u4/cuenta_1" BEL "u4/cuenta_2" BEL "u4/cuenta_3" BEL "u4/cuenta_4"
+        BEL "u4/cuenta_5" BEL "u4/cuenta_6" BEL "u4/cuenta_7" BEL
+        "u4/cuenta_8" BEL "u4/cuenta_9" BEL "u4/cuenta_10" BEL "u4/cuenta_11"
+        BEL "u4/cuenta_12" BEL "u4/cuenta_13" BEL "u4/cuenta_14" BEL
+        "u4/cuenta_15" BEL "u4/cuenta_16" BEL "u4/cuenta_17" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

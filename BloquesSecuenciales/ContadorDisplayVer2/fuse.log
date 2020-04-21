@@ -1,0 +1,41 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Tes_isim_beh.exe -prj /home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Tes_beh.prj work.Tes 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/negacion.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Modulo_BinBcd.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/divide.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/display.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/cuenta.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorBinarioDecimal.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloDivide.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloCuenta.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContadorDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Tes.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97012 KB
+Fuse CPU Usage: 1200 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ModuloDivide [modulodivide_default]
+Compiling architecture behavioral of entity ModuloCuenta [modulocuenta_default]
+Compiling architecture behavioral of entity Modulo_BinBcd [modulo_binbcd_default]
+Compiling architecture behavioral of entity mux4a1 [mux4a1_default]
+Compiling architecture behavioral of entity display [display_default]
+Compiling architecture behavioral of entity cuenta [cuenta_default]
+Compiling architecture behavioral of entity negacion [negacion_default]
+Compiling architecture behavioral of entity divide [divide_default]
+Compiling architecture behavioral of entity SuperiorBinarioDecimal [superiorbinariodecimal_default]
+Compiling architecture behavioral of entity SupContadorDisplay [supcontadordisplay_default]
+Compiling architecture behavior of entity tes
+Time Resolution for simulation is 1ps.
+Compiled 25 VHDL Units
+Built simulation executable /home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Tes_isim_beh.exe
+Fuse Memory Usage: 112216 KB
+Fuse CPU Usage: 1400 ms
+GCC CPU Usage: 2240 ms

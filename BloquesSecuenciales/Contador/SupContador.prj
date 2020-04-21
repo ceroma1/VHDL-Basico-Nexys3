@@ -1,0 +1,3 @@
+vhdl work "divide.vhd"
+vhdl work "cuenta.vhd"
+vhdl work "SupContador.vhd"

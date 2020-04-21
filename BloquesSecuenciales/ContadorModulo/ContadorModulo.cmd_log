@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ContadorModulo.vhd -prj ContadorModulo -o ContadorModulo.spl -module ContadorModulo -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ContadorModulo.spl E:/secuenciales/ContadorModulo/ContadorModulo.sym 

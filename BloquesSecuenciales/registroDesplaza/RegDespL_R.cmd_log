@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines0.ucf -p xc6slx16-csg324-3 RegDespL_R.ngc RegDespL_R.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RegDespL_R_map.ncd RegDespL_R.ngd RegDespL_R.pcf 
+par -w -intstyle ise -ol high -mt off RegDespL_R_map.ncd RegDespL_R.ncd RegDespL_R.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RegDespL_R.twx RegDespL_R.ncd -o RegDespL_R.twr RegDespL_R.pcf -ucf pines0.ucf 
+bitgen -intstyle ise -f RegDespL_R.ut RegDespL_R.ncd 

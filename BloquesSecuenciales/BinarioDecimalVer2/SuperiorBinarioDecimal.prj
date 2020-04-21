@@ -1,0 +1,7 @@
+vhdl work "negacion.vhd"
+vhdl work "mux4a1.vhd"
+vhdl work "Modulo_BinBcd.vhd"
+vhdl work "divide.vhd"
+vhdl work "display.vhd"
+vhdl work "cuenta.vhd"
+vhdl work "SuperiorBinarioDecimal.vhd"

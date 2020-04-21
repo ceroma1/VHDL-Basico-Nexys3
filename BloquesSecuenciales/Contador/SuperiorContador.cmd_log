@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/secuenciales/Contador/SuperiorContador.xst" -ofn "E:/secuenciales/Contador/SuperiorContador.syr" 
+xst -intstyle ise -ifn "E:/secuenciales/Contador/SuperiorContador.xst" -ofn "E:/secuenciales/Contador/SuperiorContador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorContador.ngc SuperiorContador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorContador_map.ncd SuperiorContador.ngd SuperiorContador.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorContador_map.ncd SuperiorContador.ncd SuperiorContador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorContador.twx SuperiorContador.ncd -o SuperiorContador.twr SuperiorContador.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorContador.ut SuperiorContador.ncd 
+xst -intstyle ise -ifn "E:/secuenciales/Contador/SuperiorContador.xst" -ofn "E:/secuenciales/Contador/SuperiorContador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorContador.ngc SuperiorContador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorContador_map.ncd SuperiorContador.ngd SuperiorContador.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorContador_map.ncd SuperiorContador.ncd SuperiorContador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorContador.twx SuperiorContador.ncd -o SuperiorContador.twr SuperiorContador.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorContador.ut SuperiorContador.ncd 
+xst -intstyle ise -ifn "E:/EjemplosVHDL/BoquesSecuenciales/Contador/SuperiorContador.xst" -ofn "E:/EjemplosVHDL/BoquesSecuenciales/Contador/SuperiorContador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorContador.ngc SuperiorContador.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorContador_map.ncd SuperiorContador.ngd SuperiorContador.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorContador_map.ncd SuperiorContador.ncd SuperiorContador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorContador.twx SuperiorContador.ncd -o SuperiorContador.twr SuperiorContador.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorContador.ut SuperiorContador.ncd 

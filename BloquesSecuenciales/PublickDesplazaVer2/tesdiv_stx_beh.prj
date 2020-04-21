@@ -1,0 +1,2 @@
+vhdl isim_temp "divfre.vhd"
+vhdl isim_temp "tesdiv.vhd"

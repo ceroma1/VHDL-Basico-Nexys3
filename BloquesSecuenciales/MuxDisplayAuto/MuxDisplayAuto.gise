@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MuxDisplayAuto.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="SupMuxDisplay.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="SupMuxDisplay.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="SupMuxDisplay.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SupMuxDisplay.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="SupMuxDisplay.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SupMuxDisplay.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="SupMuxDisplay.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SupMuxDisplay.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="SupMuxDisplay.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SupMuxDisplay.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="SupMuxDisplay.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="SupMuxDisplay.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="SupMuxDisplay.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SupMuxDisplay.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="SupMuxDisplay.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SupMuxDisplay.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SupMuxDisplay.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="SupMuxDisplay.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="SupMuxDisplay.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="SupMuxDisplay.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="SupMuxDisplay.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="SupMuxDisplay.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SupMuxDisplay.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="SupMuxDisplay_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SupMuxDisplay_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SupMuxDisplay_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="SupMuxDisplay_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="SupMuxDisplay_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SupMuxDisplay_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SupMuxDisplay_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="SupMuxDisplay_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="SupMuxDisplay_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SupMuxDisplay_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SupMuxDisplay_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="SupMuxDisplay_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="SupMuxDisplay_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SupMuxDisplay_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="SuperiorMuxDisplayAuto_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Tes_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Tes_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Tes_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Tes_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1586134390" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1586134390">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586135160" xil_pn:in_ck="-2618445288215186653" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586135160">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMuxDisplay.vhd"/>
+      <outfile xil_pn:name="Tes.vhd"/>
+      <outfile xil_pn:name="display.vhd"/>
+      <outfile xil_pn:name="divide.vhd"/>
+      <outfile xil_pn:name="mux4a1.vhd"/>
+      <outfile xil_pn:name="negacion.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134549" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6758332559588955262" xil_pn:start_ts="1586134549">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134549" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8581917558634349568" xil_pn:start_ts="1586134549">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134390" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1778927496980804904" xil_pn:start_ts="1586134390">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586135164" xil_pn:in_ck="-2618445288215186653" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586135164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMuxDisplay.vhd"/>
+      <outfile xil_pn:name="Tes.vhd"/>
+      <outfile xil_pn:name="display.vhd"/>
+      <outfile xil_pn:name="divide.vhd"/>
+      <outfile xil_pn:name="mux4a1.vhd"/>
+      <outfile xil_pn:name="negacion.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1586135168" xil_pn:in_ck="-2618445288215186653" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4787293007472647836" xil_pn:start_ts="1586135164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Tes_beh.prj"/>
+      <outfile xil_pn:name="Tes_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1586135168" xil_pn:in_ck="-4397887868638546341" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8806865164657159318" xil_pn:start_ts="1586135168">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Tes_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134272" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2768446783423595415" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134272" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1778927496980804904" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134272" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134272" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="487878836384348971" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134272" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134272" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-9184656256855205982" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134287" xil_pn:in_ck="6859212150328000935" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2403279684925038351" xil_pn:start_ts="1586134272">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SupMuxDisplay.lso"/>
+      <outfile xil_pn:name="SupMuxDisplay.ngc"/>
+      <outfile xil_pn:name="SupMuxDisplay.ngr"/>
+      <outfile xil_pn:name="SupMuxDisplay.prj"/>
+      <outfile xil_pn:name="SupMuxDisplay.stx"/>
+      <outfile xil_pn:name="SupMuxDisplay.syr"/>
+      <outfile xil_pn:name="SupMuxDisplay.xst"/>
+      <outfile xil_pn:name="SupMuxDisplay_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134287" xil_pn:in_ck="162138854071659" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8763306667210579712" xil_pn:start_ts="1586134287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134298" xil_pn:in_ck="723757757284782777" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4781724509071667901" xil_pn:start_ts="1586134287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMuxDisplay.bld"/>
+      <outfile xil_pn:name="SupMuxDisplay.ngd"/>
+      <outfile xil_pn:name="SupMuxDisplay_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134314" xil_pn:in_ck="723804168769184730" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1586134298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SupMuxDisplay.pcf"/>
+      <outfile xil_pn:name="SupMuxDisplay_map.map"/>
+      <outfile xil_pn:name="SupMuxDisplay_map.mrp"/>
+      <outfile xil_pn:name="SupMuxDisplay_map.ncd"/>
+      <outfile xil_pn:name="SupMuxDisplay_map.ngm"/>
+      <outfile xil_pn:name="SupMuxDisplay_map.xrpt"/>
+      <outfile xil_pn:name="SupMuxDisplay_summary.xml"/>
+      <outfile xil_pn:name="SupMuxDisplay_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134340" xil_pn:in_ck="3493394377333579411" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1586134314">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMuxDisplay.ncd"/>
+      <outfile xil_pn:name="SupMuxDisplay.pad"/>
+      <outfile xil_pn:name="SupMuxDisplay.par"/>
+      <outfile xil_pn:name="SupMuxDisplay.ptwx"/>
+      <outfile xil_pn:name="SupMuxDisplay.unroutes"/>
+      <outfile xil_pn:name="SupMuxDisplay.xpi"/>
+      <outfile xil_pn:name="SupMuxDisplay_pad.csv"/>
+      <outfile xil_pn:name="SupMuxDisplay_pad.txt"/>
+      <outfile xil_pn:name="SupMuxDisplay_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134355" xil_pn:in_ck="1575395575412249867" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1586134340">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMuxDisplay.bgn"/>
+      <outfile xil_pn:name="SupMuxDisplay.bit"/>
+      <outfile xil_pn:name="SupMuxDisplay.drc"/>
+      <outfile xil_pn:name="SupMuxDisplay.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1586134340" xil_pn:in_ck="717677852828126934" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1586134329">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMuxDisplay.twr"/>
+      <outfile xil_pn:name="SupMuxDisplay.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

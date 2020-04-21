@@ -1,0 +1,646 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: modulotop.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "modulotop.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "modulotop"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : modulotop
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/mux4a1.vhd" into library work
+Parsing entity <mux4a1>.
+Parsing architecture <Behavioral> of entity <mux4a1>.
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/Modulodisplay.vhd" into library work
+Parsing entity <Modulodisplay>.
+Parsing architecture <Behavioral> of entity <modulodisplay>.
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/ModuloBotones.vhd" into library work
+Parsing entity <ModuloBotones>.
+Parsing architecture <Behavioral> of entity <modulobotones>.
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/divfre.vhd" into library work
+Parsing entity <divfre>.
+Parsing architecture <Behavioral> of entity <divfre>.
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/contador.vhd" into library work
+Parsing entity <contador>.
+Parsing architecture <Behavioral> of entity <contador>.
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/arreglo_reg.vhd" into library work
+Parsing entity <arreglo_reg>.
+Parsing architecture <Behavioral> of entity <arreglo_reg>.
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/modulotop.vhd" into library work
+Parsing entity <modulotop>.
+Parsing architecture <Behavioral> of entity <modulotop>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <modulotop> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <divfre> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <arreglo_reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux4a1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Modulodisplay> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <contador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ModuloBotones> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <modulotop>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/modulotop.vhd".
+    Summary:
+	no macro.
+Unit <modulotop> synthesized.
+
+Synthesizing Unit <divfre>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/divfre.vhd".
+    Found 26-bit register for signal <temp>.
+    Found 26-bit adder for signal <temp[25]_GND_6_o_add_0_OUT> created at line 19.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <divfre> synthesized.
+
+Synthesizing Unit <arreglo_reg>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/arreglo_reg.vhd".
+    Found 84-bit register for signal <mensa>.
+    Summary:
+	inferred  84 D-type flip-flop(s).
+Unit <arreglo_reg> synthesized.
+
+Synthesizing Unit <mux4a1>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/mux4a1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <salida> created at line 16.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4a1> synthesized.
+
+Synthesizing Unit <Modulodisplay>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/Modulodisplay.vhd".
+    Found 1-bit tristate buffer for signal <seg<6>> created at line 13
+    Found 1-bit tristate buffer for signal <seg<5>> created at line 13
+    Found 1-bit tristate buffer for signal <seg<4>> created at line 13
+    Found 1-bit tristate buffer for signal <seg<3>> created at line 13
+    Found 1-bit tristate buffer for signal <seg<2>> created at line 13
+    Found 1-bit tristate buffer for signal <seg<1>> created at line 13
+    Found 1-bit tristate buffer for signal <seg<0>> created at line 13
+    Summary:
+	inferred   7 Tristate(s).
+Unit <Modulodisplay> synthesized.
+
+Synthesizing Unit <contador>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/contador.vhd".
+    Found 2-bit register for signal <sig_salida>.
+    Found 2-bit adder for signal <sig_salida[1]_GND_18_o_add_0_OUT> created at line 21.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+Unit <contador> synthesized.
+
+Synthesizing Unit <ModuloBotones>.
+    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplaza/ModuloBotones.vhd".
+    Found 1-bit tristate buffer for signal <anodos<3>> created at line 12
+    Found 1-bit tristate buffer for signal <anodos<2>> created at line 12
+    Found 1-bit tristate buffer for signal <anodos<1>> created at line 12
+    Found 1-bit tristate buffer for signal <anodos<0>> created at line 12
+    Summary:
+	inferred   4 Tristate(s).
+Unit <ModuloBotones> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 2-bit adder                                           : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 3
+ 2-bit register                                        : 1
+ 26-bit register                                       : 1
+ 84-bit register                                       : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Tristates                                            : 11
+ 1-bit tristate buffer                                 : 11
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <contador>.
+The following registers are absorbed into counter <sig_salida>: 1 register on signal <sig_salida>.
+Unit <contador> synthesized (advanced).
+
+Synthesizing (advanced) Unit <divfre>.
+The following registers are absorbed into counter <temp>: 1 register on signal <temp>.
+Unit <divfre> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 84
+ Flip-Flops                                            : 84
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <arreglo_reg> ...
+
+Optimizing unit <modulotop> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block modulotop, actual ratio is 1.
+
+Final Macro Processing ...
+
+Processing Unit <modulotop> :
+	Found 15-bit shift register for signal <u1/mensa_71>.
+	Found 5-bit shift register for signal <u1/mensa_69>.
+	Found 4-bit shift register for signal <u1/mensa_68>.
+	Found 4-bit shift register for signal <u1/mensa_48>.
+	Found 4-bit shift register for signal <u1/mensa_13>.
+Unit <modulotop> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 80
+ Flip-Flops                                            : 80
+# Shift Registers                                      : 5
+ 15-bit shift register                                 : 1
+ 4-bit shift register                                  : 3
+ 5-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : modulotop.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 102
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 25
+#      LUT2                        : 6
+#      LUT3                        : 6
+#      LUT4                        : 6
+#      LUT6                        : 4
+#      MUXCY                       : 25
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 102
+#      FD                          : 26
+#      FDC                         : 30
+#      FDCE                        : 19
+#      FDE                         : 3
+#      FDP                         : 24
+# Shift Registers                  : 5
+#      SRLC16E                     : 5
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUFT                       : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             102  out of  18224     0%  
+ Number of Slice LUTs:                   54  out of   9112     0%  
+    Number used as Logic:                49  out of   9112     0%  
+    Number used as Memory:                5  out of   2176     0%  
+       Number used as SRL:                5
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    110
+   Number with an unused Flip Flop:       8  out of    110     7%  
+   Number with an unused LUT:            56  out of    110    50%  
+   Number of fully used LUT-FF pairs:    46  out of    110    41%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 26    |
+u0/temp_18                         | NONE(u4/sig_salida_0)  | 2     |
+u0/temp_25                         | BUFG                   | 79    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.302ns (Maximum Frequency: 434.433MHz)
+   Minimum input arrival time before clock: 3.403ns
+   Maximum output required time after clock: 6.421ns
+   Maximum combinational path delay: 6.557ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.142ns (frequency: 466.886MHz)
+  Total number of paths / destination ports: 351 / 26
+-------------------------------------------------------------------------
+Delay:               2.142ns (Levels of Logic = 27)
+  Source:            u0/temp_0 (FF)
+  Destination:       u0/temp_25 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u0/temp_0 to u0/temp_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.447   0.579  u0/temp_0 (u0/temp_0)
+     INV:I->O              1   0.206   0.000  u0/Mcount_temp_lut<0>_INV_0 (u0/Mcount_temp_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  u0/Mcount_temp_cy<0> (u0/Mcount_temp_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<1> (u0/Mcount_temp_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<2> (u0/Mcount_temp_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<3> (u0/Mcount_temp_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<4> (u0/Mcount_temp_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<5> (u0/Mcount_temp_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<6> (u0/Mcount_temp_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<7> (u0/Mcount_temp_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<8> (u0/Mcount_temp_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<9> (u0/Mcount_temp_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<10> (u0/Mcount_temp_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<11> (u0/Mcount_temp_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<12> (u0/Mcount_temp_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<13> (u0/Mcount_temp_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<14> (u0/Mcount_temp_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<15> (u0/Mcount_temp_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<16> (u0/Mcount_temp_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<17> (u0/Mcount_temp_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<18> (u0/Mcount_temp_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<19> (u0/Mcount_temp_cy<19>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<20> (u0/Mcount_temp_cy<20>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<21> (u0/Mcount_temp_cy<21>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<22> (u0/Mcount_temp_cy<22>)
+     MUXCY:CI->O           1   0.019   0.000  u0/Mcount_temp_cy<23> (u0/Mcount_temp_cy<23>)
+     MUXCY:CI->O           0   0.019   0.000  u0/Mcount_temp_cy<24> (u0/Mcount_temp_cy<24>)
+     XORCY:CI->O           1   0.180   0.000  u0/Mcount_temp_xor<25> (Result<25>)
+     FD:D                      0.102          u0/temp_25
+    ----------------------------------------
+    Total                      2.142ns (1.563ns logic, 0.579ns route)
+                                       (73.0% logic, 27.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/temp_18'
+  Clock period: 2.190ns (frequency: 456.663MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.190ns (Levels of Logic = 1)
+  Source:            u4/sig_salida_0 (FF)
+  Destination:       u4/sig_salida_0 (FF)
+  Source Clock:      u0/temp_18 rising
+  Destination Clock: u0/temp_18 rising
+
+  Data Path: u4/sig_salida_0 to u4/sig_salida_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.447   0.856  u4/sig_salida_0 (u4/sig_salida_0)
+     INV:I->O              1   0.206   0.579  u4/Mcount_sig_salida_xor<0>11_INV_0 (Result<0>1)
+     FDC:D                     0.102          u4/sig_salida_0
+    ----------------------------------------
+    Total                      2.190ns (0.755ns logic, 1.435ns route)
+                                       (34.5% logic, 65.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/temp_25'
+  Clock period: 2.302ns (frequency: 434.433MHz)
+  Total number of paths / destination ports: 83 / 78
+-------------------------------------------------------------------------
+Delay:               2.302ns (Levels of Logic = 1)
+  Source:            u1/Mshreg_mensa_13 (FF)
+  Destination:       u1/mensa_13 (FF)
+  Source Clock:      u0/temp_25 rising
+  Destination Clock: u0/temp_25 rising
+
+  Data Path: u1/Mshreg_mensa_13 to u1/mensa_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRLC16E:CLK->Q        1   1.313   0.684  u1/Mshreg_mensa_13 (u1/Mshreg_mensa_13)
+     LUT2:I0->O            1   0.203   0.000  u1/Mshreg_mensa_131 (u1/Mshreg_mensa_131)
+     FDCE:D                    0.102          u1/mensa_13
+    ----------------------------------------
+    Total                      2.302ns (1.618ns logic, 0.684ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0/temp_18'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.403ns (Levels of Logic = 1)
+  Source:            clear (PAD)
+  Destination:       u4/sig_salida_0 (FF)
+  Destination Clock: u0/temp_18 rising
+
+  Data Path: clear to u4/sig_salida_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            81   1.222   1.751  clear_IBUF (clear_IBUF)
+     FDC:CLR                   0.430          u4/sig_salida_0
+    ----------------------------------------
+    Total                      3.403ns (1.652ns logic, 1.751ns route)
+                                       (48.5% logic, 51.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0/temp_25'
+  Total number of paths / destination ports: 71 / 71
+-------------------------------------------------------------------------
+Offset:              3.403ns (Levels of Logic = 1)
+  Source:            clear (PAD)
+  Destination:       u1/mensa_83 (FF)
+  Destination Clock: u0/temp_25 rising
+
+  Data Path: clear to u1/mensa_83
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            81   1.222   1.751  clear_IBUF (clear_IBUF)
+     FDC:CLR                   0.430          u1/mensa_0
+    ----------------------------------------
+    Total                      3.403ns (1.652ns logic, 1.751ns route)
+                                       (48.5% logic, 51.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/temp_18'
+  Total number of paths / destination ports: 104 / 11
+-------------------------------------------------------------------------
+Offset:              6.421ns (Levels of Logic = 3)
+  Source:            u4/sig_salida_0 (FF)
+  Destination:       segmento<6> (PAD)
+  Source Clock:      u0/temp_18 rising
+
+  Data Path: u4/sig_salida_0 to segmento<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.447   1.221  u4/sig_salida_0 (u4/sig_salida_0)
+     LUT6:I0->O            7   0.203   1.002  u2/Mmux_salida41 (sigmux<3>)
+     LUT3:I0->O            7   0.205   0.773  u3/_n0033<1>_inv1 (u3/_n0033<1>_inv)
+     OBUFT:T->O                2.571          segmento_6_OBUFT (segmento<6>)
+    ----------------------------------------
+    Total                      6.421ns (3.426ns logic, 2.995ns route)
+                                       (53.4% logic, 46.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/temp_25'
+  Total number of paths / destination ports: 192 / 7
+-------------------------------------------------------------------------
+Offset:              6.065ns (Levels of Logic = 3)
+  Source:            u1/mensa_75 (FF)
+  Destination:       segmento<6> (PAD)
+  Source Clock:      u0/temp_25 rising
+
+  Data Path: u1/mensa_75 to segmento<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.864  u1/mensa_75 (u1/mensa_75)
+     LUT6:I2->O            7   0.203   1.002  u2/Mmux_salida41 (sigmux<3>)
+     LUT3:I0->O            7   0.205   0.773  u3/_n0033<1>_inv1 (u3/_n0033<1>_inv)
+     OBUFT:T->O                2.571          segmento_6_OBUFT (segmento<6>)
+    ----------------------------------------
+    Total                      6.065ns (3.426ns logic, 2.639ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 8 / 4
+-------------------------------------------------------------------------
+Delay:               6.557ns (Levels of Logic = 3)
+  Source:            clear (PAD)
+  Destination:       anodos<3> (PAD)
+
+  Data Path: clear to anodos<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            81   1.222   1.980  clear_IBUF (clear_IBUF)
+     LUT3:I0->O            1   0.205   0.579  u5/_n0019<4>1 (anodos_0_OBUFT)
+     OBUFT:I->O                2.571          anodos_0_OBUFT (anodos<0>)
+    ----------------------------------------
+    Total                      6.557ns (3.998ns logic, 2.559ns route)
+                                       (61.0% logic, 39.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.142|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0/temp_18
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u0/temp_18     |    2.190|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0/temp_25
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u0/temp_25     |    2.302|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.09 secs
+ 
+--> 
+
+
+Total memory usage is 386324 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

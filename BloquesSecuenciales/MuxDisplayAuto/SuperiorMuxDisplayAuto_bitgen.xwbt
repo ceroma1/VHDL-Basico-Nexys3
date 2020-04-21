@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/OSwin7/BoquesSecuenciales/MuxDisplayAuto/SuperiorMuxDisplayAuto.ncd
+OUTFILE=/home/ise/OSwin7/BoquesSecuenciales/MuxDisplayAuto/SuperiorMuxDisplayAuto.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/OSwin7/BoquesSecuenciales/MuxDisplayAuto
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

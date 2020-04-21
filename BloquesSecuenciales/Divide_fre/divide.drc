@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat Apr  4 21:48:13 2020
+
+drc -z divide.ncd divide.pcf
+
+DRC detected 0 errors and 0 warnings.

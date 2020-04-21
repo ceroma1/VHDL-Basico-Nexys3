@@ -1,0 +1,54 @@
+xst -intstyle ise -ifn "E:/secuenciales/publick7seg/SuperiorPublick.xst" -ofn "E:/secuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -t 1 SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf 
+xst -intstyle ise -ifn "E:/secuenciales/publick7seg/SuperiorPublick.xst" -ofn "E:/secuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 
+xst -intstyle ise -ifn "E:/secuenciales/publick7seg/SuperiorPublick.xst" -ofn "E:/secuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 
+xst -intstyle ise -ifn "E:/secuenciales/publick7seg/SuperiorPublick.xst" -ofn "E:/secuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 
+xst -intstyle ise -ifn "E:/secuenciales/publick7seg/SuperiorPublick.xst" -ofn "E:/secuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 
+xst -intstyle ise -ifn "E:/EjemplosVHDL/BoquesSecuenciales/publick7seg/SuperiorPublick.xst" -ofn "E:/EjemplosVHDL/BoquesSecuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 
+xst -intstyle ise -ifn "/home/ise/OSwin7/BoquesSecuenciales/publick7seg/SuperiorPublick.xst" -ofn "/home/ise/OSwin7/BoquesSecuenciales/publick7seg/SuperiorPublick.syr" 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorPublick.ngc SuperiorPublick.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorPublick_map.ncd SuperiorPublick.ngd SuperiorPublick.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorPublick_map.ncd SuperiorPublick.ncd SuperiorPublick.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorPublick.twx SuperiorPublick.ncd -o SuperiorPublick.twr SuperiorPublick.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorPublick.ut SuperiorPublick.ncd 

@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sat Apr 11 13:24:10 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "DatoOut<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "DatoOut<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "DatoOut<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "DatoOut<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "DatoOut<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "DatoOut<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "DatoOut<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "DatoOut<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "ce" LOCATE = SITE "T10" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "u0/unseg" BEL "u0/cuenta_0" BEL "u0/cuenta_1" BEL
+        "u0/cuenta_2" BEL "u0/cuenta_3" BEL "u0/cuenta_4" BEL "u0/cuenta_5"
+        BEL "u0/cuenta_6" BEL "u0/cuenta_7" BEL "u0/cuenta_8" BEL
+        "u0/cuenta_9" BEL "u0/cuenta_10" BEL "u0/cuenta_11" BEL "u0/cuenta_12"
+        BEL "u0/cuenta_13" BEL "u0/cuenta_14" BEL "u0/cuenta_15" BEL
+        "u0/cuenta_16" BEL "u0/cuenta_17" BEL "u0/cuenta_18" BEL
+        "u0/cuenta_19" BEL "u0/cuenta_20" BEL "u0/cuenta_21" BEL
+        "u0/cuenta_22" BEL "u0/cuenta_23" BEL "u0/cuenta_24" BEL
+        "u0/cuenta_25" BEL "u0/aux" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/SupRegistro2.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/SupRegistro2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SupRegistro2.ngc SupRegistro2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SupRegistro2.ngc SupRegistro2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SupRegistro2_map.ncd SupRegistro2.ngd SupRegistro2.pcf 
+par -w -intstyle ise -ol high -mt off SupRegistro2_map.ncd SupRegistro2.ncd SupRegistro2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SupRegistro2.twx SupRegistro2.ncd -o SupRegistro2.twr SupRegistro2.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SupRegistro2.ut SupRegistro2.ncd 

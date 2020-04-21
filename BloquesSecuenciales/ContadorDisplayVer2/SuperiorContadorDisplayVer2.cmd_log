@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/secuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.xst" -ofn "E:/secuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 SuperiorContadorDisplayVer2.ngc SuperiorContadorDisplayVer2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorContadorDisplayVer2_map.ncd SuperiorContadorDisplayVer2.ngd SuperiorContadorDisplayVer2.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorContadorDisplayVer2_map.ncd SuperiorContadorDisplayVer2.ncd SuperiorContadorDisplayVer2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorContadorDisplayVer2.twx SuperiorContadorDisplayVer2.ncd -o SuperiorContadorDisplayVer2.twr SuperiorContadorDisplayVer2.pcf 
+bitgen -intstyle ise -f SuperiorContadorDisplayVer2.ut SuperiorContadorDisplayVer2.ncd 
+xst -intstyle ise -ifn "E:/secuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.xst" -ofn "E:/secuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorContadorDisplayVer2.ngc SuperiorContadorDisplayVer2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorContadorDisplayVer2_map.ncd SuperiorContadorDisplayVer2.ngd SuperiorContadorDisplayVer2.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorContadorDisplayVer2_map.ncd SuperiorContadorDisplayVer2.ncd SuperiorContadorDisplayVer2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorContadorDisplayVer2.twx SuperiorContadorDisplayVer2.ncd -o SuperiorContadorDisplayVer2.twr SuperiorContadorDisplayVer2.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorContadorDisplayVer2.ut SuperiorContadorDisplayVer2.ncd 
+xst -intstyle ise -ifn "E:/EjemplosVHDL/BoquesSecuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.xst" -ofn "E:/EjemplosVHDL/BoquesSecuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SuperiorContadorDisplayVer2.ngc SuperiorContadorDisplayVer2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SuperiorContadorDisplayVer2_map.ncd SuperiorContadorDisplayVer2.ngd SuperiorContadorDisplayVer2.pcf 
+par -w -intstyle ise -ol high -mt off SuperiorContadorDisplayVer2_map.ncd SuperiorContadorDisplayVer2.ncd SuperiorContadorDisplayVer2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SuperiorContadorDisplayVer2.twx SuperiorContadorDisplayVer2.ncd -o SuperiorContadorDisplayVer2.twr SuperiorContadorDisplayVer2.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SuperiorContadorDisplayVer2.ut SuperiorContadorDisplayVer2.ncd 
+xst -intstyle ise -ifn "/home/ise/OSwin7/BoquesSecuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.xst" -ofn "/home/ise/OSwin7/BoquesSecuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.syr" 

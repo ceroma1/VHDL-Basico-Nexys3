@@ -1,0 +1,6 @@
+[Inputs]
+clk
+clear
+[Outputs]
+=salidacuenta[3:0]=
+[BiDir]

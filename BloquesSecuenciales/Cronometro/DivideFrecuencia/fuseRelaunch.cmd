@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/OSwin7/Cronometro/DivideFrecuencia/tes0_isim_beh.exe" -prj "/home/ise/OSwin7/Cronometro/DivideFrecuencia/tes0_beh.prj" "work.tes0" 

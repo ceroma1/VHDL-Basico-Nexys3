@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Sun Jan 15 06:45:38 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "EntA<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "EntA<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "EntA<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "EntA<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "EntB<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "EntB<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "EntB<2>" LOCATE = SITE "V8" LEVEL 1;
+COMP "EntB<3>" LOCATE = SITE "T5" LEVEL 1;
+COMP "Selec" LOCATE = SITE "B8" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+SCHEMATIC END;
+

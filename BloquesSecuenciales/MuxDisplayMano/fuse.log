@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/Tes_isim_beh.exe -prj /home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/Tes_beh.prj work.Tes 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/display.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/SupMuxDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/Tes.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95448 KB
+Fuse CPU Usage: 1160 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity mux4a1 [mux4a1_default]
+Compiling architecture behavioral of entity negacion [negacion_default]
+Compiling architecture behavioral of entity display [display_default]
+Compiling architecture behavioral of entity SupMuxDisplay [supmuxdisplay_default]
+Compiling architecture behavior of entity tes
+Time Resolution for simulation is 1ps.
+Compiled 11 VHDL Units
+Built simulation executable /home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/Tes_isim_beh.exe
+Fuse Memory Usage: 104076 KB
+Fuse CPU Usage: 1230 ms
+GCC CPU Usage: 310 ms

@@ -1,0 +1,8 @@
+vhdl isim_temp "negacion.vhd"
+vhdl isim_temp "mux4a1.vhd"
+vhdl isim_temp "Modulo_BinBcd.vhd"
+vhdl isim_temp "divide.vhd"
+vhdl isim_temp "display.vhd"
+vhdl isim_temp "cuenta.vhd"
+vhdl isim_temp "SuperiorBinarioDecimal.vhd"
+vhdl isim_temp "Tes.vhd"

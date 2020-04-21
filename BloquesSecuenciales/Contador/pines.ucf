@@ -1,0 +1,15 @@
+NET "clk" LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin; TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+NET "SalidaCuenta<0>"	LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "SalidaCuenta<1>"   LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "SalidaCuenta<2>"   LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+NET "SalidaCuenta<3>"   LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD3
+NET "SalidaCuenta<4>"   LOC = "M11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD4
+NET "SalidaCuenta<5>"   LOC = "N11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD5
+NET "SalidaCuenta<6>"   LOC = "R11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD6
+NET "SalidaCuenta<7>"   LOC = "T11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD7
+
+NET "reset"	LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNS
+
+

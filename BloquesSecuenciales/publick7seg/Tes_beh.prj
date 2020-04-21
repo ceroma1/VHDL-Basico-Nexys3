@@ -1,0 +1,6 @@
+vhdl work "negacion.vhd"
+vhdl work "mux4a1.vhd"
+vhdl work "divide.vhd"
+vhdl work "cuenta.vhd"
+vhdl work "SuperiorPublick.vhd"
+vhdl work "Tes.vhd"

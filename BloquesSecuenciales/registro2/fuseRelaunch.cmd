@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/tes_isim_beh.exe" -prj "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/tes_beh.prj" "work.tes" 

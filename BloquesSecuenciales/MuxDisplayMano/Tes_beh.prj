@@ -1,0 +1,5 @@
+vhdl work "negacion.vhd"
+vhdl work "mux4a1.vhd"
+vhdl work "display.vhd"
+vhdl work "SupMuxDisplay.vhd"
+vhdl work "Tes.vhd"

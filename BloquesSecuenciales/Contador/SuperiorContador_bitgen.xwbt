@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\EjemplosVHDL\BoquesSecuenciales\Contador\SuperiorContador.ncd
+OUTFILE=E:\EjemplosVHDL\BoquesSecuenciales\Contador\SuperiorContador.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\EjemplosVHDL\BoquesSecuenciales\Contador
+LICENSE=WebPack
+USER_INFO=__0_0_0

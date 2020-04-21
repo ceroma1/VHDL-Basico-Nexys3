@@ -1,0 +1,18 @@
+NET "clk"	LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+NET "segmento<0>"	LOC = "T17" | IOSTANDARD = "LVCMOS33";  #Sch name = CA
+NET "segmento<1>" LOC = "T18" | IOSTANDARD = "LVCMOS33";  #Sch name = CB
+NET "segmento<2>" LOC = "U17" | IOSTANDARD = "LVCMOS33";  #Sch name = CC
+NET "segmento<3>" LOC = "U18" | IOSTANDARD = "LVCMOS33";  #Sch name = CD
+NET "segmento<4>" LOC = "M14" | IOSTANDARD = "LVCMOS33";  #Sch name = CE
+NET "segmento<5>" LOC = "N14" | IOSTANDARD = "LVCMOS33";  #Sch name = CF
+NET "segmento<6>" LOC = "L14" | IOSTANDARD = "LVCMOS33";  #Sch name = CG
+
+NET "anodos<0>"	LOC = "N16" | IOSTANDARD = "LVCMOS33";  #Sch name = AN0
+NET "anodos<1>"  LOC = "N15" | IOSTANDARD = "LVCMOS33";   #Sch name = AN1
+NET "anodos<2>"  LOC = "P18" | IOSTANDARD = "LVCMOS33";   #Sch name = AN2
+NET "anodos<3>"  LOC = "P17" | IOSTANDARD = "LVCMOS33";   #Sch name = AN3
+
+NET "clear"	LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNS

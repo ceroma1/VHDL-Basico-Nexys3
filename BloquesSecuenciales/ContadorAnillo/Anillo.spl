@@ -1,0 +1,7 @@
+[Inputs]
+clk
+clear
+ce
+[Outputs]
+=DatoOut[7:0]=
+[BiDir]

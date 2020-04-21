@@ -1,0 +1,3 @@
+vhdl work "divfre.vhd"
+vhdl work "arreglo_reg.vhd"
+vhdl work "SupRegistro2.vhd"

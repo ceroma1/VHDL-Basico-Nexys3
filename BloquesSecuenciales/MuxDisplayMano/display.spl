@@ -1,0 +1,5 @@
+[Inputs]
+=digito[3:0]=
+[Outputs]
+=segmento[6:0]=
+[BiDir]

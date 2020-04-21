@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/BinarioDecimal/SuperiorBinarioDecimal.ncd
+OUTFILE=/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/BinarioDecimal/SuperiorBinarioDecimal.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/BinarioDecimal
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

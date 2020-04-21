@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/secuenciales/registro2/arreglo_reg.xst" -ofn "E:/secuenciales/registro2/arreglo_reg.syr" 
+vhdtdtfi -lib work arreglo_reg.vhd -prj registro2 -o arreglo_reg.spl -module arreglo_reg -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 arreglo_reg.spl E:/secuenciales/registro2/arreglo_reg.sym 
+vhdtdtfi -lib work arreglo_reg.vhd -prj registro2 -o arreglo_reg.spl -module arreglo_reg -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 arreglo_reg.spl E:/secuenciales/registro2/arreglo_reg.sym 

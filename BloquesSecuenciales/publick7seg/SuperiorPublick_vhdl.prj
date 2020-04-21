@@ -1,0 +1,5 @@
+vhdl work "\\vboxsrv\intercambioos\secuenciales\publick7seg\negacion.vhd"
+vhdl work "\\vboxsrv\intercambioos\secuenciales\publick7seg\mux4a1.vhd"
+vhdl work "\\vboxsrv\intercambioos\secuenciales\publick7seg\divide.vhd"
+vhdl work "\\vboxsrv\intercambioos\secuenciales\publick7seg\cuenta.vhd"
+vhdl work "\\vboxsrv\intercambioos\secuenciales\publick7seg\SuperiorPublick.vhd"

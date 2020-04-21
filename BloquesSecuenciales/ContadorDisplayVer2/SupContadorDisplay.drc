@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Apr  8 14:34:37 2020
+
+drc -z SupContadorDisplay.ncd SupContadorDisplay.pcf
+
+DRC detected 0 errors and 0 warnings.

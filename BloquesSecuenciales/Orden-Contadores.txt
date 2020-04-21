@@ -1,0 +1,8 @@
+1.DivideFrecuencia
+2.MultiplexorMano
+3.contador
+4.contadorDisplay
+5.MuxdisplayAuto
+6.BianrioDecimal
+7.BinarioDecimalVer2
+8.publick7seg

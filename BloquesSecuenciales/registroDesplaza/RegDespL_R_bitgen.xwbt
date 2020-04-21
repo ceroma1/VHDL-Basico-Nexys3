@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.ncd
+OUTFILE=/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

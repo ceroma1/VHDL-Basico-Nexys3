@@ -1,0 +1,117 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml SupMuxDisplay.twx SupMuxDisplay.ncd -o SupMuxDisplay.twr
+SupMuxDisplay.pcf -ucf pines.ucf
+
+Design file:              SupMuxDisplay.ncd
+Physical constraint file: SupMuxDisplay.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+EntA<0>        |segmento<0>    |    9.091|
+EntA<0>        |segmento<1>    |    9.302|
+EntA<0>        |segmento<2>    |    9.620|
+EntA<0>        |segmento<3>    |    8.966|
+EntA<0>        |segmento<4>    |    9.107|
+EntA<0>        |segmento<5>    |    9.215|
+EntA<0>        |segmento<6>    |    9.147|
+EntA<1>        |segmento<0>    |    9.452|
+EntA<1>        |segmento<1>    |    9.655|
+EntA<1>        |segmento<2>    |    9.002|
+EntA<1>        |segmento<3>    |    9.165|
+EntA<1>        |segmento<4>    |    9.026|
+EntA<1>        |segmento<5>    |    9.096|
+EntA<1>        |segmento<6>    |    9.231|
+EntA<2>        |segmento<0>    |    9.437|
+EntA<2>        |segmento<1>    |    9.194|
+EntA<2>        |segmento<2>    |    8.614|
+EntA<2>        |segmento<3>    |    8.948|
+EntA<2>        |segmento<4>    |    9.210|
+EntA<2>        |segmento<5>    |    8.928|
+EntA<2>        |segmento<6>    |    9.082|
+EntA<3>        |segmento<0>    |    9.069|
+EntA<3>        |segmento<1>    |    9.307|
+EntA<3>        |segmento<2>    |    8.694|
+EntA<3>        |segmento<3>    |    8.541|
+EntA<3>        |segmento<4>    |    8.398|
+EntA<3>        |segmento<5>    |    8.263|
+EntA<3>        |segmento<6>    |    9.219|
+EntB<0>        |segmento<0>    |    9.159|
+EntB<0>        |segmento<1>    |    9.370|
+EntB<0>        |segmento<2>    |    9.688|
+EntB<0>        |segmento<3>    |    9.034|
+EntB<0>        |segmento<4>    |    9.175|
+EntB<0>        |segmento<5>    |    9.283|
+EntB<0>        |segmento<6>    |    9.215|
+EntB<1>        |segmento<0>    |    9.450|
+EntB<1>        |segmento<1>    |    9.653|
+EntB<1>        |segmento<2>    |    9.000|
+EntB<1>        |segmento<3>    |    9.163|
+EntB<1>        |segmento<4>    |    9.024|
+EntB<1>        |segmento<5>    |    9.094|
+EntB<1>        |segmento<6>    |    9.229|
+EntB<2>        |segmento<0>    |    9.367|
+EntB<2>        |segmento<1>    |    9.124|
+EntB<2>        |segmento<2>    |    8.544|
+EntB<2>        |segmento<3>    |    8.878|
+EntB<2>        |segmento<4>    |    9.140|
+EntB<2>        |segmento<5>    |    8.858|
+EntB<2>        |segmento<6>    |    9.012|
+EntB<3>        |segmento<0>    |    9.434|
+EntB<3>        |segmento<1>    |    9.407|
+EntB<3>        |segmento<2>    |    9.198|
+EntB<3>        |segmento<3>    |    9.027|
+EntB<3>        |segmento<4>    |    9.180|
+EntB<3>        |segmento<5>    |    8.855|
+EntB<3>        |segmento<6>    |    9.628|
+sel            |Anodos<0>      |   11.379|
+sel            |Anodos<1>      |   12.010|
+sel            |segmento<0>    |   12.549|
+sel            |segmento<1>    |   12.752|
+sel            |segmento<2>    |   12.799|
+sel            |segmento<3>    |   12.262|
+sel            |segmento<4>    |   12.310|
+sel            |segmento<5>    |   12.394|
+sel            |segmento<6>    |   12.328|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Apr  4 22:25:11 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 389 MB
+
+
+

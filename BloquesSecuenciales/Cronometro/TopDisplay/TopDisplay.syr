@@ -1,0 +1,405 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: TopDisplay.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TopDisplay.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TopDisplay"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : TopDisplay
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/OSwin7/Cronometro/TopDisplay/Mux4a1.vhd" into library work
+Parsing entity <Mux4a1>.
+Parsing architecture <Behavioral> of entity <mux4a1>.
+Parsing VHDL file "/home/ise/OSwin7/Cronometro/TopDisplay/Modulo_BinBcd.vhd" into library work
+Parsing entity <Modulo_BinBcd>.
+Parsing architecture <Behavioral> of entity <modulo_binbcd>.
+Parsing VHDL file "/home/ise/OSwin7/Cronometro/TopDisplay/lab151.vhd" into library work
+Parsing entity <lab151>.
+Parsing architecture <Behavioral> of entity <lab151>.
+Parsing VHDL file "/home/ise/OSwin7/Cronometro/TopDisplay/Habilito_Display.vhd" into library work
+Parsing entity <Habilito_Display>.
+Parsing architecture <Behavioral> of entity <habilito_display>.
+Parsing VHDL file "/home/ise/OSwin7/Cronometro/TopDisplay/TopDisplay.vhd" into library work
+Parsing entity <TopDisplay>.
+Parsing architecture <Behavioral> of entity <topdisplay>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <TopDisplay> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Modulo_BinBcd> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux4a1> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "/home/ise/OSwin7/Cronometro/TopDisplay/Mux4a1.vhd" Line 23. Case statement is complete. others clause is never selected
+
+Elaborating entity <lab151> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Habilito_Display> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "/home/ise/OSwin7/Cronometro/TopDisplay/Habilito_Display.vhd" Line 19. Case statement is complete. others clause is never selected
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <TopDisplay>.
+    Related source file is "/home/ise/OSwin7/Cronometro/TopDisplay/TopDisplay.vhd".
+    Summary:
+	no macro.
+Unit <TopDisplay> synthesized.
+
+Synthesizing Unit <Modulo_BinBcd>.
+    Related source file is "/home/ise/OSwin7/Cronometro/TopDisplay/Modulo_BinBcd.vhd".
+    Found 4-bit adder for signal <GND_6_o_GND_6_o_add_1_OUT> created at line 22.
+    Found 4-bit adder for signal <DatoIN[5]_GND_6_o_add_3_OUT> created at line 22.
+    Found 4-bit adder for signal <DatoIN[4]_GND_6_o_add_5_OUT> created at line 22.
+    Found 3-bit comparator greater for signal <PWR_6_o_DatoIN[5]_LessThan_1_o> created at line 21
+    Found 4-bit comparator greater for signal <GND_6_o_DatoIN[5]_LessThan_3_o> created at line 21
+    Found 4-bit comparator greater for signal <GND_6_o_DatoIN[4]_LessThan_5_o> created at line 21
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <Modulo_BinBcd> synthesized.
+
+Synthesizing Unit <Mux4a1>.
+    Related source file is "/home/ise/OSwin7/Cronometro/TopDisplay/Mux4a1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <fout> created at line 18.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux4a1> synthesized.
+
+Synthesizing Unit <lab151>.
+    Related source file is "/home/ise/OSwin7/Cronometro/TopDisplay/lab151.vhd".
+    Found 16x7-bit Read Only RAM for signal <seg>
+    Summary:
+	inferred   1 RAM(s).
+Unit <lab151> synthesized.
+
+Synthesizing Unit <Habilito_Display>.
+    Related source file is "/home/ise/OSwin7/Cronometro/TopDisplay/Habilito_Display.vhd".
+    Found 4x4-bit Read Only RAM for signal <anodos>
+    Summary:
+	inferred   1 RAM(s).
+Unit <Habilito_Display> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port Read Only RAM                    : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 3
+# Comparators                                          : 3
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 2
+# Multiplexers                                         : 13
+ 1-bit 2-to-1 multiplexer                              : 12
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Habilito_Display>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_anodos> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <selec>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <anodos>        |          |
+    -----------------------------------------------------------------------
+Unit <Habilito_Display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <lab151>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_seg> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <dato>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <seg>           |          |
+    -----------------------------------------------------------------------
+Unit <lab151> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 3
+# Comparators                                          : 3
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 2
+# Multiplexers                                         : 13
+ 1-bit 2-to-1 multiplexer                              : 12
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TopDisplay> ...
+
+Optimizing unit <Modulo_BinBcd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TopDisplay, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : TopDisplay.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 21
+#      LUT2                        : 4
+#      LUT4                        : 8
+#      LUT5                        : 7
+#      LUT6                        : 2
+# IO Buffers                       : 27
+#      IBUF                        : 16
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   21  out of   9112     0%  
+    Number used as Logic:                21  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     21
+   Number with an unused Flip Flop:      21  out of     21   100%  
+   Number with an unused LUT:             0  out of     21     0%  
+   Number of fully used LUT-FF pairs:     0  out of     21     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    232    11%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 7.917ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 323 / 11
+-------------------------------------------------------------------------
+Delay:               7.917ns (Levels of Logic = 5)
+  Source:            bc<5> (PAD)
+  Destination:       seg<4> (PAD)
+
+  Data Path: bc<5> to seg<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.222   1.089  bc_5_IBUF (bc_5_IBUF)
+     LUT5:I0->O            1   0.203   0.827  u1/Mmux_fout1_SW0 (N2)
+     LUT6:I2->O            7   0.203   1.021  u1/Mmux_fout1 (sg3<0>)
+     LUT4:I0->O            1   0.203   0.579  u2/Mram_seg41 (seg_4_OBUF)
+     OBUF:I->O                 2.571          seg_4_OBUF (seg<4>)
+    ----------------------------------------
+    Total                      7.917ns (4.402ns logic, 3.515ns route)
+                                       (55.6% logic, 44.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 11.63 secs
+ 
+--> 
+
+
+Total memory usage is 378296 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

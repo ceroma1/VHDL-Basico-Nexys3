@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Sun Jan 15 05:50:04 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "leds<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "XLXI_2/unseg" BEL "XLXI_2/cuenta_0" BEL
+        "XLXI_2/cuenta_1" BEL "XLXI_2/cuenta_2" BEL "XLXI_2/cuenta_3" BEL
+        "XLXI_2/cuenta_4" BEL "XLXI_2/cuenta_5" BEL "XLXI_2/cuenta_6" BEL
+        "XLXI_2/cuenta_7" BEL "XLXI_2/cuenta_8" BEL "XLXI_2/cuenta_9" BEL
+        "XLXI_2/cuenta_10" BEL "XLXI_2/cuenta_11" BEL "XLXI_2/cuenta_12" BEL
+        "XLXI_2/cuenta_13" BEL "XLXI_2/cuenta_14" BEL "XLXI_2/cuenta_15" BEL
+        "XLXI_2/cuenta_16" BEL "XLXI_2/cuenta_17" BEL "XLXI_2/cuenta_18" BEL
+        "XLXI_2/cuenta_19" BEL "XLXI_2/cuenta_20" BEL "XLXI_2/cuenta_21" BEL
+        "XLXI_2/cuenta_22" BEL "XLXI_2/cuenta_23" BEL "XLXI_2/cuenta_24" BEL
+        "XLXI_2/cuenta_25" BEL "XLXI_2/aux" BEL "CLK_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

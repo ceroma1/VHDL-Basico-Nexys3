@@ -1,0 +1,8 @@
+[Inputs]
+clk
+clear
+R_L
+DatoIn
+[Outputs]
+=DatoOut[7:0]=
+[BiDir]

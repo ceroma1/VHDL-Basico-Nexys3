@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sat Apr 04 21:47:30 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "Foutdivide" LOCATE = SITE "U16" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "unseg" BEL "aux" BEL "cuenta_0" BEL "cuenta_1" BEL
+        "cuenta_2" BEL "cuenta_3" BEL "cuenta_4" BEL "cuenta_5" BEL "cuenta_6"
+        BEL "cuenta_7" BEL "cuenta_8" BEL "cuenta_9" BEL "cuenta_10" BEL
+        "cuenta_11" BEL "cuenta_12" BEL "cuenta_13" BEL "cuenta_14" BEL
+        "cuenta_15" BEL "cuenta_16" BEL "cuenta_17" BEL "cuenta_18" BEL
+        "cuenta_19" BEL "cuenta_20" BEL "cuenta_21" BEL "cuenta_22" BEL
+        "cuenta_23" BEL "cuenta_24" BEL "cuenta_25" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

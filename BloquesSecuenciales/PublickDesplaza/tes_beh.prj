@@ -1,0 +1,8 @@
+vhdl work "mux4a1.vhd"
+vhdl work "Modulodisplay.vhd"
+vhdl work "ModuloBotones.vhd"
+vhdl work "divfre.vhd"
+vhdl work "contador.vhd"
+vhdl work "arreglo_reg.vhd"
+vhdl work "modulotop.vhd"
+vhdl work "tes.vhd"
