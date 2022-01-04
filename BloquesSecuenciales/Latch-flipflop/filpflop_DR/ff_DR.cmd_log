@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.xst" -ofn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.xst" -ofn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.xst" -ofn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.xst" -ofn "/home/ise/OSwin7/Dig_Dos/filpflop_DR/ff_DR.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Latch-flipflop/filpflop_DR/ff_DR.xst" -ofn "/home/ise/Secuencial_Nexys3/Latch-flipflop/filpflop_DR/ff_DR.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Latch-flipflop/filpflop_DR/ff_DR.xst" -ofn "/home/ise/Secuencial_Nexys3/Latch-flipflop/filpflop_DR/ff_DR.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Latch-flipflop/filpflop_DR/ff_DR.xst" -ofn "/home/ise/Secuencial_Nexys3/Latch-flipflop/filpflop_DR/ff_DR.syr" 

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/latch_enable/SR_Enable.xst" -ofn "/home/ise/OSwin7/latch_enable/SR_Enable.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/latch_enable/SR_Enable.xst" -ofn "/home/ise/OSwin7/Dig_Dos/latch_enable/SR_Enable.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Latch-flipflop/latch_enable/SR_Enable.xst" -ofn "/home/ise/Secuencial_Nexys3/Latch-flipflop/latch_enable/SR_Enable.syr" 

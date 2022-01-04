@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/latch_D_enable/Latch_D.xst" -ofn "/home/ise/OSwin7/Dig_Dos/latch_D_enable/Latch_D.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Dig_Dos/latch_D_enable/Latch_D.xst" -ofn "/home/ise/OSwin7/Dig_Dos/latch_D_enable/Latch_D.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Latch-flipflop/latch_D_enable/Latch_D.xst" -ofn "/home/ise/Secuencial_Nexys3/Latch-flipflop/latch_D_enable/Latch_D.syr" 
