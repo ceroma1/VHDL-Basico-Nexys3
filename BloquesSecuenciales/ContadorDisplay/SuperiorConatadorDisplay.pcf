@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Sun Jan 15 05:56:40 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "Seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "Seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "Seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "Seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "Seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "Seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "Seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "XLXI_3/aux" BEL "XLXI_3/unseg" BEL
+        "XLXI_3/cuenta_0" BEL "XLXI_3/cuenta_1" BEL "XLXI_3/cuenta_2" BEL
+        "XLXI_3/cuenta_3" BEL "XLXI_3/cuenta_4" BEL "XLXI_3/cuenta_5" BEL
+        "XLXI_3/cuenta_6" BEL "XLXI_3/cuenta_7" BEL "XLXI_3/cuenta_8" BEL
+        "XLXI_3/cuenta_9" BEL "XLXI_3/cuenta_10" BEL "XLXI_3/cuenta_11" BEL
+        "XLXI_3/cuenta_12" BEL "XLXI_3/cuenta_13" BEL "XLXI_3/cuenta_14" BEL
+        "XLXI_3/cuenta_15" BEL "XLXI_3/cuenta_16" BEL "XLXI_3/cuenta_17" BEL
+        "XLXI_3/cuenta_18" BEL "XLXI_3/cuenta_19" BEL "XLXI_3/cuenta_20" BEL
+        "XLXI_3/cuenta_21" BEL "XLXI_3/cuenta_22" BEL "XLXI_3/cuenta_23" BEL
+        "XLXI_3/cuenta_24" BEL "XLXI_3/cuenta_25" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

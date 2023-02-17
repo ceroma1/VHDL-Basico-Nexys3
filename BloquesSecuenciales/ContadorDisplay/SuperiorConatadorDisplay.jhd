@@ -1,0 +1,7 @@
+MODULE SuperiorConatadorDisplay
+	SUBMODULE ModuloDisplay
+		INSTANCE XLXI_1
+	SUBMODULE contador
+		INSTANCE XLXI_2
+	SUBMODULE divide
+		INSTANCE XLXI_3

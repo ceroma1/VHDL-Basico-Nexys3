@@ -1,0 +1,6 @@
+[Inputs]
+=A[3:0]=
+[Outputs]
+=segmento[6:0]=
+=Anodos[3:0]=
+[BiDir]

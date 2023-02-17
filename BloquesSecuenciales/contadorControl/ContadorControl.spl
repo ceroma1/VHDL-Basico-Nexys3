@@ -1,0 +1,7 @@
+[Inputs]
+clk
+reset
+sel
+[Outputs]
+=led[3:0]=
+[BiDir]
