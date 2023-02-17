@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Tue May 17 21:24:11 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "reset" LOCATE = SITE "T10" LEVEL 1;
+COMP "int_ext" LOCATE = SITE "B8" LEVEL 1;
+COMP "Foutq" LOCATE = SITE "U16" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "estadoActual" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

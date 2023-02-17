@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\EjemplosVHDL\DisplayCalculadora\Superior.ncd
+OUTFILE=E:\EjemplosVHDL\DisplayCalculadora\Superior.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\EjemplosVHDL\DisplayCalculadora
+LICENSE=WebPack
+USER_INFO=__0_0_0

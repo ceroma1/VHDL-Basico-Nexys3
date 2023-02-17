@@ -1,0 +1,5 @@
+vhdl work "mod_rx.vhd"
+vhdl work "Fifo_buffer.vhd"
+vhdl work "Baudios.vhd"
+vhdl work "RS232_RX.vhd"
+vhdl work "tes_Rs232RX.vhd"

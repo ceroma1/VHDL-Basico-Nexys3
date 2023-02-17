@@ -1,0 +1,4 @@
+vhdl isim_temp "Temporizador.vhd"
+vhdl isim_temp "Maq_Estado.vhd"
+vhdl isim_temp "SupReboteTemporizado.vhd"
+vhdl isim_temp "tes.vhd"

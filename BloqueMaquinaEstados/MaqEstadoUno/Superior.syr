@@ -1,0 +1,520 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: Superior.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Superior.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Superior"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Superior
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/ModuloDisplay.vhd" into library work
+Parsing entity <ModuloDisplay>.
+Parsing architecture <Behavioral> of entity <modulodisplay>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/divide.vhd" into library work
+Parsing entity <divide>.
+Parsing architecture <Behavioral> of entity <divide>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/cuenta.vhd" into library work
+Parsing entity <cuenta>.
+Parsing architecture <Behavioral> of entity <cuenta>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/CombinaSalida.vhd" into library work
+Parsing entity <CombinaSalida>.
+Parsing architecture <Behavioral> of entity <combinasalida>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/Superior.vhd" into library work
+Parsing entity <Superior>.
+Parsing architecture <Behavioral> of entity <superior>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Superior> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cuenta> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CombinaSalida> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/CombinaSalida.vhd" Line 23. Case statement is complete. others clause is never selected
+
+Elaborating entity <ModuloDisplay> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Superior>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/Superior.vhd".
+    Summary:
+	no macro.
+Unit <Superior> synthesized.
+
+Synthesizing Unit <divide>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/divide.vhd".
+    Found 26-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 1-bit register for signal <aux>.
+    Found 26-bit adder for signal <cuenta[25]_GND_4_o_add_1_OUT> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <divide> synthesized.
+
+Synthesizing Unit <cuenta>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/cuenta.vhd".
+    Found 3-bit register for signal <cuenta>.
+    Found 3-bit adder for signal <cuenta[2]_GND_7_o_add_0_OUT> created at line 21.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+Unit <cuenta> synthesized.
+
+Synthesizing Unit <CombinaSalida>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/CombinaSalida.vhd".
+    Found 8x3-bit Read Only RAM for signal <Foutq>
+    Summary:
+	inferred   1 RAM(s).
+Unit <CombinaSalida> synthesized.
+
+Synthesizing Unit <ModuloDisplay>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/ModuloDisplay.vhd".
+    Found 1-bit tristate buffer for signal <segmento<6>> created at line 14
+    Found 1-bit tristate buffer for signal <segmento<5>> created at line 14
+    Found 1-bit tristate buffer for signal <segmento<4>> created at line 14
+    Found 1-bit tristate buffer for signal <segmento<3>> created at line 14
+    Found 1-bit tristate buffer for signal <segmento<2>> created at line 14
+    Found 1-bit tristate buffer for signal <segmento<1>> created at line 14
+    Found 1-bit tristate buffer for signal <segmento<0>> created at line 14
+    Summary:
+	inferred   7 Tristate(s).
+Unit <ModuloDisplay> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x3-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 2
+ 26-bit adder                                          : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 26-bit register                                       : 1
+ 3-bit register                                        : 1
+# Multiplexers                                         : 1
+ 26-bit 2-to-1 multiplexer                             : 1
+# Tristates                                            : 7
+ 1-bit tristate buffer                                 : 7
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CombinaSalida>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Foutq> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 3-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Inq>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Foutq>         |          |
+    -----------------------------------------------------------------------
+Unit <CombinaSalida> synthesized (advanced).
+
+Synthesizing (advanced) Unit <cuenta>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <cuenta> synthesized (advanced).
+
+Synthesizing (advanced) Unit <divide>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <divide> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x3-bit single-port distributed Read Only RAM         : 1
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Superior> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Superior, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Superior.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 121
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 25
+#      LUT2                        : 27
+#      LUT3                        : 7
+#      LUT6                        : 6
+#      MUXCY                       : 25
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 31
+#      FDC                         : 30
+#      FDCE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              31  out of  18224     0%  
+ Number of Slice LUTs:                   68  out of   9112     0%  
+    Number used as Logic:                68  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     68
+   Number with an unused Flip Flop:      37  out of     68    54%  
+   Number with an unused LUT:             0  out of     68     0%  
+   Number of fully used LUT-FF pairs:    31  out of     68    45%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 28    |
+u0/aux                             | NONE(u1/cuenta_0)      | 3     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.964ns (Maximum Frequency: 252.296MHz)
+   Minimum input arrival time before clock: 2.929ns
+   Maximum output required time after clock: 4.860ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.964ns (frequency: 252.296MHz)
+  Total number of paths / destination ports: 1055 / 29
+-------------------------------------------------------------------------
+Delay:               3.964ns (Levels of Logic = 3)
+  Source:            u0/cuenta_8 (FF)
+  Destination:       u0/cuenta_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u0/cuenta_8 to u0/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  u0/cuenta_8 (u0/cuenta_8)
+     LUT6:I0->O            2   0.203   0.864  u0/PWR_4_o_cuenta[25]_equal_1_o<25>4 (u0/PWR_4_o_cuenta[25]_equal_1_o<25>3)
+     LUT6:I2->O           14   0.203   0.958  u0/PWR_4_o_cuenta[25]_equal_1_o<25>5 (u0/PWR_4_o_cuenta[25]_equal_1_o)
+     LUT2:I1->O            1   0.205   0.000  u0/Mcount_cuenta_eqn_01 (u0/Mcount_cuenta_eqn_0)
+     FDC:D                     0.102          u0/cuenta_0
+    ----------------------------------------
+    Total                      3.964ns (1.160ns logic, 2.804ns route)
+                                       (29.3% logic, 70.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/aux'
+  Clock period: 2.163ns (frequency: 462.406MHz)
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Delay:               2.163ns (Levels of Logic = 1)
+  Source:            u1/cuenta_0 (FF)
+  Destination:       u1/cuenta_0 (FF)
+  Source Clock:      u0/aux rising
+  Destination Clock: u0/aux rising
+
+  Data Path: u1/cuenta_0 to u1/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.447   0.829  u1/cuenta_0 (u1/cuenta_0)
+     INV:I->O              1   0.206   0.579  u1/Mcount_cuenta_xor<0>11_INV_0 (Result<0>1)
+     FDC:D                     0.102          u1/cuenta_0
+    ----------------------------------------
+    Total                      2.163ns (0.755ns logic, 1.408ns route)
+                                       (34.9% logic, 65.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 28 / 28
+-------------------------------------------------------------------------
+Offset:              2.929ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u0/aux (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to u0/aux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            31   1.222   1.277  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          u0/unseg
+    ----------------------------------------
+    Total                      2.929ns (1.652ns logic, 1.277ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0/aux'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.929ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u1/cuenta_0 (FF)
+  Destination Clock: u0/aux rising
+
+  Data Path: reset to u1/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            31   1.222   1.277  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          u1/cuenta_0
+    ----------------------------------------
+    Total                      2.929ns (1.652ns logic, 1.277ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/aux'
+  Total number of paths / destination ports: 18 / 6
+-------------------------------------------------------------------------
+Offset:              4.860ns (Levels of Logic = 2)
+  Source:            u1/cuenta_0 (FF)
+  Destination:       segmento<6> (PAD)
+  Source Clock:      u0/aux rising
+
+  Data Path: u1/cuenta_0 to segmento<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.447   1.058  u1/cuenta_0 (u1/cuenta_0)
+     LUT3:I0->O            1   0.205   0.579  u3/_n0035<7>1 (segmento_0_OBUF)
+     OBUF:I->O                 2.571          segmento_0_OBUF (segmento<0>)
+    ----------------------------------------
+    Total                      4.860ns (3.223ns logic, 1.637ns route)
+                                       (66.3% logic, 33.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.964|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0/aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u0/aux         |    2.163|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.32 secs
+ 
+--> 
+
+
+Total memory usage is 484764 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

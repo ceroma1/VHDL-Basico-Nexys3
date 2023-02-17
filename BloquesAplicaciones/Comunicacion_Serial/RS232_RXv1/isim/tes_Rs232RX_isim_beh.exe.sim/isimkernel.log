@@ -1,0 +1,29 @@
+Command line:
+   tes_Rs232RX_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52751
+
+Mon Oct 14 12:21:21 2019
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 196.547 Meg
+
+ Total Signals          : 38
+ Total Nets             : 42
+ Total Signal Drivers   : 17
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 9
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 527
+Total Line Count : 65
+
+ Total Simulation Time: 0.18 sec
+
+ Current Memory Usage: 274.145 Meg
+
+Mon Oct 14 12:23:26 2019
+

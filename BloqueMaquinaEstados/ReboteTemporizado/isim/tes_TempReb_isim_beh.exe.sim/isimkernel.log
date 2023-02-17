@@ -1,0 +1,29 @@
+Command line:
+   tes_TempReb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60663
+
+Sun Oct 30 13:37:36 2022
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 197.472 Meg
+
+ Total Signals          : 11
+ Total Nets             : 7
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 369
+Total Line Count : 23
+
+ Total Simulation Time: 384.7 sec
+
+ Current Memory Usage: 274.026 Meg
+
+Sun Oct 30 13:46:22 2022
+

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Oct 18 12:32:12 2019
+
+drc -z RS232_RX.ncd RS232_RX.pcf
+
+DRC detected 0 errors and 0 warnings.

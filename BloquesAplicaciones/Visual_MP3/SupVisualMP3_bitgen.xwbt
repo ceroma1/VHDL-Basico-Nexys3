@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Secuencial_Nexys3/Visual_MP3/SupVisualMP3.ncd
+OUTFILE=/home/ise/Secuencial_Nexys3/Visual_MP3/SupVisualMP3.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/Secuencial_Nexys3/Visual_MP3
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

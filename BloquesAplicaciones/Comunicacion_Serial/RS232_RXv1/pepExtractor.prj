@@ -1,0 +1,4 @@
+work	"Baudios.vhd"
+work	"RS232_RX.vhd"
+work	"ShiftRegister.vhd"
+work	"mod_rx.vhd"

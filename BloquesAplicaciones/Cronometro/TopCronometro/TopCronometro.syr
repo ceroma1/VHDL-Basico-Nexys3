@@ -1,0 +1,736 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: TopCronometro.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TopCronometro.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TopCronometro"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : TopCronometro
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Mux4a1.vhd" into library work
+Parsing entity <Mux4a1>.
+Parsing architecture <Behavioral> of entity <mux4a1>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Modulo_BinBcd.vhd" into library work
+Parsing entity <Modulo_BinBcd>.
+Parsing architecture <Behavioral> of entity <modulo_binbcd>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/lab151.vhd" into library work
+Parsing entity <lab151>.
+Parsing architecture <Behavioral> of entity <lab151>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Habilito_Display.vhd" into library work
+Parsing entity <Habilito_Display>.
+Parsing architecture <Behavioral> of entity <habilito_display>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/TopDisplay.vhd" into library work
+Parsing entity <TopDisplay>.
+Parsing architecture <Behavioral> of entity <topdisplay>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Master_5MHZ.vhd" into library work
+Parsing entity <Master_5MHZ>.
+Parsing architecture <Behavioral> of entity <master_5mhz>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable60hz.vhd" into library work
+Parsing entity <Enable60hz>.
+Parsing architecture <Behavioral> of entity <enable60hz>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable500hz.vhd" into library work
+Parsing entity <Enable500hz>.
+Parsing architecture <Behavioral> of entity <enable500hz>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable1hz.vhd" into library work
+Parsing entity <Enable1hz>.
+Parsing architecture <Behavioral> of entity <enable1hz>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable10hz.vhd" into library work
+Parsing entity <Enable10hz>.
+Parsing architecture <Behavioral> of entity <enable10hz>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/CuentaDisplay.vhd" into library work
+Parsing entity <CuentaDisplay>.
+Parsing architecture <Behavioral> of entity <cuentadisplay>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Cuenta0a9M.vhd" into library work
+Parsing entity <Cuenta0a9M>.
+Parsing architecture <Behavioral> of entity <cuenta0a9m>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Cuenta0a9.vhd" into library work
+Parsing entity <Cuenta0a9>.
+Parsing architecture <Behavioral> of entity <cuenta0a9>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/cuenta0a59.vhd" into library work
+Parsing entity <cuenta0a59>.
+Parsing architecture <Behavioral> of entity <cuenta0a59>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/TopCronometro.vhd" into library work
+Parsing entity <TopCronometro>.
+Parsing architecture <Behavioral> of entity <topcronometro>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <TopCronometro> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Master_5MHZ> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Enable10hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Enable1hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Enable60hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Enable500hz> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Cuenta0a9> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cuenta0a59> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Cuenta0a9M> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <TopDisplay> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Modulo_BinBcd> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux4a1> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Mux4a1.vhd" Line 23. Case statement is complete. others clause is never selected
+
+Elaborating entity <lab151> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Habilito_Display> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Habilito_Display.vhd" Line 19. Case statement is complete. others clause is never selected
+
+Elaborating entity <CuentaDisplay> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <TopCronometro>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/TopCronometro.vhd".
+    Summary:
+	no macro.
+Unit <TopCronometro> synthesized.
+
+Synthesizing Unit <Master_5MHZ>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Master_5MHZ.vhd".
+    Found 1-bit register for signal <unseg>.
+    Found 1-bit register for signal <aux>.
+    Found 4-bit register for signal <cuenta>.
+    Found 4-bit adder for signal <cuenta[3]_GND_4_o_add_1_OUT> created at line 30.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <Master_5MHZ> synthesized.
+
+Synthesizing Unit <Enable10hz>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable10hz.vhd".
+    Found 19-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 19-bit adder for signal <cuenta[18]_GND_5_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Enable10hz> synthesized.
+
+Synthesizing Unit <Enable1hz>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable1hz.vhd".
+    Found 23-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 23-bit adder for signal <cuenta[22]_GND_6_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Enable1hz> synthesized.
+
+Synthesizing Unit <Enable60hz>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable60hz.vhd".
+    Found 29-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 29-bit adder for signal <cuenta[28]_GND_7_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Enable60hz> synthesized.
+
+Synthesizing Unit <Enable500hz>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Enable500hz.vhd".
+    Found 1-bit register for signal <unseg>.
+    Found 14-bit register for signal <cuenta>.
+    Found 14-bit adder for signal <cuenta[13]_GND_8_o_add_1_OUT> created at line 30.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  15 D-type flip-flop(s).
+Unit <Enable500hz> synthesized.
+
+Synthesizing Unit <Cuenta0a9>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Cuenta0a9.vhd".
+    Found 4-bit register for signal <cuenta>.
+    Found 4-bit adder for signal <cuenta[3]_GND_11_o_add_1_OUT> created at line 24.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Cuenta0a9> synthesized.
+
+Synthesizing Unit <cuenta0a59>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/cuenta0a59.vhd".
+    Found 6-bit register for signal <cuenta>.
+    Found 6-bit adder for signal <cuenta[5]_GND_12_o_add_1_OUT> created at line 24.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <cuenta0a59> synthesized.
+
+Synthesizing Unit <Cuenta0a9M>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Cuenta0a9M.vhd".
+    Found 4-bit register for signal <cuenta>.
+    Found 4-bit adder for signal <cuenta[3]_GND_13_o_add_1_OUT> created at line 24.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Cuenta0a9M> synthesized.
+
+Synthesizing Unit <TopDisplay>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/TopDisplay.vhd".
+    Summary:
+	no macro.
+Unit <TopDisplay> synthesized.
+
+Synthesizing Unit <Modulo_BinBcd>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Modulo_BinBcd.vhd".
+    Found 4-bit adder for signal <GND_15_o_GND_15_o_add_1_OUT> created at line 22.
+    Found 4-bit adder for signal <DatoIN[5]_GND_15_o_add_3_OUT> created at line 22.
+    Found 4-bit adder for signal <DatoIN[4]_GND_15_o_add_5_OUT> created at line 22.
+    Found 3-bit comparator greater for signal <PWR_15_o_DatoIN[5]_LessThan_1_o> created at line 21
+    Found 4-bit comparator greater for signal <GND_15_o_DatoIN[5]_LessThan_3_o> created at line 21
+    Found 4-bit comparator greater for signal <GND_15_o_DatoIN[4]_LessThan_5_o> created at line 21
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <Modulo_BinBcd> synthesized.
+
+Synthesizing Unit <Mux4a1>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Mux4a1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <fout> created at line 18.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux4a1> synthesized.
+
+Synthesizing Unit <lab151>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/lab151.vhd".
+    Found 16x7-bit Read Only RAM for signal <seg>
+    Summary:
+	inferred   1 RAM(s).
+Unit <lab151> synthesized.
+
+Synthesizing Unit <Habilito_Display>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/Habilito_Display.vhd".
+    Found 4x4-bit Read Only RAM for signal <anodos>
+    Summary:
+	inferred   1 RAM(s).
+Unit <Habilito_Display> synthesized.
+
+Synthesizing Unit <CuentaDisplay>.
+    Related source file is "/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/CuentaDisplay.vhd".
+    Found 2-bit register for signal <cuenta>.
+    Found 2-bit adder for signal <cuenta[1]_GND_19_o_add_0_OUT> created at line 18.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+Unit <CuentaDisplay> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port Read Only RAM                    : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 12
+ 14-bit adder                                          : 1
+ 19-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 23-bit adder                                          : 1
+ 29-bit adder                                          : 1
+ 4-bit adder                                           : 6
+ 6-bit adder                                           : 1
+# Registers                                            : 15
+ 1-bit register                                        : 6
+ 14-bit register                                       : 1
+ 19-bit register                                       : 1
+ 2-bit register                                        : 1
+ 23-bit register                                       : 1
+ 29-bit register                                       : 1
+ 4-bit register                                        : 3
+ 6-bit register                                        : 1
+# Comparators                                          : 3
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 2
+# Multiplexers                                         : 22
+ 1-bit 2-to-1 multiplexer                              : 15
+ 19-bit 2-to-1 multiplexer                             : 1
+ 23-bit 2-to-1 multiplexer                             : 1
+ 29-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Cuenta0a9>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Cuenta0a9> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Cuenta0a9M>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Cuenta0a9M> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CuentaDisplay>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <CuentaDisplay> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Enable10hz>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Enable10hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Enable1hz>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Enable1hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Enable500hz>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Enable500hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Enable60hz>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Enable60hz> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Habilito_Display>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_anodos> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <selec>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <anodos>        |          |
+    -----------------------------------------------------------------------
+Unit <Habilito_Display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Master_5MHZ>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Master_5MHZ> synthesized (advanced).
+
+Synthesizing (advanced) Unit <cuenta0a59>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <cuenta0a59> synthesized (advanced).
+
+Synthesizing (advanced) Unit <lab151>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_seg> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <dato>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <seg>           |          |
+    -----------------------------------------------------------------------
+Unit <lab151> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 3
+# Counters                                             : 9
+ 14-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 23-bit up counter                                     : 1
+ 29-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+ 6-bit up counter                                      : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 3
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 2
+# Multiplexers                                         : 16
+ 1-bit 2-to-1 multiplexer                              : 15
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TopCronometro> ...
+
+Optimizing unit <Modulo_BinBcd> ...
+INFO:Xst:2261 - The FF/Latch <u2/cuenta_5> in Unit <TopCronometro> is equivalent to the following FF/Latch, which will be removed : <u3/cuenta_5> 
+INFO:Xst:2261 - The FF/Latch <u1/cuenta_0> in Unit <TopCronometro> is equivalent to the following 2 FFs/Latches, which will be removed : <u3/cuenta_0> <u2/cuenta_0> 
+INFO:Xst:2261 - The FF/Latch <u1/cuenta_1> in Unit <TopCronometro> is equivalent to the following 2 FFs/Latches, which will be removed : <u3/cuenta_1> <u2/cuenta_1> 
+INFO:Xst:2261 - The FF/Latch <u1/cuenta_2> in Unit <TopCronometro> is equivalent to the following 2 FFs/Latches, which will be removed : <u3/cuenta_2> <u2/cuenta_2> 
+INFO:Xst:2261 - The FF/Latch <u1/cuenta_3> in Unit <TopCronometro> is equivalent to the following 2 FFs/Latches, which will be removed : <u3/cuenta_3> <u2/cuenta_3> 
+INFO:Xst:2261 - The FF/Latch <u1/cuenta_4> in Unit <TopCronometro> is equivalent to the following 2 FFs/Latches, which will be removed : <u3/cuenta_4> <u2/cuenta_4> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TopCronometro, actual ratio is 2.
+FlipFlop u1/cuenta_4 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 102
+ Flip-Flops                                            : 102
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : TopCronometro.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 381
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 81
+#      LUT2                        : 50
+#      LUT3                        : 3
+#      LUT4                        : 17
+#      LUT5                        : 23
+#      LUT6                        : 39
+#      MUXCY                       : 81
+#      VCC                         : 1
+#      XORCY                       : 74
+# FlipFlops/Latches                : 102
+#      FD                          : 16
+#      FDC                         : 3
+#      FDCE                        : 76
+#      FDE                         : 3
+#      FDR                         : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             102  out of  18224     0%  
+ Number of Slice LUTs:                  224  out of   9112     2%  
+    Number used as Logic:               224  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    226
+   Number with an unused Flip Flop:     124  out of    226    54%  
+   Number with an unused LUT:             2  out of    226     0%  
+   Number of fully used LUT-FF pairs:   100  out of    226    44%  
+   Number of unique control sets:        10
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 6     |
+u0/aux                             | BUFG                   | 96    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.003ns (Maximum Frequency: 249.806MHz)
+   Minimum input arrival time before clock: 4.059ns
+   Maximum output required time after clock: 7.237ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.675ns (frequency: 373.797MHz)
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Delay:               2.675ns (Levels of Logic = 1)
+  Source:            u0/cuenta_2 (FF)
+  Destination:       u0/cuenta_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u0/cuenta_2 to u0/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.447   0.879  u0/cuenta_2 (u0/cuenta_2)
+     LUT4:I1->O            5   0.205   0.714  u0/PWR_4_o_cuenta[3]_equal_1_o<3>1 (u0/PWR_4_o_cuenta[3]_equal_1_o)
+     FDR:R                     0.430          u0/cuenta_0
+    ----------------------------------------
+    Total                      2.675ns (1.082ns logic, 1.593ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/aux'
+  Clock period: 4.003ns (frequency: 249.806MHz)
+  Total number of paths / destination ports: 2811 / 112
+-------------------------------------------------------------------------
+Delay:               4.003ns (Levels of Logic = 3)
+  Source:            u2/cuenta_14 (FF)
+  Destination:       u2/unseg (FF)
+  Source Clock:      u0/aux rising
+  Destination Clock: u0/aux rising
+
+  Data Path: u2/cuenta_14 to u2/unseg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.447   0.961  u2/cuenta_14 (u2/cuenta_14)
+     LUT5:I0->O            1   0.203   0.808  u2/PWR_6_o_cuenta[22]_equal_1_o<22>2 (u2/PWR_6_o_cuenta[22]_equal_1_o<22>1)
+     LUT6:I3->O           19   0.205   1.072  u2/PWR_6_o_cuenta[22]_equal_1_o<22>5 (u2/PWR_6_o_cuenta[22]_equal_1_o)
+     LUT2:I1->O            1   0.205   0.000  u2/Mmux_PWR_6_o_GND_6_o_MUX_26_o11 (u2/PWR_6_o_GND_6_o_MUX_26_o)
+     FDC:D                     0.102          u2/unseg
+    ----------------------------------------
+    Total                      4.003ns (1.162ns logic, 2.841ns route)
+                                       (29.0% logic, 71.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0/aux'
+  Total number of paths / destination ports: 144 / 144
+-------------------------------------------------------------------------
+Offset:              4.059ns (Levels of Logic = 2)
+  Source:            ce (PAD)
+  Destination:       u1/cuenta_0 (FF)
+  Destination Clock: u0/aux rising
+
+  Data Path: ce to u1/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.222   0.683  ce_IBUF (ce_IBUF)
+     INV:I->O             62   0.206   1.626  ce_inv1_INV_0 (ce_inv)
+     FDCE:CE                   0.322          u1/cuenta_0
+    ----------------------------------------
+    Total                      4.059ns (1.750ns logic, 2.309ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/aux'
+  Total number of paths / destination ports: 323 / 11
+-------------------------------------------------------------------------
+Offset:              7.237ns (Levels of Logic = 4)
+  Source:            u6/cuenta_4 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      u0/aux rising
+
+  Data Path: u6/cuenta_4 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.447   1.201  u6/cuenta_4 (u6/cuenta_4)
+     LUT5:I0->O            1   0.203   0.808  u8/u1/Mmux_fout31 (u8/u1/Mmux_fout3)
+     LUT5:I2->O            7   0.205   1.021  u8/u1/Mmux_fout33 (u8/sg3<2>)
+     LUT4:I0->O            1   0.203   0.579  u8/u2/Mram_seg61 (seg_6_OBUF)
+     OBUF:I->O                 2.571          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                      7.237ns (3.629ns logic, 3.608ns route)
+                                       (50.1% logic, 49.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.675|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0/aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u0/aux         |    4.003|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.28 secs
+ 
+--> 
+
+
+Total memory usage is 388732 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

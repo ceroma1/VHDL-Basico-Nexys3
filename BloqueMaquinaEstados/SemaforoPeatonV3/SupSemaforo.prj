@@ -1,0 +1,6 @@
+vhdl work "Temp2.vhd"
+vhdl work "Temp1.vhd"
+vhdl work "Parpadeo.vhd"
+vhdl work "Maq_Estado.vhd"
+vhdl work "cntAmarillo.vhd"
+vhdl work "SupSemaforo.vhd"

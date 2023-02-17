@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/SpVerificaDos.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/SpVerificaDos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SpVerificaDos.ngc SpVerificaDos.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SpVerificaDos_map.ncd SpVerificaDos.ngd SpVerificaDos.pcf 
+par -w -intstyle ise -ol high -mt off SpVerificaDos_map.ncd SpVerificaDos.ncd SpVerificaDos.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SpVerificaDos.twx SpVerificaDos.ncd -o SpVerificaDos.twr SpVerificaDos.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f SpVerificaDos.ut SpVerificaDos.ncd 

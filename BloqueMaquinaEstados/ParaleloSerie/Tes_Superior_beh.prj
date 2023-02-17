@@ -1,0 +1,4 @@
+vhdl work "TempReb.vhd"
+vhdl work "Maq_estadoReb.vhd"
+vhdl work "SupParaleloSerie.vhd"
+vhdl work "Tes_Superior.vhd"

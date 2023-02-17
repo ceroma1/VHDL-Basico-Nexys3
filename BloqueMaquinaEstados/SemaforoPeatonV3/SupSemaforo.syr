@@ -1,0 +1,498 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: SupSemaforo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SupSemaforo.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SupSemaforo"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : SupSemaforo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Temp2.vhd" into library work
+Parsing entity <Temp2>.
+Parsing architecture <Behavioral> of entity <temp2>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Temp1.vhd" into library work
+Parsing entity <Temp1>.
+Parsing architecture <Behavioral> of entity <temp1>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Parpadeo.vhd" into library work
+Parsing entity <Parpadeo>.
+Parsing architecture <Behavioral> of entity <parpadeo>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Maq_Estado.vhd" into library work
+Parsing entity <Maq_Estado>.
+Parsing architecture <Behavioral> of entity <maq_estado>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/cntAmarillo.vhd" into library work
+Parsing entity <cntAmarillo>.
+Parsing architecture <Behavioral> of entity <cntamarillo>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/SupSemaforo.vhd" into library work
+Parsing entity <SupSemaforo>.
+Parsing architecture <Behavioral> of entity <supsemaforo>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <SupSemaforo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Parpadeo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cntAmarillo> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Maq_Estado> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Temp1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Temp2> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SupSemaforo>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/SupSemaforo.vhd".
+    Summary:
+	no macro.
+Unit <SupSemaforo> synthesized.
+
+Synthesizing Unit <Parpadeo>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Parpadeo.vhd".
+    Found 26-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 1-bit register for signal <aux>.
+    Found 26-bit adder for signal <cuenta[25]_GND_4_o_add_1_OUT> created at line 35.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Parpadeo> synthesized.
+
+Synthesizing Unit <cntAmarillo>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/cntAmarillo.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <cntAmarillo> synthesized.
+
+Synthesizing Unit <Maq_Estado>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Maq_Estado.vhd".
+    Found 3-bit register for signal <estadoActual>.
+    Found finite state machine <FSM_0> for signal <estadoActual>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | blink                                          |
+    | Power Up State     | blink                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Maq_Estado> synthesized.
+
+Synthesizing Unit <Temp1>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Temp1.vhd".
+    Found 28-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 28-bit adder for signal <cuenta[27]_GND_7_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <Temp1> synthesized.
+
+Synthesizing Unit <Temp2>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/Temp2.vhd".
+    Found 30-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 30-bit adder for signal <cuenta[29]_GND_8_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <Temp2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 26-bit adder                                          : 1
+ 28-bit adder                                          : 1
+ 30-bit adder                                          : 1
+# Registers                                            : 7
+ 1-bit register                                        : 4
+ 26-bit register                                       : 1
+ 28-bit register                                       : 1
+ 30-bit register                                       : 1
+# Multiplexers                                         : 9
+ 1-bit 2-to-1 multiplexer                              : 4
+ 26-bit 2-to-1 multiplexer                             : 1
+ 28-bit 2-to-1 multiplexer                             : 2
+ 30-bit 2-to-1 multiplexer                             : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Parpadeo>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Parpadeo> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 28-bit adder                                          : 1
+ 30-bit adder                                          : 1
+# Counters                                             : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 62
+ Flip-Flops                                            : 62
+# Multiplexers                                         : 7
+ 1-bit 2-to-1 multiplexer                              : 3
+ 28-bit 2-to-1 multiplexer                             : 2
+ 30-bit 2-to-1 multiplexer                             : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <estadoActual[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ blink | 000
+ s0    | 001
+ s1    | 011
+ s2    | 010
+ s3    | 110
+-------------------
+
+Optimizing unit <SupSemaforo> ...
+
+Optimizing unit <Temp1> ...
+
+Optimizing unit <Temp2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SupSemaforo, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 91
+ Flip-Flops                                            : 91
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SupSemaforo.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 366
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 81
+#      LUT3                        : 3
+#      LUT4                        : 29
+#      LUT5                        : 62
+#      LUT6                        : 19
+#      MUXCY                       : 81
+#      VCC                         : 1
+#      XORCY                       : 84
+# FlipFlops/Latches                : 91
+#      FDC                         : 64
+#      FDCE                        : 27
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 2
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              91  out of  18224     0%  
+ Number of Slice LUTs:                  199  out of   9112     2%  
+    Number used as Logic:               199  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    199
+   Number with an unused Flip Flop:     108  out of    199    54%  
+   Number with an unused LUT:             0  out of    199     0%  
+   Number of fully used LUT-FF pairs:    91  out of    199    45%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    232     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 91    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.087ns (Maximum Frequency: 244.657MHz)
+   Minimum input arrival time before clock: 3.469ns
+   Maximum output required time after clock: 5.729ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.087ns (frequency: 244.657MHz)
+  Total number of paths / destination ports: 3942 / 118
+-------------------------------------------------------------------------
+Delay:               4.087ns (Levels of Logic = 3)
+  Source:            u4/cuenta_18 (FF)
+  Destination:       u4/cuenta_29 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u4/cuenta_18 to u4/cuenta_29
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.961  u4/cuenta_18 (u4/cuenta_18)
+     LUT5:I0->O            2   0.203   0.961  u4/PWR_8_o_cuenta[29]_equal_1_o<29>6 (u4/PWR_8_o_cuenta[29]_equal_1_o<29>5)
+     LUT6:I1->O           16   0.203   1.005  u4/PWR_8_o_cuenta[29]_equal_1_o<29>7 (u4/PWR_8_o_cuenta[29]_equal_1_o)
+     LUT5:I4->O            1   0.205   0.000  u4/Mmux_cuenta[29]_GND_8_o_mux_3_OUT221 (u4/cuenta[29]_GND_8_o_mux_3_OUT<29>)
+     FDC:D                     0.102          u4/cuenta_29
+    ----------------------------------------
+    Total                      4.087ns (1.160ns logic, 2.927ns route)
+                                       (28.4% logic, 71.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 94 / 94
+-------------------------------------------------------------------------
+Offset:              3.469ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u0/aux (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to u0/aux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            91   1.222   1.817  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          u0/unseg
+    ----------------------------------------
+    Total                      3.469ns (1.652ns logic, 1.817ns route)
+                                       (47.6% logic, 52.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 3
+-------------------------------------------------------------------------
+Offset:              5.729ns (Levels of Logic = 2)
+  Source:            u2/estadoActual_FSM_FFd2 (FF)
+  Destination:       rojo (PAD)
+  Source Clock:      clk rising
+
+  Data Path: u2/estadoActual_FSM_FFd2 to rojo
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             92   0.447   1.929  u2/estadoActual_FSM_FFd2 (u2/estadoActual_FSM_FFd2)
+     LUT3:I1->O            1   0.203   0.579  u2/estadoActual_f_luzCE<5>1 (rojo_OBUF)
+     OBUF:I->O                 2.571          rojo_OBUF (rojo)
+    ----------------------------------------
+    Total                      5.729ns (3.221ns logic, 2.508ns route)
+                                       (56.2% logic, 43.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.087|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.27 secs
+ 
+--> 
+
+
+Total memory usage is 483888 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

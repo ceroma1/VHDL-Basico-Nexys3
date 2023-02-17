@@ -1,0 +1,4 @@
+vhdl work "ModuloDisplay.vhd"
+vhdl work "Estados.vhd"
+vhdl work "divide.vhd"
+vhdl work "Superior.vhd"

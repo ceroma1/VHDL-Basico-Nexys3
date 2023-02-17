@@ -1,0 +1,6 @@
+work	"MaqEstados.vhd"
+work	"Maq_estadoReb.vhd"
+work	"SupReboteTemporizado.vhd"
+work	"TempReb.vhd"
+work	"TiempoBase.vhd"
+work	"TopSemaforo.vhd"

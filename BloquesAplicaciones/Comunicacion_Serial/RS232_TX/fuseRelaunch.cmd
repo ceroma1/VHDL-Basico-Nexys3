@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/tes_rs232tx_isim_beh.exe" -prj "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/tes_rs232tx_beh.prj" "work.tes_rs232tx" 

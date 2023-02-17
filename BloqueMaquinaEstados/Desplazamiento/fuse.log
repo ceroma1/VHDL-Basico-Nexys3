@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/Tes1_isim_beh.exe -prj /home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/Tes1_beh.prj work.Tes1 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/TemReb.vhd" into library work
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/maqEstado.vhd" into library work
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/SupMaquina.vhd" into library work
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/Tes1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95436 KB
+Fuse CPU Usage: 1120 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity TemReb [temreb_default]
+Compiling architecture behavioral of entity maqEstado [maqestado_default]
+Compiling architecture behavioral of entity SupMaquina [supmaquina_default]
+Compiling architecture behavior of entity tes1
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable /home/ise/Secuencial_Nexys3/MaquinasDeEstados/Desplazamiento/Tes1_isim_beh.exe
+Fuse Memory Usage: 528040 KB
+Fuse CPU Usage: 1190 ms
+GCC CPU Usage: 320 ms

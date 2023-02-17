@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.ncd
+OUTFILE=/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

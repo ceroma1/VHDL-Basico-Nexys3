@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV2/supExpende.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV2/supExpende.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 supExpende.ngc supExpende.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o supExpende_map.ncd supExpende.ngd supExpende.pcf 
+par -w -intstyle ise -ol high -mt off supExpende_map.ncd supExpende.ncd supExpende.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml supExpende.twx supExpende.ncd -o supExpende.twr supExpende.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f supExpende.ut supExpende.ncd 

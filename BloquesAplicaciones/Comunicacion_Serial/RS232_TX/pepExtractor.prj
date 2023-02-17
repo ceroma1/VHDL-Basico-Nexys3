@@ -1,0 +1,3 @@
+work	"Baudios_tx.vhd"
+work	"RS232_TX.vhd"
+work	"mod_tx.vhd"

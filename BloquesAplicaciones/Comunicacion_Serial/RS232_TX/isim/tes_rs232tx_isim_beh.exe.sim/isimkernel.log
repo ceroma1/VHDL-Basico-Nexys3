@@ -1,0 +1,29 @@
+Command line:
+   tes_rs232tx_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48423
+
+Tue Oct 15 16:52:47 2019
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 196.551 Meg
+
+ Total Signals          : 34
+ Total Nets             : 49
+ Total Signal Drivers   : 17
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 8
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 534
+Total Line Count : 78
+
+ Total Simulation Time: 0.16 sec
+
+ Current Memory Usage: 274.149 Meg
+
+Tue Oct 15 16:54:57 2019
+

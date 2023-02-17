@@ -1,0 +1,5 @@
+vhdl work "ModuloDisplay.vhd"
+vhdl work "divide.vhd"
+vhdl work "cuenta.vhd"
+vhdl work "CombinaSalida.vhd"
+vhdl work "Superior.vhd"

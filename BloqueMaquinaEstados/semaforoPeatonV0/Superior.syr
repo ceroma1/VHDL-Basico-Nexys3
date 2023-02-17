@@ -1,0 +1,486 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: Superior.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Superior.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Superior"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Superior
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/semaforoPeatonV0/MaqEstados.vhd" into library work
+Parsing entity <MaqEstados>.
+Parsing architecture <Behavioral> of entity <maqestados>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/semaforoPeatonV0/divide.vhd" into library work
+Parsing entity <divide>.
+Parsing architecture <Behavioral> of entity <divide>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/semaforoPeatonV0/Superior.vhd" into library work
+Parsing entity <Superior>.
+Parsing architecture <Behavioral> of entity <superior>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Superior> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MaqEstados> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Superior>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/semaforoPeatonV0/Superior.vhd".
+    Summary:
+	no macro.
+Unit <Superior> synthesized.
+
+Synthesizing Unit <divide>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/semaforoPeatonV0/divide.vhd".
+    Found 26-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 1-bit register for signal <aux>.
+    Found 26-bit adder for signal <cuenta[25]_GND_4_o_add_1_OUT> created at line 43.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <divide> synthesized.
+
+Synthesizing Unit <MaqEstados>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/semaforoPeatonV0/MaqEstados.vhd".
+    Found 2-bit register for signal <estadoActual>.
+    Found finite state machine <FSM_0> for signal <estadoActual>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <MaqEstados> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 26-bit adder                                          : 1
+# Registers                                            : 3
+ 1-bit register                                        : 2
+ 26-bit register                                       : 1
+# Multiplexers                                         : 1
+ 26-bit 2-to-1 multiplexer                             : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <divide>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <divide> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 26-bit up counter                                     : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <estadoActual[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ s1    | 01
+ s2    | 10
+ s3    | 11
+-------------------
+
+Optimizing unit <Superior> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Superior, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Superior.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 115
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 25
+#      LUT2                        : 27
+#      LUT3                        : 1
+#      LUT6                        : 6
+#      MUXCY                       : 25
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 30
+#      FDC                         : 29
+#      FDCE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 2
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              30  out of  18224     0%  
+ Number of Slice LUTs:                   62  out of   9112     0%  
+    Number used as Logic:                62  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     62
+   Number with an unused Flip Flop:      32  out of     62    51%  
+   Number with an unused LUT:             0  out of     62     0%  
+   Number of fully used LUT-FF pairs:    30  out of     62    48%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    232     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)         | Load  |
+-----------------------------------+-------------------------------+-------+
+clk                                | BUFGP                         | 28    |
+u0/aux                             | NONE(u1/estadoActual_FSM_FFd2)| 2     |
+-----------------------------------+-------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.964ns (Maximum Frequency: 252.296MHz)
+   Minimum input arrival time before clock: 2.915ns
+   Maximum output required time after clock: 4.485ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.964ns (frequency: 252.296MHz)
+  Total number of paths / destination ports: 1055 / 29
+-------------------------------------------------------------------------
+Delay:               3.964ns (Levels of Logic = 3)
+  Source:            u0/cuenta_8 (FF)
+  Destination:       u0/cuenta_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u0/cuenta_8 to u0/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  u0/cuenta_8 (u0/cuenta_8)
+     LUT6:I0->O            2   0.203   0.864  u0/PWR_4_o_cuenta[25]_equal_1_o<25>4 (u0/PWR_4_o_cuenta[25]_equal_1_o<25>3)
+     LUT6:I2->O           14   0.203   0.958  u0/PWR_4_o_cuenta[25]_equal_1_o<25>5 (u0/PWR_4_o_cuenta[25]_equal_1_o)
+     LUT2:I1->O            1   0.205   0.000  u0/Mcount_cuenta_eqn_01 (u0/Mcount_cuenta_eqn_0)
+     FDC:D                     0.102          u0/cuenta_0
+    ----------------------------------------
+    Total                      3.964ns (1.160ns logic, 2.804ns route)
+                                       (29.3% logic, 70.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/aux'
+  Clock period: 1.633ns (frequency: 612.276MHz)
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Delay:               1.633ns (Levels of Logic = 1)
+  Source:            u1/estadoActual_FSM_FFd2 (FF)
+  Destination:       u1/estadoActual_FSM_FFd2 (FF)
+  Source Clock:      u0/aux rising
+  Destination Clock: u0/aux rising
+
+  Data Path: u1/estadoActual_FSM_FFd2 to u1/estadoActual_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   0.879  u1/estadoActual_FSM_FFd2 (u1/estadoActual_FSM_FFd2)
+     LUT3:I0->O            1   0.205   0.000  u1/estadoActual_FSM_FFd2-In1 (u1/estadoActual_FSM_FFd2-In)
+     FDC:D                     0.102          u1/estadoActual_FSM_FFd2
+    ----------------------------------------
+    Total                      1.633ns (0.754ns logic, 0.879ns route)
+                                       (46.2% logic, 53.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 28 / 28
+-------------------------------------------------------------------------
+Offset:              2.915ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u0/aux (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to u0/aux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.222   1.263  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          u0/unseg
+    ----------------------------------------
+    Total                      2.915ns (1.652ns logic, 1.263ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u0/aux'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.915ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u1/estadoActual_FSM_FFd2 (FF)
+  Destination Clock: u0/aux rising
+
+  Data Path: reset to u1/estadoActual_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.222   1.263  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          u1/estadoActual_FSM_FFd2
+    ----------------------------------------
+    Total                      2.915ns (1.652ns logic, 1.263ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/aux'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.485ns (Levels of Logic = 2)
+  Source:            u1/estadoActual_FSM_FFd1 (FF)
+  Destination:       verde (PAD)
+  Source Clock:      u0/aux rising
+
+  Data Path: u1/estadoActual_FSM_FFd1 to verde
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.447   0.683  u1/estadoActual_FSM_FFd1 (u1/estadoActual_FSM_FFd1)
+     INV:I->O              1   0.206   0.579  u1/verde1_INV_0 (verde_OBUF)
+     OBUF:I->O                 2.571          verde_OBUF (verde)
+    ----------------------------------------
+    Total                      4.485ns (3.224ns logic, 1.261ns route)
+                                       (71.9% logic, 28.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.964|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0/aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u0/aux         |    1.633|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.26 secs
+ 
+--> 
+
+
+Total memory usage is 482632 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

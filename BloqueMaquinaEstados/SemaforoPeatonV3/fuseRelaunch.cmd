@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/tesFinal_isim_beh.exe" -prj "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/tesFinal_beh.prj" "work.tesFinal" 

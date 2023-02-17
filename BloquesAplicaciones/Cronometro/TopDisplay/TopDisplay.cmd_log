@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/Cronometro/TopDisplay/TopDisplay.xst" -ofn "/home/ise/OSwin7/Cronometro/TopDisplay/TopDisplay.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Cronometro/TopDisplay/TopDisplay.xst" -ofn "/home/ise/OSwin7/Cronometro/TopDisplay/TopDisplay.syr" 

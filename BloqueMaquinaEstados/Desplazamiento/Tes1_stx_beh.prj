@@ -1,0 +1,4 @@
+vhdl isim_temp "TemReb.vhd"
+vhdl isim_temp "maqEstado.vhd"
+vhdl isim_temp "SupMaquina.vhd"
+vhdl isim_temp "Tes1.vhd"

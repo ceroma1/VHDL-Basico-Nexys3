@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/Fifo_buffer/Fifo_buffer.xst" -ofn "/home/ise/OSwin7/Fifo_buffer/Fifo_buffer.syr" 

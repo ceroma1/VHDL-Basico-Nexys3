@@ -1,0 +1,526 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: RS232_RX.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RS232_RX.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RS232_RX"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : RS232_RX
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/mod_rx.vhd" into library work
+Parsing entity <mod_rx>.
+Parsing architecture <Behavioral> of entity <mod_rx>.
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/Fifo_buffer.vhd" into library work
+Parsing entity <Fifo_buffer>.
+Parsing architecture <Behavioral> of entity <fifo_buffer>.
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/Baudios.vhd" into library work
+Parsing entity <Baudios>.
+Parsing architecture <Behavioral> of entity <baudios>.
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/RS232_RX.vhd" into library work
+Parsing entity <RS232_RX>.
+Parsing architecture <Behavioral> of entity <rs232_rx>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <RS232_RX> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Baudios> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mod_rx> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Fifo_buffer> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RS232_RX>.
+    Related source file is "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/RS232_RX.vhd".
+    Summary:
+	no macro.
+Unit <RS232_RX> synthesized.
+
+Synthesizing Unit <Baudios>.
+    Related source file is "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/Baudios.vhd".
+    Found 6-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 6-bit adder for signal <cuenta[5]_GND_4_o_add_1_OUT> created at line 38.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   7 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <Baudios> synthesized.
+
+Synthesizing Unit <mod_rx>.
+    Related source file is "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/mod_rx.vhd".
+    Found 4-bit register for signal <s_reg>.
+    Found 3-bit register for signal <n_reg>.
+    Found 8-bit register for signal <b_reg>.
+    Found 2-bit register for signal <state_reg>.
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 2                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Reset              | Reset (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <n_reg[2]_GND_6_o_add_16_OUT> created at line 1241.
+    Found 4-bit adder for signal <s_reg[3]_GND_6_o_add_29_OUT> created at line 1241.
+    Found 4-bit 4-to-1 multiplexer for signal <s_next> created at line 46.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  15 D-type flip-flop(s).
+	inferred  11 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <mod_rx> synthesized.
+
+Synthesizing Unit <Fifo_buffer>.
+    Related source file is "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_RXv2/Fifo_buffer.vhd".
+    Found 1-bit register for signal <empty_reg>.
+    Found 8-bit register for signal <array_reg<14>>.
+    Found 8-bit register for signal <array_reg<13>>.
+    Found 8-bit register for signal <array_reg<12>>.
+    Found 8-bit register for signal <array_reg<11>>.
+    Found 8-bit register for signal <array_reg<10>>.
+    Found 8-bit register for signal <array_reg<9>>.
+    Found 8-bit register for signal <array_reg<8>>.
+    Found 8-bit register for signal <array_reg<7>>.
+    Found 8-bit register for signal <array_reg<6>>.
+    Found 8-bit register for signal <array_reg<5>>.
+    Found 8-bit register for signal <array_reg<4>>.
+    Found 8-bit register for signal <array_reg<3>>.
+    Found 8-bit register for signal <array_reg<2>>.
+    Found 8-bit register for signal <array_reg<1>>.
+    Found 8-bit register for signal <array_reg<0>>.
+    Found 8-bit register for signal <array_reg<15>>.
+    Found 4-bit register for signal <w_ptr_reg>.
+    Found 4-bit register for signal <r_ptr_reg>.
+    Found 1-bit register for signal <full_reg>.
+    Found 4-bit adder for signal <w_ptr_succ> created at line 1241.
+    Found 4-bit adder for signal <r_ptr_succ> created at line 1241.
+    Found 8-bit 16-to-1 multiplexer for signal <r_data> created at line 39.
+    Found 4-bit comparator not equal for signal <w_ptr_reg[3]_r_ptr_succ[3]_equal_56_o> created at line 73
+    Found 4-bit comparator not equal for signal <r_ptr_reg[3]_w_ptr_succ[3]_equal_58_o> created at line 81
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 138 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <Fifo_buffer> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 5
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 3
+ 6-bit adder                                           : 1
+# Registers                                            : 25
+ 1-bit register                                        : 3
+ 3-bit register                                        : 1
+ 4-bit register                                        : 3
+ 6-bit register                                        : 1
+ 8-bit register                                        : 17
+# Comparators                                          : 2
+ 4-bit comparator not equal                            : 2
+# Multiplexers                                         : 13
+ 1-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 7
+ 4-bit 4-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Baudios>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Baudios> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Fifo_buffer>.
+The following registers are absorbed into counter <w_ptr_reg>: 1 register on signal <w_ptr_reg>.
+The following registers are absorbed into counter <r_ptr_reg>: 1 register on signal <r_ptr_reg>.
+Unit <Fifo_buffer> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mod_rx>.
+The following registers are absorbed into counter <n_reg>: 1 register on signal <n_reg>.
+Unit <mod_rx> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 3
+# Counters                                             : 4
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 2
+ 6-bit up counter                                      : 1
+# Registers                                            : 143
+ Flip-Flops                                            : 143
+# Comparators                                          : 2
+ 4-bit comparator not equal                            : 2
+# Multiplexers                                         : 11
+ 1-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 7
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <u1/FSM_0> on signal <state_reg[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ start | 01
+ data  | 11
+ stop  | 10
+-------------------
+
+Optimizing unit <RS232_RX> ...
+
+Optimizing unit <mod_rx> ...
+
+Optimizing unit <Fifo_buffer> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RS232_RX, actual ratio is 3.
+FlipFlop u1/s_reg_3 has been replicated 1 time(s)
+FlipFlop u1/state_reg_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop u1/state_reg_FSM_FFd2 has been replicated 1 time(s)
+FlipFlop u2/full_reg has been replicated 1 time(s)
+FlipFlop u2/w_ptr_reg_1 has been replicated 4 time(s)
+FlipFlop u2/w_ptr_reg_2 has been replicated 6 time(s)
+FlipFlop u2/w_ptr_reg_3 has been replicated 4 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 180
+ Flip-Flops                                            : 180
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RS232_RX.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 383
+#      INV                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 7
+#      LUT4                        : 9
+#      LUT5                        : 19
+#      LUT6                        : 320
+#      MUXF7                       : 17
+#      MUXF8                       : 8
+# FlipFlops/Latches                : 180
+#      FDC                         : 22
+#      FDCE                        : 157
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 3
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             180  out of  18224     0%  
+ Number of Slice LUTs:                  358  out of   9112     3%  
+    Number used as Logic:               358  out of   9112     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    366
+   Number with an unused Flip Flop:     186  out of    366    50%  
+   Number with an unused LUT:             8  out of    366     2%  
+   Number of fully used LUT-FF pairs:   172  out of    366    46%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 180   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.972ns (Maximum Frequency: 251.784MHz)
+   Minimum input arrival time before clock: 4.472ns
+   Maximum output required time after clock: 5.842ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 3.972ns (frequency: 251.784MHz)
+  Total number of paths / destination ports: 2480 / 336
+-------------------------------------------------------------------------
+Delay:               3.972ns (Levels of Logic = 1)
+  Source:            u0/unseg (FF)
+  Destination:       u2/array_reg_0_7 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: u0/unseg to u2/array_reg_0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              8   0.447   1.050  u0/unseg (u0/unseg)
+     LUT4:I0->O          128   0.203   1.950  u2/wr_en1_cepot (u2/wr_en1_cepot)
+     FDCE:CE                   0.322          u2/array_reg_15_0
+    ----------------------------------------
+    Total                      3.972ns (0.972ns logic, 3.000ns route)
+                                       (24.5% logic, 75.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 220 / 213
+-------------------------------------------------------------------------
+Offset:              4.472ns (Levels of Logic = 2)
+  Source:            Reset (PAD)
+  Destination:       u0/unseg (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Reset to u0/unseg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  Reset_IBUF (Reset_IBUF)
+     INV:I->O            180   0.206   2.035  Reset_inv1_INV_0 (Reset_inv)
+     FDC:CLR                   0.430          u0/cuenta_0
+    ----------------------------------------
+    Total                      4.472ns (1.858ns logic, 2.614ns route)
+                                       (41.6% logic, 58.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 218 / 10
+-------------------------------------------------------------------------
+Offset:              5.842ns (Levels of Logic = 4)
+  Source:            u2/r_ptr_reg_0 (FF)
+  Destination:       r_Data<7> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: u2/r_ptr_reg_0 to r_Data<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             40   0.447   1.750  u2/r_ptr_reg_0 (u2/r_ptr_reg_0)
+     LUT6:I1->O            1   0.203   0.000  u2/Mmux_r_data_4 (u2/Mmux_r_data_4)
+     MUXF7:I1->O           1   0.140   0.000  u2/Mmux_r_data_3_f7 (u2/Mmux_r_data_3_f7)
+     MUXF8:I1->O           1   0.152   0.579  u2/Mmux_r_data_2_f8 (r_Data_0_OBUF)
+     OBUF:I->O                 2.571          r_Data_0_OBUF (r_Data<0>)
+    ----------------------------------------
+    Total                      5.842ns (3.513ns logic, 2.329ns route)
+                                       (60.1% logic, 39.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    3.972|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 13.09 secs
+ 
+--> 
+
+
+Total memory usage is 387592 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,4 @@
+vhdl isim_temp "TempReb.vhd"
+vhdl isim_temp "Maq_estadoReb.vhd"
+vhdl isim_temp "SupParaleloSerie.vhd"
+vhdl isim_temp "Tes_Superior.vhd"

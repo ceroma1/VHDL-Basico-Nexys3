@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/RS232_TX.xst" -ofn "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/RS232_TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 RS232_TX.ngc RS232_TX.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS232_TX_map.ncd RS232_TX.ngd RS232_TX.pcf 
+par -w -intstyle ise -ol high -mt off RS232_TX_map.ncd RS232_TX.ncd RS232_TX.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS232_TX.twx RS232_TX.ncd -o RS232_TX.twr RS232_TX.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 RS232_TX.ngc RS232_TX.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 RS232_TX.ngc RS232_TX.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 RS232_TX.ngc RS232_TX.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RS232_TX_map.ncd RS232_TX.ngd RS232_TX.pcf 
+par -w -intstyle ise -ol high -mt off RS232_TX_map.ncd RS232_TX.ncd RS232_TX.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RS232_TX.twx RS232_TX.ncd -o RS232_TX.twr RS232_TX.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f RS232_TX.ut RS232_TX.ncd 

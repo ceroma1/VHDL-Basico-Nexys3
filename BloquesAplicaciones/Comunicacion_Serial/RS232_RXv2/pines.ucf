@@ -1,0 +1,29 @@
+NET "clk"            LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+NET "r_Data<0>"         LOC = "U16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD0
+NET "r_Data<1>"         LOC = "V16" | IOSTANDARD = "LVCMOS33";   #Sch name = LD1
+NET "r_Data<2>"         LOC = "U15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD2
+NET "r_Data<3>"         LOC = "V15" | IOSTANDARD = "LVCMOS33";   #Sch name = LD3
+NET "r_Data<4>"         LOC = "M11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD4
+NET "r_Data<5>"         LOC = "N11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD5
+NET "r_Data<6>"         LOC = "R11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD6
+NET "r_Data<7>"         LOC = "T11" | IOSTANDARD = "LVCMOS33";   #Sch name = LD7
+
+NET "Reset"         LOC = "B8"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNS
+NET "rd_uart"       LOC = "D9"  | IOSTANDARD = "LVCMOS33";   #Sch name = BTNR  
+
+NET "LineRD_in"  LOC = "H3"  | IOSTANDARD = "LVCMOS33";   #Sch name = JC1
+NET "full"          LOC = "J6"  | IOSTANDARD = "LVCMOS33";   #Sch name = JC9
+NET "rx_empty"      LOC = "F2"  | IOSTANDARD = "LVCMOS33";   #Sch name = JC10
+
+#NET "JC<1>"          LOC = "L7"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L45P_M3A3,                      Sch name = JC2
+#NET "JC<2>"          LOC = "K6"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L45N_M3ODT,                     Sch name = JC3
+#NET "JC<3>"          LOC = "G3"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L46P_M3CLK,                     Sch name = JC4
+#NET "JC<4>"          LOC = "G1"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L46N_M3CLKN,                    Sch name = JC7
+#NET "JC<5>"          LOC = "J7"  | IOSTANDARD = "LVCMOS33";   #Bank = 3, Pin name = IO_L47P_M3A0,                      Sch name = JC8
+
+ 
+			  
+

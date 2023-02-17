@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Maq_MuxPublick/Estados_MuxPublick.xst" -ofn "/home/ise/Secuencial_Nexys3/Maq_MuxPublick/Estados_MuxPublick.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/Maq_MuxPublick/Estados_MuxPublick.xst" -ofn "/home/ise/Secuencial_Nexys3/Maq_MuxPublick/Estados_MuxPublick.syr" 

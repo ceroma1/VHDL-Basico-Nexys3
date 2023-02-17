@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV0/Estados.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV0/Estados.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV0/Estados.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV0/Estados.syr" 
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV0/Estados.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/expendeV0/Estados.syr" 

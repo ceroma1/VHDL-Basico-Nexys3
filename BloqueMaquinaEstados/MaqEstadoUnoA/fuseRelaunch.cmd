@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/Tes1_isim_beh.exe" -prj "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/Tes1_beh.prj" "work.Tes1" 

@@ -1,0 +1,620 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: SupMuxPublick.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SupMuxPublick.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SupMuxPublick"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : SupMuxPublick
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/negacion.vhd" into library work
+Parsing entity <negacion>.
+Parsing architecture <Behavioral> of entity <negacion>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/MuxUno.vhd" into library work
+Parsing entity <MuxUno>.
+Parsing architecture <Behavioral> of entity <muxuno>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/muxTres.vhd" into library work
+Parsing entity <muxTres>.
+Parsing architecture <Behavioral> of entity <muxtres>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/MuxFin.vhd" into library work
+Parsing entity <MuxFin>.
+Parsing architecture <Behavioral> of entity <muxfin>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/MuxDos.vhd" into library work
+Parsing entity <MuxDos>.
+Parsing architecture <Behavioral> of entity <muxdos>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/MuxCuatro.vhd" into library work
+Parsing entity <MuxCuatro>.
+Parsing architecture <Behavioral> of entity <muxcuatro>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/divide.vhd" into library work
+Parsing entity <divide>.
+Parsing architecture <Behavioral> of entity <divide>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/cuenta.vhd" into library work
+Parsing entity <cuenta>.
+Parsing architecture <Behavioral> of entity <cuenta>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MuxPublick/SupMuxPublick.vhd" into library work
+Parsing entity <SupMuxPublick>.
+Parsing architecture <Behavioral> of entity <supmuxpublick>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <SupMuxPublick> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cuenta> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <negacion> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MuxUno> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MuxDos> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <muxTres> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MuxCuatro> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MuxFin> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SupMuxPublick>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/SupMuxPublick.vhd".
+    Summary:
+	no macro.
+Unit <SupMuxPublick> synthesized.
+
+Synthesizing Unit <divide>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/divide.vhd".
+    Found 1-bit register for signal <unseg>.
+    Found 1-bit register for signal <aux>.
+    Found 18-bit register for signal <cuenta>.
+    Found 18-bit adder for signal <cuenta[17]_GND_4_o_add_1_OUT> created at line 35.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+Unit <divide> synthesized.
+
+Synthesizing Unit <cuenta>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/cuenta.vhd".
+    Found 3-bit register for signal <cuenta>.
+    Found 3-bit adder for signal <cuenta[2]_GND_7_o_add_1_OUT> created at line 24.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <cuenta> synthesized.
+
+Synthesizing Unit <negacion>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/negacion.vhd".
+    Found 8x4-bit Read Only RAM for signal <anodo>
+    Summary:
+	inferred   1 RAM(s).
+Unit <negacion> synthesized.
+
+Synthesizing Unit <MuxUno>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/MuxUno.vhd".
+    Found 8x7-bit Read Only RAM for signal <Fout>
+    Summary:
+	inferred   1 RAM(s).
+Unit <MuxUno> synthesized.
+
+Synthesizing Unit <MuxDos>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/MuxDos.vhd".
+    Found 8x7-bit Read Only RAM for signal <fout>
+    Summary:
+	inferred   1 RAM(s).
+Unit <MuxDos> synthesized.
+
+Synthesizing Unit <muxTres>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/muxTres.vhd".
+    Found 8x7-bit Read Only RAM for signal <fout>
+    Summary:
+	inferred   1 RAM(s).
+Unit <muxTres> synthesized.
+
+Synthesizing Unit <MuxCuatro>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/MuxCuatro.vhd".
+    Found 8x7-bit Read Only RAM for signal <fout>
+    Summary:
+	inferred   1 RAM(s).
+Unit <MuxCuatro> synthesized.
+
+Synthesizing Unit <MuxFin>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MuxPublick/MuxFin.vhd".
+    Found 7-bit 7-to-1 multiplexer for signal <dato_fout> created at line 17.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MuxFin> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 8x4-bit single-port Read Only RAM                     : 1
+ 8x7-bit single-port Read Only RAM                     : 4
+# Adders/Subtractors                                   : 2
+ 18-bit adder                                          : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 18-bit register                                       : 1
+ 3-bit register                                        : 1
+# Multiplexers                                         : 2
+ 3-bit 2-to-1 multiplexer                              : 1
+ 7-bit 7-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <MuxCuatro>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_fout> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <fout>          |          |
+    -----------------------------------------------------------------------
+Unit <MuxCuatro> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MuxDos>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_fout> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <fout>          |          |
+    -----------------------------------------------------------------------
+Unit <MuxDos> synthesized (advanced).
+
+Synthesizing (advanced) Unit <MuxUno>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Fout> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Fout>          |          |
+    -----------------------------------------------------------------------
+Unit <MuxUno> synthesized (advanced).
+
+Synthesizing (advanced) Unit <cuenta>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <cuenta> synthesized (advanced).
+
+Synthesizing (advanced) Unit <divide>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <divide> synthesized (advanced).
+
+Synthesizing (advanced) Unit <muxTres>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_fout> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <fout>          |          |
+    -----------------------------------------------------------------------
+Unit <muxTres> synthesized (advanced).
+
+Synthesizing (advanced) Unit <negacion>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_anodo> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <btn>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <anodo>         |          |
+    -----------------------------------------------------------------------
+Unit <negacion> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 8x4-bit single-port distributed Read Only RAM         : 1
+ 8x7-bit single-port distributed Read Only RAM         : 4
+# Counters                                             : 2
+ 18-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Multiplexers                                         : 1
+ 7-bit 7-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SupMuxPublick> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SupMuxPublick, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SupMuxPublick.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 92
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 17
+#      LUT2                        : 2
+#      LUT3                        : 5
+#      LUT5                        : 3
+#      LUT6                        : 26
+#      MUXCY                       : 17
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 23
+#      FD                          : 20
+#      FDC                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 4
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              23  out of  18224     0%  
+ Number of Slice LUTs:                   55  out of   9112     0%  
+    Number used as Logic:                55  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     55
+   Number with an unused Flip Flop:      32  out of     55    58%  
+   Number with an unused LUT:             0  out of     55     0%  
+   Number of fully used LUT-FF pairs:    23  out of     55    41%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 20    |
+U0/aux                             | NONE(u1/cuenta_0)      | 3     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.235ns (Maximum Frequency: 309.095MHz)
+   Minimum input arrival time before clock: 2.302ns
+   Maximum output required time after clock: 5.077ns
+   Maximum combinational path delay: 5.713ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.235ns (frequency: 309.095MHz)
+  Total number of paths / destination ports: 515 / 20
+-------------------------------------------------------------------------
+Delay:               3.235ns (Levels of Logic = 2)
+  Source:            U0/cuenta_12 (FF)
+  Destination:       U0/cuenta_6 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: U0/cuenta_12 to U0/cuenta_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.961  U0/cuenta_12 (U0/cuenta_12)
+     LUT5:I0->O           19   0.203   1.319  U0/PWR_4_o_cuenta[17]_equal_1_o<17>3 (U0/PWR_4_o_cuenta[17]_equal_1_o<17>2)
+     LUT6:I2->O            1   0.203   0.000  U0/cuenta_6_rstpot (U0/cuenta_6_rstpot)
+     FD:D                      0.102          U0/cuenta_6
+    ----------------------------------------
+    Total                      3.235ns (0.955ns logic, 2.280ns route)
+                                       (29.5% logic, 70.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'U0/aux'
+  Clock period: 2.291ns (frequency: 436.500MHz)
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Delay:               2.291ns (Levels of Logic = 1)
+  Source:            u1/cuenta_0 (FF)
+  Destination:       u1/cuenta_0 (FF)
+  Source Clock:      U0/aux rising
+  Destination Clock: U0/aux rising
+
+  Data Path: u1/cuenta_0 to u1/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             14   0.447   0.957  u1/cuenta_0 (u1/cuenta_0)
+     INV:I->O              1   0.206   0.579  u1/Mcount_cuenta_xor<0>11_INV_0 (u1/Mcount_cuenta)
+     FDC:D                     0.102          u1/cuenta_0
+    ----------------------------------------
+    Total                      2.291ns (0.755ns logic, 1.536ns route)
+                                       (33.0% logic, 67.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'U0/aux'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.302ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u1/cuenta_0 (FF)
+  Destination Clock: U0/aux rising
+
+  Data Path: reset to u1/cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.650  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          u1/cuenta_0
+    ----------------------------------------
+    Total                      2.302ns (1.652ns logic, 0.650ns route)
+                                       (71.8% logic, 28.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'U0/aux'
+  Total number of paths / destination ports: 33 / 11
+-------------------------------------------------------------------------
+Offset:              5.077ns (Levels of Logic = 2)
+  Source:            u1/cuenta_1 (FF)
+  Destination:       seg<4> (PAD)
+  Source Clock:      U0/aux rising
+
+  Data Path: u1/cuenta_1 to seg<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             13   0.447   1.277  u1/cuenta_1 (u1/cuenta_1)
+     LUT6:I1->O            1   0.203   0.579  u7/Mmux_dato_fout41 (seg_3_OBUF)
+     OBUF:I->O                 2.571          seg_3_OBUF (seg<3>)
+    ----------------------------------------
+    Total                      5.077ns (3.221ns logic, 1.856ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 21 / 7
+-------------------------------------------------------------------------
+Delay:               5.713ns (Levels of Logic = 3)
+  Source:            sel_dato<2> (PAD)
+  Destination:       seg<6> (PAD)
+
+  Data Path: sel_dato<2> to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.222   1.138  sel_dato_2_IBUF (sel_dato_2_IBUF)
+     LUT6:I0->O            1   0.203   0.579  u7/Mmux_dato_fout71 (seg_6_OBUF)
+     OBUF:I->O                 2.571          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                      5.713ns (3.996ns logic, 1.717ns route)
+                                       (70.0% logic, 30.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock U0/aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+U0/aux         |    2.291|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.235|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.27 secs
+ 
+--> 
+
+
+Total memory usage is 483936 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

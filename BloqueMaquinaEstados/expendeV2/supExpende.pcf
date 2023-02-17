@@ -1,0 +1,79 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Tue May 31 09:43:08 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "reset" LOCATE = SITE "C9" LEVEL 1;
+COMP "vende" LOCATE = SITE "U16" LEVEL 1;
+COMP "Int_10" LOCATE = SITE "C4" LEVEL 1;
+COMP "Int_20" LOCATE = SITE "B8" LEVEL 1;
+COMP "Int_50" LOCATE = SITE "D9" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "u4/u5/aux" BEL "u4/u5/unseg" BEL
+        "u2/u0/estadoActual_FSM_FFd2" BEL "u0/u0/estadoActual_FSM_FFd1" BEL
+        "u2/u0/estadoActual_FSM_FFd1" BEL "u0/u0/estadoActual_FSM_FFd2" BEL
+        "u1/u0/estadoActual_FSM_FFd2" BEL "u1/u0/estadoActual_FSM_FFd1" BEL
+        "u3/estadoActual_FSM_FFd4" BEL "u3/estadoActual_FSM_FFd3" BEL
+        "u3/estadoActual_FSM_FFd2" BEL "u3/estadoActual_FSM_FFd1" BEL
+        "u0/u1/cuenta_24" BEL "u0/u1/cuenta_23" BEL "u0/u1/cuenta_22" BEL
+        "u0/u1/cuenta_21" BEL "u0/u1/cuenta_20" BEL "u0/u1/cuenta_19" BEL
+        "u0/u1/cuenta_18" BEL "u0/u1/cuenta_17" BEL "u0/u1/cuenta_16" BEL
+        "u0/u1/cuenta_15" BEL "u0/u1/cuenta_14" BEL "u0/u1/cuenta_13" BEL
+        "u0/u1/cuenta_12" BEL "u0/u1/cuenta_11" BEL "u0/u1/cuenta_10" BEL
+        "u0/u1/cuenta_9" BEL "u0/u1/cuenta_8" BEL "u0/u1/cuenta_7" BEL
+        "u0/u1/cuenta_6" BEL "u0/u1/cuenta_5" BEL "u0/u1/cuenta_4" BEL
+        "u0/u1/cuenta_3" BEL "u0/u1/cuenta_2" BEL "u0/u1/cuenta_1" BEL
+        "u0/u1/cuenta_0" BEL "u0/u1/unseg" BEL "u1/u1/cuenta_24" BEL
+        "u1/u1/cuenta_23" BEL "u1/u1/cuenta_22" BEL "u1/u1/cuenta_21" BEL
+        "u1/u1/cuenta_20" BEL "u1/u1/cuenta_19" BEL "u1/u1/cuenta_18" BEL
+        "u1/u1/cuenta_17" BEL "u1/u1/cuenta_16" BEL "u1/u1/cuenta_15" BEL
+        "u1/u1/cuenta_14" BEL "u1/u1/cuenta_13" BEL "u1/u1/cuenta_12" BEL
+        "u1/u1/cuenta_11" BEL "u1/u1/cuenta_10" BEL "u1/u1/cuenta_9" BEL
+        "u1/u1/cuenta_8" BEL "u1/u1/cuenta_7" BEL "u1/u1/cuenta_6" BEL
+        "u1/u1/cuenta_5" BEL "u1/u1/cuenta_4" BEL "u1/u1/cuenta_3" BEL
+        "u1/u1/cuenta_2" BEL "u1/u1/cuenta_1" BEL "u1/u1/cuenta_0" BEL
+        "u1/u1/unseg" BEL "u2/u1/cuenta_24" BEL "u2/u1/cuenta_23" BEL
+        "u2/u1/cuenta_22" BEL "u2/u1/cuenta_21" BEL "u2/u1/cuenta_20" BEL
+        "u2/u1/cuenta_19" BEL "u2/u1/cuenta_18" BEL "u2/u1/cuenta_17" BEL
+        "u2/u1/cuenta_16" BEL "u2/u1/cuenta_15" BEL "u2/u1/cuenta_14" BEL
+        "u2/u1/cuenta_13" BEL "u2/u1/cuenta_12" BEL "u2/u1/cuenta_11" BEL
+        "u2/u1/cuenta_10" BEL "u2/u1/cuenta_9" BEL "u2/u1/cuenta_8" BEL
+        "u2/u1/cuenta_7" BEL "u2/u1/cuenta_6" BEL "u2/u1/cuenta_5" BEL
+        "u2/u1/cuenta_4" BEL "u2/u1/cuenta_3" BEL "u2/u1/cuenta_2" BEL
+        "u2/u1/cuenta_1" BEL "u2/u1/cuenta_0" BEL "u2/u1/unseg" BEL
+        "u5/cuenta_27" BEL "u5/cuenta_26" BEL "u5/cuenta_25" BEL
+        "u5/cuenta_24" BEL "u5/cuenta_23" BEL "u5/cuenta_22" BEL
+        "u5/cuenta_21" BEL "u5/cuenta_20" BEL "u5/cuenta_19" BEL
+        "u5/cuenta_18" BEL "u5/cuenta_17" BEL "u5/cuenta_16" BEL
+        "u5/cuenta_15" BEL "u5/cuenta_14" BEL "u5/cuenta_13" BEL
+        "u5/cuenta_12" BEL "u5/cuenta_11" BEL "u5/cuenta_10" BEL "u5/cuenta_9"
+        BEL "u5/cuenta_8" BEL "u5/cuenta_7" BEL "u5/cuenta_6" BEL
+        "u5/cuenta_5" BEL "u5/cuenta_4" BEL "u5/cuenta_3" BEL "u5/cuenta_2"
+        BEL "u5/cuenta_1" BEL "u5/cuenta_0" BEL "u5/unseg" BEL
+        "u3/estadoActual_FSM_FFd1_1" BEL "u1/u0/estadoActual_FSM_FFd2_1" BEL
+        "u0/u0/estadoActual_FSM_FFd2_1" BEL "u0/u0/estadoActual_FSM_FFd1_1"
+        BEL "u2/u0/estadoActual_FSM_FFd2_1" BEL
+        "u2/u0/estadoActual_FSM_FFd1_1" BEL "u3/estadoActual_FSM_FFd2_1" BEL
+        "u3/estadoActual_FSM_FFd1_2" BEL "u3/estadoActual_FSM_FFd4_1" BEL
+        "u3/estadoActual_FSM_FFd3_1" BEL "u4/u5/cuenta_0" BEL "u4/u5/cuenta_1"
+        BEL "u4/u5/cuenta_2" BEL "u4/u5/cuenta_3" BEL "u4/u5/cuenta_4" BEL
+        "u4/u5/cuenta_5" BEL "u4/u5/cuenta_6" BEL "u4/u5/cuenta_7" BEL
+        "u4/u5/cuenta_8" BEL "u4/u5/cuenta_9" BEL "u4/u5/cuenta_10" BEL
+        "u4/u5/cuenta_11" BEL "u4/u5/cuenta_12" BEL "u4/u5/cuenta_13" BEL
+        "u4/u5/cuenta_14" BEL "u4/u5/cuenta_15" BEL "u4/u5/cuenta_16" BEL
+        "u4/u5/cuenta_17" BEL "u3/estadoActual_FSM_FFd1_3" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

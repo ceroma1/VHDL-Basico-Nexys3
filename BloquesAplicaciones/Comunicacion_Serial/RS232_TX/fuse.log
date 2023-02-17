@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/tes_rs232tx_isim_beh.exe -prj /home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/tes_rs232tx_beh.prj work.tes_rs232tx 
+ISim P.20160913 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/mod_tx.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/Baudios_tx.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/RS232_TX.vhd" into library work
+Parsing VHDL file "/home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/tes_rs232tx.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96836 KB
+Fuse CPU Usage: 1160 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Baudios_tx [baudios_tx_default]
+Compiling architecture behavioral of entity mod_tx [mod_tx_default]
+Compiling architecture behavioral of entity RS232_TX [rs232_tx_default]
+Compiling architecture behavior of entity tes_rs232tx
+Time Resolution for simulation is 1ps.
+Compiled 10 VHDL Units
+Built simulation executable /home/ise/Codigos_VHDL/Comunicacion_Serial/RS232_TX/tes_rs232tx_isim_beh.exe
+Fuse Memory Usage: 111592 KB
+Fuse CPU Usage: 1360 ms
+GCC CPU Usage: 400 ms

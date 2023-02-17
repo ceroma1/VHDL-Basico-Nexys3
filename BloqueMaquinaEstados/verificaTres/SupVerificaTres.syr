@@ -1,0 +1,715 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: SupVerificaTres.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SupVerificaTres.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SupVerificaTres"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : SupVerificaTres
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Temporizador.vhd" into library work
+Parsing entity <Temporizador>.
+Parsing architecture <Behavioral> of entity <temporizador>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/negacion.vhd" into library work
+Parsing entity <negacion>.
+Parsing architecture <Behavioral> of entity <negacion>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/mux4a1.vhd" into library work
+Parsing entity <mux4a1>.
+Parsing architecture <Behavioral> of entity <mux4a1>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Modulo_BinBcd.vhd" into library work
+Parsing entity <Modulo_BinBcd>.
+Parsing architecture <Behavioral> of entity <modulo_binbcd>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Maq_Estado.vhd" into library work
+Parsing entity <Maq_Estado>.
+Parsing architecture <Behavioral> of entity <maq_estado>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/divide.vhd" into library work
+Parsing entity <divide>.
+Parsing architecture <Behavioral> of entity <divide>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/display.vhd" into library work
+Parsing entity <display>.
+Parsing architecture <Behavioral> of entity <display>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/cuenta.vhd" into library work
+Parsing entity <cuenta>.
+Parsing architecture <Behavioral> of entity <cuenta>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupReboteTemporizado.vhd" into library work
+Parsing entity <SupReboteTemporizado>.
+Parsing architecture <Behavioral> of entity <suprebotetemporizado>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SuperiorBinarioDecimal.vhd" into library work
+Parsing entity <SuperiorBinarioDecimal>.
+Parsing architecture <Behavioral> of entity <superiorbinariodecimal>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/cuenta2.vhd" into library work
+Parsing entity <cuenta2>.
+Parsing architecture <Behavioral> of entity <cuenta2>.
+Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.vhd" into library work
+Parsing entity <SupVerificaTres>.
+Parsing architecture <Behavioral> of entity <supverificatres>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <SupVerificaTres> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SupReboteTemporizado> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Maq_Estado> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Temporizador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cuenta2> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SuperiorBinarioDecimal> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Modulo_BinBcd> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux4a1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <display> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cuenta> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <negacion> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SupVerificaTres>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.vhd".
+    Summary:
+	no macro.
+Unit <SupVerificaTres> synthesized.
+
+Synthesizing Unit <SupReboteTemporizado>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupReboteTemporizado.vhd".
+    Summary:
+	no macro.
+Unit <SupReboteTemporizado> synthesized.
+
+Synthesizing Unit <Maq_Estado>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Maq_Estado.vhd".
+    Found 2-bit register for signal <estadoActual>.
+    Found finite state machine <FSM_0> for signal <estadoActual>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Maq_Estado> synthesized.
+
+Synthesizing Unit <Temporizador>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Temporizador.vhd".
+    Found 25-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 25-bit adder for signal <cuenta[24]_GND_6_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <Temporizador> synthesized.
+
+Synthesizing Unit <cuenta2>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/cuenta2.vhd".
+    Found 8-bit register for signal <cuenta>.
+    Found 8-bit adder for signal <cuenta[7]_GND_9_o_add_0_OUT> created at line 21.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <cuenta2> synthesized.
+
+Synthesizing Unit <SuperiorBinarioDecimal>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SuperiorBinarioDecimal.vhd".
+    Summary:
+	no macro.
+Unit <SuperiorBinarioDecimal> synthesized.
+
+Synthesizing Unit <Modulo_BinBcd>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Modulo_BinBcd.vhd".
+    Found 4-bit adder for signal <GND_11_o_GND_11_o_add_1_OUT> created at line 24.
+    Found 4-bit adder for signal <B[7]_GND_11_o_add_3_OUT> created at line 24.
+    Found 4-bit adder for signal <B[6]_GND_11_o_add_5_OUT> created at line 24.
+    Found 4-bit adder for signal <B[5]_GND_11_o_add_7_OUT> created at line 24.
+    Found 4-bit adder for signal <GND_11_o_GND_11_o_add_9_OUT> created at line 27.
+    Found 4-bit adder for signal <B[4]_GND_11_o_add_11_OUT> created at line 24.
+    Found 4-bit adder for signal <GND_11_o_GND_11_o_add_13_OUT> created at line 27.
+    Found 3-bit comparator greater for signal <PWR_11_o_B[7]_LessThan_1_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_11_o_B[7]_LessThan_3_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_11_o_B[6]_LessThan_5_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_11_o_B[5]_LessThan_7_o> created at line 23
+    Found 3-bit comparator greater for signal <PWR_11_o_GND_11_o_LessThan_9_o> created at line 26
+    Found 4-bit comparator greater for signal <GND_11_o_B[4]_LessThan_11_o> created at line 23
+    Found 4-bit comparator greater for signal <GND_11_o_GND_11_o_LessThan_13_o> created at line 26
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  28 Multiplexer(s).
+Unit <Modulo_BinBcd> synthesized.
+
+Synthesizing Unit <mux4a1>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/mux4a1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <fout> created at line 17.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux4a1> synthesized.
+
+Synthesizing Unit <display>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/display.vhd".
+    Found 16x7-bit Read Only RAM for signal <segmento>
+    Summary:
+	inferred   1 RAM(s).
+Unit <display> synthesized.
+
+Synthesizing Unit <cuenta>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/cuenta.vhd".
+    Found 2-bit register for signal <cuenta>.
+    Found 2-bit adder for signal <cuenta[1]_GND_14_o_add_1_OUT> created at line 24.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <cuenta> synthesized.
+
+Synthesizing Unit <negacion>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/negacion.vhd".
+    Found 4x4-bit Read Only RAM for signal <anodo>
+    Summary:
+	inferred   1 RAM(s).
+Unit <negacion> synthesized.
+
+Synthesizing Unit <divide>.
+    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/divide.vhd".
+    Found 1-bit register for signal <unseg>.
+    Found 1-bit register for signal <aux>.
+    Found 18-bit register for signal <cuenta>.
+    Found 18-bit adder for signal <cuenta[17]_GND_17_o_add_1_OUT> created at line 35.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+Unit <divide> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port Read Only RAM                    : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 11
+ 18-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 25-bit adder                                          : 1
+ 4-bit adder                                           : 7
+ 8-bit adder                                           : 1
+# Registers                                            : 7
+ 1-bit register                                        : 3
+ 18-bit register                                       : 1
+ 2-bit register                                        : 1
+ 25-bit register                                       : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 7
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 5
+# Multiplexers                                         : 33
+ 1-bit 2-to-1 multiplexer                              : 29
+ 2-bit 2-to-1 multiplexer                              : 1
+ 25-bit 2-to-1 multiplexer                             : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <cuenta2>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <cuenta2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <display>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_segmento> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <digito>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <segmento>      |          |
+    -----------------------------------------------------------------------
+Unit <display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <divide>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <divide> synthesized (advanced).
+
+Synthesizing (advanced) Unit <negacion>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_anodo> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <btn>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <anodo>         |          |
+    -----------------------------------------------------------------------
+Unit <negacion> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 9
+ 2-bit adder                                           : 1
+ 25-bit adder                                          : 1
+ 4-bit adder                                           : 7
+# Counters                                             : 2
+ 18-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+# Comparators                                          : 7
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 5
+# Multiplexers                                         : 32
+ 1-bit 2-to-1 multiplexer                              : 29
+ 25-bit 2-to-1 multiplexer                             : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <estadoActual[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ s0    | 01
+ s1    | 11
+ s2    | 10
+-------------------
+
+Optimizing unit <SupVerificaTres> ...
+
+Optimizing unit <Temporizador> ...
+
+Optimizing unit <Modulo_BinBcd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SupVerificaTres, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 58
+ Flip-Flops                                            : 58
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SupVerificaTres.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 251
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 48
+#      LUT2                        : 25
+#      LUT3                        : 1
+#      LUT4                        : 37
+#      LUT5                        : 10
+#      LUT6                        : 23
+#      MUXCY                       : 48
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 51
+# FlipFlops/Latches                : 58
+#      FD                          : 19
+#      FDC                         : 28
+#      FDCE                        : 8
+#      FDE                         : 1
+#      FDP                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              58  out of  18224     0%  
+ Number of Slice LUTs:                  148  out of   9112     1%  
+    Number used as Logic:               148  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    148
+   Number with an unused Flip Flop:      90  out of    148    60%  
+   Number with an unused LUT:             0  out of    148     0%  
+   Number of fully used LUT-FF pairs:    58  out of    148    39%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 56    |
+u2/u5/aux                          | NONE(u2/u3/cuenta_1)   | 2     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.973ns (Maximum Frequency: 251.702MHz)
+   Minimum input arrival time before clock: 3.028ns
+   Maximum output required time after clock: 9.878ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.973ns (frequency: 251.702MHz)
+  Total number of paths / destination ports: 1599 / 65
+-------------------------------------------------------------------------
+Delay:               3.973ns (Levels of Logic = 3)
+  Source:            uo/u1/cuenta_12 (FF)
+  Destination:       uo/u1/cuenta_24 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: uo/u1/cuenta_12 to uo/u1/cuenta_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  uo/u1/cuenta_12 (uo/u1/cuenta_12)
+     LUT6:I0->O            3   0.203   0.898  uo/u1/PWR_6_o_cuenta[24]_equal_1_o<24>4 (uo/u1/PWR_6_o_cuenta[24]_equal_1_o<24>3)
+     LUT5:I1->O           13   0.203   0.933  uo/u1/PWR_6_o_cuenta[24]_equal_1_o<24>5 (uo/u1/PWR_6_o_cuenta[24]_equal_1_o)
+     LUT4:I3->O            1   0.205   0.000  uo/u1/Mmux_cuenta[24]_GND_6_o_mux_3_OUT171 (uo/u1/cuenta[24]_GND_6_o_mux_3_OUT<24>)
+     FDC:D                     0.102          uo/u1/cuenta_24
+    ----------------------------------------
+    Total                      3.973ns (1.160ns logic, 2.813ns route)
+                                       (29.2% logic, 70.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u2/u5/aux'
+  Clock period: 1.789ns (frequency: 558.831MHz)
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Delay:               1.789ns (Levels of Logic = 1)
+  Source:            u2/u3/cuenta_1 (FF)
+  Destination:       u2/u3/cuenta_1 (FF)
+  Source Clock:      u2/u5/aux rising
+  Destination Clock: u2/u5/aux rising
+
+  Data Path: u2/u3/cuenta_1 to u2/u3/cuenta_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q             13   0.447   1.037  u2/u3/cuenta_1 (u2/u3/cuenta_1)
+     LUT2:I0->O            2   0.203   0.000  u2/u3/Mmux_cuenta[1]_GND_14_o_mux_2_OUT11 (u2/u1/Mmux_fout43)
+     FDP:D                     0.102          u2/u3/cuenta_0
+    ----------------------------------------
+    Total                      1.789ns (0.752ns logic, 1.037ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u2/u5/aux'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.028ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       u2/u3/cuenta_1 (FF)
+  Destination Clock: u2/u5/aux rising
+
+  Data Path: reset to u2/u3/cuenta_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            38   1.222   1.376  reset_IBUF (reset_IBUF)
+     FDP:PRE                   0.430          u2/u3/cuenta_0
+    ----------------------------------------
+    Total                      3.028ns (1.652ns logic, 1.376ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 38 / 38
+-------------------------------------------------------------------------
+Offset:              3.028ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       uo/u0/estadoActual_FSM_FFd2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to uo/u0/estadoActual_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            38   1.222   1.376  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          uo/u0/estadoActual_FSM_FFd2
+    ----------------------------------------
+    Total                      3.028ns (1.652ns logic, 1.376ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u2/u5/aux'
+  Total number of paths / destination ports: 104 / 10
+-------------------------------------------------------------------------
+Offset:              7.245ns (Levels of Logic = 4)
+  Source:            u2/u3/cuenta_1 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      u2/u5/aux rising
+
+  Data Path: u2/u3/cuenta_1 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q             13   0.447   1.037  u2/u3/cuenta_1 (u2/u3/cuenta_1)
+     LUT2:I0->O            2   0.203   0.981  u2/u3/Mmux_cuenta[1]_GND_14_o_mux_2_OUT11 (u2/u1/Mmux_fout43)
+     LUT6:I0->O            7   0.203   1.021  u2/u1/Mmux_fout48 (u2/sg3<3>)
+     LUT4:I0->O            1   0.203   0.579  u2/u2/Mram_segmento61 (seg_6_OBUF)
+     OBUF:I->O                 2.571          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                      7.245ns (3.627ns logic, 3.618ns route)
+                                       (50.1% logic, 49.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2646 / 7
+-------------------------------------------------------------------------
+Offset:              9.878ns (Levels of Logic = 7)
+  Source:            u1/cuenta_4 (FF)
+  Destination:       seg<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: u1/cuenta_4 to seg<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            12   0.447   1.253  u1/cuenta_4 (u1/cuenta_4)
+     LUT5:I0->O           10   0.203   1.201  u2/u0/Mmux_B[5]_B[6]_MUX_56_o11 (u2/u0/Madd_B[5]_GND_11_o_add_7_OUT_lut<3>)
+     LUT5:I0->O            5   0.203   1.079  u2/u0/Mmux_B[5]_B[5]_MUX_59_o11 (u2/u0/Madd_GND_11_o_GND_11_o_add_13_OUT_cy<0>)
+     LUT6:I0->O            1   0.203   0.000  u2/u1/Mmux_fout24_F (N9)
+     MUXF7:I0->O           1   0.131   0.580  u2/u1/Mmux_fout24 (u2/u1/Mmux_fout23)
+     LUT6:I5->O            7   0.205   1.021  u2/u1/Mmux_fout25 (u2/sg3<1>)
+     LUT4:I0->O            1   0.203   0.579  u2/u2/Mram_segmento51 (seg_5_OBUF)
+     OBUF:I->O                 2.571          seg_5_OBUF (seg<5>)
+    ----------------------------------------
+    Total                      9.878ns (4.166ns logic, 5.712ns route)
+                                       (42.2% logic, 57.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.973|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u2/u5/aux
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u2/u5/aux      |    1.789|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.54 secs
+ 
+--> 
+
+
+Total memory usage is 485312 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

@@ -1,0 +1,401 @@
+Release 14.7 - xst P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: Enable10hz.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Enable10hz.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Enable10hz"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Enable10hz
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/OSwin7/Cronometro/Enable10hz/Enable10hz.vhd" into library work
+Parsing entity <Enable10hz>.
+Parsing architecture <Behavioral> of entity <enable10hz>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Enable10hz> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Enable10hz>.
+    Related source file is "/home/ise/OSwin7/Cronometro/Enable10hz/Enable10hz.vhd".
+    Found 19-bit register for signal <cuenta>.
+    Found 1-bit register for signal <unseg>.
+    Found 19-bit adder for signal <cuenta[18]_GND_3_o_add_1_OUT> created at line 37.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Enable10hz> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 19-bit adder                                          : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 19-bit register                                       : 1
+# Multiplexers                                         : 2
+ 1-bit 2-to-1 multiplexer                              : 1
+ 19-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Enable10hz>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Enable10hz> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 19-bit up counter                                     : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Multiplexers                                         : 1
+ 1-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Enable10hz> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Enable10hz, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Enable10hz.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 85
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 18
+#      LUT5                        : 2
+#      LUT6                        : 24
+#      MUXCY                       : 18
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 20
+#      FDC                         : 1
+#      FDCE                        : 19
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 3
+#      IBUF                        : 2
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              20  out of  18224     0%  
+ Number of Slice LUTs:                   46  out of   9112     0%  
+    Number used as Logic:                46  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     46
+   Number with an unused Flip Flop:      26  out of     46    56%  
+   Number with an unused LUT:             0  out of     46     0%  
+   Number of fully used LUT-FF pairs:    20  out of     46    43%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                           4
+ Number of bonded IOBs:                   4  out of    232     1%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.252ns (Maximum Frequency: 307.550MHz)
+   Minimum input arrival time before clock: 3.437ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.252ns (frequency: 307.550MHz)
+  Total number of paths / destination ports: 570 / 20
+-------------------------------------------------------------------------
+Delay:               3.252ns (Levels of Logic = 17)
+  Source:            cuenta_4 (FF)
+  Destination:       cuenta_18 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cuenta_4 to cuenta_18
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            21   0.447   1.114  cuenta_4 (cuenta_4)
+     LUT1:I0->O            1   0.205   0.000  Mcount_cuenta_cy<4>_rt (Mcount_cuenta_cy<4>_rt)
+     MUXCY:S->O            1   0.172   0.000  Mcount_cuenta_cy<4> (Mcount_cuenta_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<5> (Mcount_cuenta_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<6> (Mcount_cuenta_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<7> (Mcount_cuenta_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<8> (Mcount_cuenta_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<9> (Mcount_cuenta_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<10> (Mcount_cuenta_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<11> (Mcount_cuenta_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<12> (Mcount_cuenta_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<13> (Mcount_cuenta_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<14> (Mcount_cuenta_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<15> (Mcount_cuenta_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_cuenta_cy<16> (Mcount_cuenta_cy<16>)
+     MUXCY:CI->O           0   0.019   0.000  Mcount_cuenta_cy<17> (Mcount_cuenta_cy<17>)
+     XORCY:CI->O           1   0.180   0.580  Mcount_cuenta_xor<18> (Result<18>)
+     LUT6:I5->O            1   0.205   0.000  Mcount_cuenta_eqn_181 (Mcount_cuenta_eqn_18)
+     FDCE:D                    0.102          cuenta_18
+    ----------------------------------------
+    Total                      3.252ns (1.558ns logic, 1.694ns route)
+                                       (47.9% logic, 52.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 40 / 40
+-------------------------------------------------------------------------
+Offset:              3.437ns (Levels of Logic = 2)
+  Source:            CE (PAD)
+  Destination:       cuenta_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: CE to cuenta_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.616  CE_IBUF (CE_IBUF)
+     INV:I->O             19   0.206   1.071  CE_inv1_INV_0 (CE_inv)
+     FDCE:CE                   0.322          cuenta_0
+    ----------------------------------------
+    Total                      3.437ns (1.750ns logic, 1.687ns route)
+                                       (50.9% logic, 49.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            unseg (FF)
+  Destination:       Fout10hz (PAD)
+  Source Clock:      clk rising
+
+  Data Path: unseg to Fout10hz
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  unseg (unseg)
+     OBUF:I->O                 2.571          Fout10hz_OBUF (Fout10hz)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.252|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.51 secs
+ 
+--> 
+
+
+Total memory usage is 385284 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

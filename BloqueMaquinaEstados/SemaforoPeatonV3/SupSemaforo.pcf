@@ -1,0 +1,44 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Fri Nov 04 20:24:28 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "Boton" LOCATE = SITE "D9" LEVEL 1;
+COMP "verde" LOCATE = SITE "U16" LEVEL 1;
+COMP "amarillo" LOCATE = SITE "M11" LEVEL 1;
+COMP "rojo" LOCATE = SITE "T11" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "u0/aux" BEL "u0/unseg" BEL
+        "u2/estadoActual_FSM_FFd3" BEL "u2/estadoActual_FSM_FFd2" BEL
+        "u2/estadoActual_FSM_FFd1" BEL "u0/cuenta_0" BEL "u0/cuenta_1" BEL
+        "u0/cuenta_2" BEL "u0/cuenta_3" BEL "u0/cuenta_4" BEL "u0/cuenta_5"
+        BEL "u0/cuenta_6" BEL "u0/cuenta_7" BEL "u0/cuenta_8" BEL
+        "u0/cuenta_9" BEL "u0/cuenta_10" BEL "u0/cuenta_11" BEL "u0/cuenta_12"
+        BEL "u0/cuenta_13" BEL "u0/cuenta_14" BEL "u0/cuenta_15" BEL
+        "u0/cuenta_16" BEL "u0/cuenta_17" BEL "u0/cuenta_18" BEL
+        "u0/cuenta_19" BEL "u0/cuenta_20" BEL "u0/cuenta_21" BEL
+        "u0/cuenta_22" BEL "u0/cuenta_23" BEL "u0/cuenta_24" BEL
+        "u0/cuenta_25" BEL "u3/cuenta_27" BEL "u3/cuenta_26" BEL
+        "u3/cuenta_25" BEL "u3/cuenta_24" BEL "u3/cuenta_23" BEL
+        "u3/cuenta_22" BEL "u3/cuenta_21" BEL "u3/cuenta_20" BEL
+        "u3/cuenta_19" BEL "u3/cuenta_18" BEL "u3/cuenta_17" BEL
+        "u3/cuenta_16" BEL "u3/cuenta_15" BEL "u3/cuenta_14" BEL
+        "u3/cuenta_13" BEL "u3/cuenta_12" BEL "u3/cuenta_11" BEL
+        "u3/cuenta_10" BEL "u3/cuenta_9" BEL "u3/cuenta_8" BEL "u3/cuenta_7"
+        BEL "u3/cuenta_6" BEL "u3/cuenta_5" BEL "u3/cuenta_4" BEL
+        "u3/cuenta_3" BEL "u3/cuenta_2" BEL "u3/cuenta_1" BEL "u3/cuenta_0"
+        BEL "u3/unseg" BEL "u4/cuenta_29" BEL "u4/cuenta_28" BEL
+        "u4/cuenta_27" BEL "u4/cuenta_26" BEL "u4/cuenta_25" BEL
+        "u4/cuenta_24" BEL "u4/cuenta_23" BEL "u4/cuenta_22" BEL
+        "u4/cuenta_21" BEL "u4/cuenta_20" BEL "u4/cuenta_19" BEL
+        "u4/cuenta_18" BEL "u4/cuenta_17" BEL "u4/cuenta_16" BEL
+        "u4/cuenta_15" BEL "u4/cuenta_14" BEL "u4/cuenta_13" BEL
+        "u4/cuenta_12" BEL "u4/cuenta_11" BEL "u4/cuenta_10" BEL "u4/cuenta_9"
+        BEL "u4/cuenta_8" BEL "u4/cuenta_7" BEL "u4/cuenta_6" BEL
+        "u4/cuenta_5" BEL "u4/cuenta_4" BEL "u4/cuenta_3" BEL "u4/cuenta_2"
+        BEL "u4/cuenta_1" BEL "u4/cuenta_0" BEL "u4/unseg" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

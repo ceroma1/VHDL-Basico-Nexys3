@@ -1,0 +1,4 @@
+vhdl isim_temp "mod_tx.vhd"
+vhdl isim_temp "Baudios_tx.vhd"
+vhdl isim_temp "RS232_TX.vhd"
+vhdl isim_temp "tes_rs232tx.vhd"

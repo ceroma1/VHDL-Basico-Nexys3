@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/Cronometro/Enable500hz/Enable500hz.xst" -ofn "/home/ise/OSwin7/Cronometro/Enable500hz/Enable500hz.syr" 

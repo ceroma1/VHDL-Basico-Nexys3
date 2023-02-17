@@ -1,0 +1,5 @@
+vhdl work "Mux4a1.vhd"
+vhdl work "Modulo_BinBcd.vhd"
+vhdl work "lab151.vhd"
+vhdl work "Habilito_Display.vhd"
+vhdl work "TopDisplay.vhd"

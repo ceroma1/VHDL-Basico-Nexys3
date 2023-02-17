@@ -1,0 +1,21 @@
+## Clock signal
+NET "clk"            LOC = "V10" | IOSTANDARD = "LVCMOS33";   #Bank = 2, pin name = IO_L30N_GCLK0_USERCCLK,            Sch name = GCLK
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+NET "Data<0>"          LOC = "T10" | IOSTANDARD = "LVCMOS33";   #Sch name = SW0
+NET "Data<1>"          LOC = "T9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW1
+NET "Data<2>"          LOC = "V9"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW2
+NET "Data<3>"          LOC = "M8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW3
+NET "Data<4>"          LOC = "N8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW4
+NET "Data<5>"          LOC = "U8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW5
+NET "Data<6>"          LOC = "V8"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW6
+NET "Data<7>"          LOC = "T5"  | IOSTANDARD = "LVCMOS33";   #Sch name = SW7
+
+NET "Reset"         LOC = "B8"  | IOSTANDARD = "LVCMOS33";  #Sch name = BTNS
+ 
+NET "Start"         LOC = "D9"  | IOSTANDARD = "LVCMOS33";  #Sch name = BTNR
+
+NET "TX"          LOC = "H3"  | IOSTANDARD = "LVCMOS33"; #Sch name = JC1
+
+NET "EOT"         LOC = "U16" | IOSTANDARD = "LVCMOS33";    #Sch name = LD0

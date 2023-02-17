@@ -1,0 +1,4 @@
+vhdl work "TemReb.vhd"
+vhdl work "maqEstado.vhd"
+vhdl work "SupMaquina.vhd"
+vhdl work "Tes1.vhd"

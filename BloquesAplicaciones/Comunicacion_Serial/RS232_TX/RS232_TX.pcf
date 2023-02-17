@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Tue Oct 15 15:15:22 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "EOT" LOCATE = SITE "U16" LEVEL 1;
+COMP "TX" LOCATE = SITE "H3" LEVEL 1;
+COMP "Start" LOCATE = SITE "D9" LEVEL 1;
+COMP "Reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "Data<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "Data<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "Data<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "Data<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "Data<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "Data<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "Data<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "Data<7>" LOCATE = SITE "T5" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "uo/unseg" BEL "uo/cuenta_0" BEL "uo/cuenta_1" BEL
+        "uo/cuenta_2" BEL "uo/cuenta_3" BEL "uo/cuenta_4" BEL "uo/cuenta_5"
+        BEL "u1/n_reg_2" BEL "u1/n_reg_1" BEL "u1/n_reg_0" BEL
+        "u1/state_reg_FSM_FFd1" BEL "u1/state_reg_FSM_FFd2" BEL "u1/s_reg_3"
+        BEL "u1/s_reg_2" BEL "u1/s_reg_1" BEL "u1/s_reg_0" BEL "u1/b_reg_7"
+        BEL "u1/b_reg_6" BEL "u1/b_reg_5" BEL "u1/b_reg_4" BEL "u1/b_reg_3"
+        BEL "u1/b_reg_2" BEL "u1/b_reg_1" BEL "u1/b_reg_0" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

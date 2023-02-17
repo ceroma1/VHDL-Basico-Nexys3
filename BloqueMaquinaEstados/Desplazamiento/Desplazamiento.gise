@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Desplazamiento.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SupMaquina.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SupMaquina.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SupMaquina.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SupMaquina.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SupMaquina.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SupMaquina.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SupMaquina.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SupMaquina.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SupMaquina_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SupMaquina_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SupMaquina_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Tes1_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Tes1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Tes1_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Tes1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="maqEstado.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="maqEstado.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="maqEstado.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="maqEstado.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="maqEstado.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="maqEstado.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="maqEstado.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="maqEstado.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="maqEstado_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="maqEstado_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="maqEstado_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1668641998" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1668641998">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668644270" xil_pn:in_ck="-7454282350469942209" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1668644270">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMaquina.vhd"/>
+      <outfile xil_pn:name="TemReb.vhd"/>
+      <outfile xil_pn:name="Tes1.vhd"/>
+      <outfile xil_pn:name="maqEstado.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642129" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="720024289711871315" xil_pn:start_ts="1668642129">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668642129" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="983035994806251473" xil_pn:start_ts="1668642129">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668641998" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8795836836840345748" xil_pn:start_ts="1668641998">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668644276" xil_pn:in_ck="-7454282350469942209" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1668644276">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SupMaquina.vhd"/>
+      <outfile xil_pn:name="TemReb.vhd"/>
+      <outfile xil_pn:name="Tes1.vhd"/>
+      <outfile xil_pn:name="maqEstado.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1668644278" xil_pn:in_ck="-7454282350469942209" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7904039214052367738" xil_pn:start_ts="1668644276">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Tes1_beh.prj"/>
+      <outfile xil_pn:name="Tes1_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1668644278" xil_pn:in_ck="-931115114920441940" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9200800501384145892" xil_pn:start_ts="1668644278">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Tes1_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1668589282" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1668589282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668592928" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3045541471126284325" xil_pn:start_ts="1668592928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668592928" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8795836836840345748" xil_pn:start_ts="1668592928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668589282" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1668589282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668592928" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4177122622580683225" xil_pn:start_ts="1668592928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668589282" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1668589282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668592928" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1363959762295259550" xil_pn:start_ts="1668592928">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668593023" xil_pn:in_ck="-1342658823946903566" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3129067403304303187" xil_pn:start_ts="1668593010">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SupMaquina.lso"/>
+      <outfile xil_pn:name="SupMaquina.ngc"/>
+      <outfile xil_pn:name="SupMaquina.ngr"/>
+      <outfile xil_pn:name="SupMaquina.prj"/>
+      <outfile xil_pn:name="SupMaquina.stx"/>
+      <outfile xil_pn:name="SupMaquina.syr"/>
+      <outfile xil_pn:name="SupMaquina.xst"/>
+      <outfile xil_pn:name="SupMaquina_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="maqEstado.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

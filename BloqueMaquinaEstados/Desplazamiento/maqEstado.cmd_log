@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/cesar/Documentos/ProyectosClaseISE/Desplazamiento/maqEstado.xst" -ofn "/home/cesar/Documentos/ProyectosClaseISE/Desplazamiento/maqEstado.syr" 
+xst -intstyle ise -ifn "/home/cesar/Documentos/ProyectosClaseISE/Desplazamiento/maqEstado.xst" -ofn "/home/cesar/Documentos/ProyectosClaseISE/Desplazamiento/maqEstado.syr" 
+xst -intstyle ise -ifn "/home/cesar/Documentos/ProyectosClaseISE/Desplazamiento/maqEstado.xst" -ofn "/home/cesar/Documentos/ProyectosClaseISE/Desplazamiento/maqEstado.syr" 

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="RS232_RX.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RS232_RX.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RS232_RX.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="RS232_RX.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="RS232_RX.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS232_RX.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="RS232_RX.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RS232_RX.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RS232_RX.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RS232_RX_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RS232_RX_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RS232_RX_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tes_Rs232RX_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tes_Rs232RX_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tes_Rs232RX_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tes_Rs232RX_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1571055667" xil_pn:in_ck="-7168139967935187143" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571055667">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Baudios.vhd"/>
+      <outfile xil_pn:name="RS232_RX.vhd"/>
+      <outfile xil_pn:name="ShiftRegister.vhd"/>
+      <outfile xil_pn:name="mod_rx.vhd"/>
+      <outfile xil_pn:name="tes_Rs232RX.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055240" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4660163951560276569" xil_pn:start_ts="1571055240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055240" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1016835386066532315" xil_pn:start_ts="1571055240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055240" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6040381042490761941" xil_pn:start_ts="1571055240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055672" xil_pn:in_ck="-7168139967935187143" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571055672">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Baudios.vhd"/>
+      <outfile xil_pn:name="RS232_RX.vhd"/>
+      <outfile xil_pn:name="ShiftRegister.vhd"/>
+      <outfile xil_pn:name="mod_rx.vhd"/>
+      <outfile xil_pn:name="tes_Rs232RX.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055678" xil_pn:in_ck="-7168139967935187143" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7797277751111955086" xil_pn:start_ts="1571055672">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tes_Rs232RX_beh.prj"/>
+      <outfile xil_pn:name="tes_Rs232RX_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055679" xil_pn:in_ck="-90877862542447520" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3269331185072522086" xil_pn:start_ts="1571055678">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tes_Rs232RX_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1571054910" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="58913103197108230" xil_pn:start_ts="1571054910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571054910" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6040381042490761941" xil_pn:start_ts="1571054910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571054910" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571054910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571054910" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2982755215830758792" xil_pn:start_ts="1571054910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571054910" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1571054910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571054910" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3909729745702123169" xil_pn:start_ts="1571054910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571055201" xil_pn:in_ck="-4686231784158283816" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6210482310493413422" xil_pn:start_ts="1571055184">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="RS232_RX.lso"/>
+      <outfile xil_pn:name="RS232_RX.ngc"/>
+      <outfile xil_pn:name="RS232_RX.ngr"/>
+      <outfile xil_pn:name="RS232_RX.prj"/>
+      <outfile xil_pn:name="RS232_RX.stx"/>
+      <outfile xil_pn:name="RS232_RX.syr"/>
+      <outfile xil_pn:name="RS232_RX.xst"/>
+      <outfile xil_pn:name="RS232_RX_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

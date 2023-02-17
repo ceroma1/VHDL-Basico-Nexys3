@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/SupSemaforo.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/SemaforoPeatonV3/SupSemaforo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines1.ucf -p xc6slx16-csg324-3 SupSemaforo.ngc SupSemaforo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SupSemaforo_map.ncd SupSemaforo.ngd SupSemaforo.pcf 
+par -w -intstyle ise -ol high -mt off SupSemaforo_map.ncd SupSemaforo.ncd SupSemaforo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SupSemaforo.twx SupSemaforo.ncd -o SupSemaforo.twr SupSemaforo.pcf -ucf pines1.ucf 
+bitgen -intstyle ise -f SupSemaforo.ut SupSemaforo.ncd 

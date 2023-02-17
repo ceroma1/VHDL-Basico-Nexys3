@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/TopCronometro.ncd
+OUTFILE=/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro/TopCronometro.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/ise/Secuencial_Nexys3/Cronometro/TopCronometro
+LICENSE=WebPack
+USER_INFO=200815015_200816023_0_253

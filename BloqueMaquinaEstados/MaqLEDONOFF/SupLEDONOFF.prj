@@ -1,0 +1,5 @@
+vhdl work "TempReb.vhd"
+vhdl work "Maq_estadoReb.vhd"
+vhdl work "SupReboteTemporizado.vhd"
+vhdl work "Maq_estado.vhd"
+vhdl work "SupLEDONOFF.vhd"

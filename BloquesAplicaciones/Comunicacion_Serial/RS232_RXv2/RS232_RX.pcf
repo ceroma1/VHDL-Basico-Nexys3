@@ -1,0 +1,84 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Fri Oct 18 12:31:28 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "full" LOCATE = SITE "J6" LEVEL 1;
+COMP "r_Data<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "r_Data<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "r_Data<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "r_Data<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "r_Data<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "r_Data<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "r_Data<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "r_Data<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "Reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "rd_uart" LOCATE = SITE "D9" LEVEL 1;
+COMP "LineRD_in" LOCATE = SITE "H3" LEVEL 1;
+COMP "rx_empty" LOCATE = SITE "F2" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "u0/unseg" BEL "u0/cuenta_0" BEL "u0/cuenta_1" BEL
+        "u0/cuenta_2" BEL "u0/cuenta_3" BEL "u0/cuenta_4" BEL "u0/cuenta_5"
+        BEL "u1/state_reg_FSM_FFd1" BEL "u1/state_reg_FSM_FFd2" BEL
+        "u1/n_reg_2" BEL "u1/n_reg_1" BEL "u1/n_reg_0" BEL "u1/s_reg_3" BEL
+        "u1/s_reg_2" BEL "u1/s_reg_1" BEL "u1/s_reg_0" BEL "u1/b_reg_7" BEL
+        "u1/b_reg_6" BEL "u1/b_reg_5" BEL "u1/b_reg_4" BEL "u1/b_reg_3" BEL
+        "u1/b_reg_2" BEL "u1/b_reg_1" BEL "u1/b_reg_0" BEL "u2/w_ptr_reg_3"
+        BEL "u2/w_ptr_reg_2" BEL "u2/w_ptr_reg_1" BEL "u2/w_ptr_reg_0" BEL
+        "u2/array_reg_0_7" BEL "u2/array_reg_0_6" BEL "u2/array_reg_0_5" BEL
+        "u2/array_reg_0_4" BEL "u2/array_reg_0_3" BEL "u2/array_reg_0_2" BEL
+        "u2/array_reg_0_1" BEL "u2/array_reg_0_0" BEL "u2/array_reg_1_7" BEL
+        "u2/array_reg_1_6" BEL "u2/array_reg_1_5" BEL "u2/array_reg_1_4" BEL
+        "u2/array_reg_1_3" BEL "u2/array_reg_1_2" BEL "u2/array_reg_1_1" BEL
+        "u2/array_reg_1_0" BEL "u2/array_reg_15_7" BEL "u2/array_reg_15_6" BEL
+        "u2/array_reg_15_5" BEL "u2/array_reg_15_4" BEL "u2/array_reg_15_3"
+        BEL "u2/array_reg_15_2" BEL "u2/array_reg_15_1" BEL
+        "u2/array_reg_15_0" BEL "u2/array_reg_3_7" BEL "u2/array_reg_3_6" BEL
+        "u2/array_reg_3_5" BEL "u2/array_reg_3_4" BEL "u2/array_reg_3_3" BEL
+        "u2/array_reg_3_2" BEL "u2/array_reg_3_1" BEL "u2/array_reg_3_0" BEL
+        "u2/array_reg_4_7" BEL "u2/array_reg_4_6" BEL "u2/array_reg_4_5" BEL
+        "u2/array_reg_4_4" BEL "u2/array_reg_4_3" BEL "u2/array_reg_4_2" BEL
+        "u2/array_reg_4_1" BEL "u2/array_reg_4_0" BEL "u2/array_reg_2_7" BEL
+        "u2/array_reg_2_6" BEL "u2/array_reg_2_5" BEL "u2/array_reg_2_4" BEL
+        "u2/array_reg_2_3" BEL "u2/array_reg_2_2" BEL "u2/array_reg_2_1" BEL
+        "u2/array_reg_2_0" BEL "u2/array_reg_6_7" BEL "u2/array_reg_6_6" BEL
+        "u2/array_reg_6_5" BEL "u2/array_reg_6_4" BEL "u2/array_reg_6_3" BEL
+        "u2/array_reg_6_2" BEL "u2/array_reg_6_1" BEL "u2/array_reg_6_0" BEL
+        "u2/array_reg_7_7" BEL "u2/array_reg_7_6" BEL "u2/array_reg_7_5" BEL
+        "u2/array_reg_7_4" BEL "u2/array_reg_7_3" BEL "u2/array_reg_7_2" BEL
+        "u2/array_reg_7_1" BEL "u2/array_reg_7_0" BEL "u2/array_reg_5_7" BEL
+        "u2/array_reg_5_6" BEL "u2/array_reg_5_5" BEL "u2/array_reg_5_4" BEL
+        "u2/array_reg_5_3" BEL "u2/array_reg_5_2" BEL "u2/array_reg_5_1" BEL
+        "u2/array_reg_5_0" BEL "u2/array_reg_9_7" BEL "u2/array_reg_9_6" BEL
+        "u2/array_reg_9_5" BEL "u2/array_reg_9_4" BEL "u2/array_reg_9_3" BEL
+        "u2/array_reg_9_2" BEL "u2/array_reg_9_1" BEL "u2/array_reg_9_0" BEL
+        "u2/array_reg_10_7" BEL "u2/array_reg_10_6" BEL "u2/array_reg_10_5"
+        BEL "u2/array_reg_10_4" BEL "u2/array_reg_10_3" BEL
+        "u2/array_reg_10_2" BEL "u2/array_reg_10_1" BEL "u2/array_reg_10_0"
+        BEL "u2/array_reg_8_7" BEL "u2/array_reg_8_6" BEL "u2/array_reg_8_5"
+        BEL "u2/array_reg_8_4" BEL "u2/array_reg_8_3" BEL "u2/array_reg_8_2"
+        BEL "u2/array_reg_8_1" BEL "u2/array_reg_8_0" BEL "u2/array_reg_11_7"
+        BEL "u2/array_reg_11_6" BEL "u2/array_reg_11_5" BEL
+        "u2/array_reg_11_4" BEL "u2/array_reg_11_3" BEL "u2/array_reg_11_2"
+        BEL "u2/array_reg_11_1" BEL "u2/array_reg_11_0" BEL
+        "u2/array_reg_12_7" BEL "u2/array_reg_12_6" BEL "u2/array_reg_12_5"
+        BEL "u2/array_reg_12_4" BEL "u2/array_reg_12_3" BEL
+        "u2/array_reg_12_2" BEL "u2/array_reg_12_1" BEL "u2/array_reg_12_0"
+        BEL "u2/array_reg_13_7" BEL "u2/array_reg_13_6" BEL
+        "u2/array_reg_13_5" BEL "u2/array_reg_13_4" BEL "u2/array_reg_13_3"
+        BEL "u2/array_reg_13_2" BEL "u2/array_reg_13_1" BEL
+        "u2/array_reg_13_0" BEL "u2/array_reg_14_7" BEL "u2/array_reg_14_6"
+        BEL "u2/array_reg_14_5" BEL "u2/array_reg_14_4" BEL
+        "u2/array_reg_14_3" BEL "u2/array_reg_14_2" BEL "u2/array_reg_14_1"
+        BEL "u2/array_reg_14_0" BEL "u2/empty_reg" BEL "u2/full_reg" BEL
+        "u2/r_ptr_reg_1" BEL "u2/r_ptr_reg_0" BEL "u2/r_ptr_reg_2" BEL
+        "u2/r_ptr_reg_3" BEL "u2/full_reg_1" BEL "u1/state_reg_FSM_FFd2_1" BEL
+        "u1/state_reg_FSM_FFd1_1" BEL "u1/s_reg_3_1" BEL "u2/w_ptr_reg_1_1"
+        BEL "u2/w_ptr_reg_1_2" BEL "u2/w_ptr_reg_1_3" BEL "u2/w_ptr_reg_1_4"
+        BEL "u2/w_ptr_reg_3_1" BEL "u2/w_ptr_reg_3_2" BEL "u2/w_ptr_reg_3_3"
+        BEL "u2/w_ptr_reg_3_4" BEL "u2/w_ptr_reg_2_1" BEL "u2/w_ptr_reg_2_2"
+        BEL "u2/w_ptr_reg_2_3" BEL "u2/w_ptr_reg_2_4" BEL "u2/w_ptr_reg_2_5"
+        BEL "u2/w_ptr_reg_2_6" BEL "Clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

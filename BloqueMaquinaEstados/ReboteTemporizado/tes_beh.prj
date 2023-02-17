@@ -1,0 +1,4 @@
+vhdl work "Temporizador.vhd"
+vhdl work "Maq_Estado.vhd"
+vhdl work "SupReboteTemporizado.vhd"
+vhdl work "tes.vhd"

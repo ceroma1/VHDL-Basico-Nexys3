@@ -1,0 +1,5 @@
+work	"Maq_estado.vhd"
+work	"Maq_estadoReb.vhd"
+work	"SupLEDONOFF.vhd"
+work	"SupReboteTemporizado.vhd"
+work	"TempReb.vhd"

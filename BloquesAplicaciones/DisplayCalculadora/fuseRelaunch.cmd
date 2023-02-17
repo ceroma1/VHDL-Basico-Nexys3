@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Secuencial_Nexys3/DisplayCalculadora/Tes_Arreglo_isim_beh.exe" -prj "/home/ise/Secuencial_Nexys3/DisplayCalculadora/Tes_Arreglo_beh.prj" "work.Tes_Arreglo" 

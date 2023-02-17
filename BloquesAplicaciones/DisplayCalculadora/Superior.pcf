@@ -1,0 +1,40 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Mon Jan 23 06:26:34 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "intPulso" LOCATE = SITE "C9" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "clear" LOCATE = SITE "T10" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "EntDato<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "EntDato<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "EntDato<2>" LOCATE = SITE "V8" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "EntDato<3>" LOCATE = SITE "T5" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "Anodos<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "Anodos<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "Anodos<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "Anodos<3>" LOCATE = SITE "P17" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "u2/unseg" BEL "u2/cuenta_0" BEL "u2/cuenta_1" BEL
+        "u2/cuenta_2" BEL "u2/cuenta_3" BEL "u2/cuenta_4" BEL "u2/cuenta_5"
+        BEL "u2/cuenta_6" BEL "u2/cuenta_7" BEL "u2/cuenta_8" BEL
+        "u2/cuenta_9" BEL "u2/cuenta_10" BEL "u2/cuenta_11" BEL "u2/cuenta_12"
+        BEL "u2/cuenta_13" BEL "u2/cuenta_14" BEL "u2/cuenta_15" BEL
+        "u2/cuenta_16" BEL "uo/counter_out_20" BEL "uo/counter_out_19" BEL
+        "uo/counter_out_18" BEL "uo/counter_out_17" BEL "uo/counter_out_16"
+        BEL "uo/counter_out_15" BEL "uo/counter_out_14" BEL
+        "uo/counter_out_13" BEL "uo/counter_out_12" BEL "uo/counter_out_11"
+        BEL "uo/counter_out_10" BEL "uo/counter_out_9" BEL "uo/counter_out_8"
+        BEL "uo/counter_out_7" BEL "uo/counter_out_6" BEL "uo/counter_out_5"
+        BEL "uo/counter_out_4" BEL "uo/counter_out_3" BEL "uo/counter_out_2"
+        BEL "uo/counter_out_1" BEL "uo/counter_out_0" BEL "uo/flipflops_1" BEL
+        "uo/flipflops_0" BEL "u2/aux" BEL "uo/result" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

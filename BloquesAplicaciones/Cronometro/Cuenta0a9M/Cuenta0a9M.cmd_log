@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/OSwin7/Cronometro/Cuenta0a9M/Cuenta0a9M.xst" -ofn "/home/ise/OSwin7/Cronometro/Cuenta0a9M/Cuenta0a9M.syr" 
+xst -intstyle ise -ifn "/home/ise/OSwin7/Cronometro/Cuenta0a9M/Cuenta0a9M.xst" -ofn "/home/ise/OSwin7/Cronometro/Cuenta0a9M/Cuenta0a9M.syr" 
