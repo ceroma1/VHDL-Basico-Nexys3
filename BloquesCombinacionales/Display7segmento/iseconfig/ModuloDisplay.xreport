@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-19T13:56:18</DateModified>
+  <DateModified>2023-02-17T15:27:45</DateModified>
   <ModuleName>ModuloDisplay</ModuleName>
   <SummaryTimeStamp>2018-09-30T05:05:18</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/iseconfig/ModuloDisplay.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Display7segmento/iseconfig/ModuloDisplay.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Display7segmento/</ImplementationReportsDirectory>
   <DateInitialized>2015-03-03T19:28:27</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

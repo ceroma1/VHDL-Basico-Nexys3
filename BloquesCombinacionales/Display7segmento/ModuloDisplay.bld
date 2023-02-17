@@ -6,8 +6,8 @@ ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 ModuloDisplay.ngc
 ModuloDisplay.ngd
 
 Reading NGO file
-"/home/ise/Codigos_VHDL/BloquesCombinacionales/Display7segmento/ModuloDisplay.ng
-c" ...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Display7segment
+o/ModuloDisplay.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 398848 kilobytes
+Total memory usage is 495712 kilobytes
 
 Writing NGD file "ModuloDisplay.ngd" ...
-Total REAL time to NGDBUILD completion:  15 sec
-Total CPU time to NGDBUILD completion:   9 sec
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
 
 Writing NGDBUILD log file "ModuloDisplay.bld"...
