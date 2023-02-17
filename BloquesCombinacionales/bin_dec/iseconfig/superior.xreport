@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-02-17T15:56:18</DateModified>
+  <DateModified>2023-02-17T16:24:46</DateModified>
   <ModuleName>superior</ModuleName>
-  <SummaryTimeStamp>2019-08-28T22:08:20</SummaryTimeStamp>
+  <SummaryTimeStamp>2023-02-17T15:57:35</SummaryTimeStamp>
   <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/bin_dec/iseconfig/superior.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/bin_dec/</ImplementationReportsDirectory>
   <DateInitialized>2013-03-20T16:23:34</DateInitialized>
