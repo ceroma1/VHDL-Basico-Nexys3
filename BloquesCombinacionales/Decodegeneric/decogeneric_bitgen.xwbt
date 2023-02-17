@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.ncd
-OUTFILE=/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.bit
+INFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Decodegeneric/decogeneric.ncd
+OUTFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Decodegeneric/decogeneric.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric
+WORKINGDIR=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Decodegeneric
 LICENSE=WebPack
 USER_INFO=200815015_200816023_0_253

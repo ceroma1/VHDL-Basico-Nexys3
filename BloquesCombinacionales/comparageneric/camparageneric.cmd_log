@@ -1,22 +1,4 @@
-xst -intstyle ise -ifn "C:/CodigoVhdl/comparageneric/camparageneric.xst" -ofn "C:/CodigoVhdl/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "C:/CodigoVhdl/comparageneric/camparageneric.xst" -ofn "C:/CodigoVhdl/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "C:/Users/Cesar A. Romero/Dropbox/clase digitales B2012/codigos clase 9 octubre/comparageneric/camparageneric.xst" -ofn "C:/Users/Cesar A. Romero/Dropbox/clase digitales B2012/codigos clase 9 octubre/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "C:/Users/Cesar A. Romero/Dropbox/clase digitales B2012/codigos clase 9 octubre/comparageneric/camparageneric.xst" -ofn "C:/Users/Cesar A. Romero/Dropbox/clase digitales B2012/codigos clase 9 octubre/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/circuitos aritmeticos/comparageneric/camparageneric.xst" -ofn "E:/circuitos aritmeticos/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/circuitos aritmeticos/comparageneric/camparageneric.xst" -ofn "E:/circuitos aritmeticos/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionalesB2015/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionalesB2015/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionalesB2015/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionalesB2015/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionalesB2015/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionalesB2015/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionales/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionales/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionales/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "E:/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "E:/BloquesCombinacionales/comparageneric/camparageneric.syr" 
-xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/camparageneric.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 camparageneric.ngc camparageneric.ngd  
-map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o camparageneric_map.ncd camparageneric.ngd camparageneric.pcf 
-par -w -intstyle ise -ol high -mt off camparageneric_map.ncd camparageneric.ncd camparageneric.pcf 
-trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml camparageneric.twx camparageneric.ncd -o camparageneric.twr camparageneric.pcf 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 camparageneric.ngc camparageneric.ngd  
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/camparageneric.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/camparageneric.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 camparageneric.ngc camparageneric.ngd  
 map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o camparageneric_map.ncd camparageneric.ngd camparageneric.pcf 
 par -w -intstyle ise -ol high -mt off camparageneric_map.ncd camparageneric.ncd camparageneric.pcf 

@@ -1,4 +1,4 @@
-xst -intstyle ise -ifn "/home/ise/Codigos_VHDL/BloquesCombinacionales/bin_dec/superior.xst" -ofn "/home/ise/Codigos_VHDL/BloquesCombinacionales/bin_dec/superior.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/bin_dec/superior.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/bin_dec/superior.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piines1.ucf -p xc6slx16-csg324-3 superior.ngc superior.ngd  
 map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o superior_map.ncd superior.ngd superior.pcf 
 par -w -intstyle ise -ol high -mt off superior_map.ncd superior.ncd superior.pcf 

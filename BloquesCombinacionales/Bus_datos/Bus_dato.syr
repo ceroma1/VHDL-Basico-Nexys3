@@ -12,7 +12,7 @@ Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: Bus_dato.prj
@@ -108,16 +108,16 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Mux_dato.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Mux_dato.vhd" into library work
 Parsing entity <Mux_dato>.
 Parsing architecture <Behavioral> of entity <mux_dato>.
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Mux_anodos.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Mux_anodos.vhd" into library work
 Parsing entity <Mux_anodos>.
 Parsing architecture <Behavioral> of entity <mux_anodos>.
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Display.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Display.vhd" into library work
 Parsing entity <Display>.
 Parsing architecture <Behavioral> of entity <display>.
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Bus_dato.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Bus_dato.vhd" into library work
 Parsing entity <Bus_dato>.
 Parsing architecture <Behavioral> of entity <bus_dato>.
 
@@ -130,7 +130,7 @@ Elaborating entity <Bus_dato> (architecture <Behavioral>) from library <work>.
 Elaborating entity <Mux_dato> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <Display> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Display.vhd" Line 31. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Display.vhd" Line 31. Case statement is complete. others clause is never selected
 
 Elaborating entity <Mux_anodos> (architecture <Behavioral>) from library <work>.
 
@@ -139,26 +139,26 @@ Elaborating entity <Mux_anodos> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <Bus_dato>.
-    Related source file is "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Bus_dato.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Bus_dato.vhd".
     Summary:
 	no macro.
 Unit <Bus_dato> synthesized.
 
 Synthesizing Unit <Mux_dato>.
-    Related source file is "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Mux_dato.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Mux_dato.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <Mux_dato> synthesized.
 
 Synthesizing Unit <Display>.
-    Related source file is "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Display.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Display.vhd".
     Found 16x7-bit Read Only RAM for signal <segmento>
     Summary:
 	inferred   1 RAM(s).
 Unit <Display> synthesized.
 
 Synthesizing Unit <Mux_anodos>.
-    Related source file is "/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/Mux_anodos.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/Mux_anodos.vhd".
     Found 4x4-bit Read Only RAM for signal <anodos>
     Summary:
 	inferred   1 RAM(s).
@@ -354,13 +354,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 10.61 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.29 secs
  
 --> 
 
 
-Total memory usage is 473244 kilobytes
+Total memory usage is 474212 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

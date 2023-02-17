@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: codigeneric.prj
@@ -108,7 +108,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/Codigeneric/codigeneric.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Codigeneric/codigeneric.vhd" into library work
 Parsing entity <codigeneric>.
 Parsing architecture <Behavioral> of entity <codigeneric>.
 
@@ -123,7 +123,7 @@ Elaborating entity <codigeneric> (architecture <Behavioral>) with generics from 
 =========================================================================
 
 Synthesizing Unit <codigeneric>.
-    Related source file is "/home/ise/Codigos_VHDL/BloquesCombinacionales/Codigeneric/codigeneric.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Codigeneric/codigeneric.vhd".
         n = 3
     Summary:
 	inferred  13 Multiplexer(s).
@@ -288,13 +288,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 14.91 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.26 secs
  
 --> 
 
 
-Total memory usage is 377128 kilobytes
+Total memory usage is 475792 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

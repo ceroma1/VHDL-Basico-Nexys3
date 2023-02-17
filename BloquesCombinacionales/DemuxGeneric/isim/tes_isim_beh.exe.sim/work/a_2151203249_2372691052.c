@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes.vhd";
+static const char *ng0 = "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes.vhd";
 
 
 
@@ -158,7 +158,7 @@ static void work_a_2151203249_2372691052_p_2(char *t0)
 
 LAB0:    xsi_set_current_line(61, ng0);
 
-LAB3:    t1 = (t0 + 6310);
+LAB3:    t1 = (t0 + 6526);
     t3 = (t0 + 3992);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);

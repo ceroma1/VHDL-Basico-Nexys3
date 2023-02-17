@@ -10,13 +10,13 @@
          <ClosedNode>/Demux - Behavioral E:|BloquesCombinacionalesB2015|DemuxGeneric|Demux.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Demux - Behavioral (/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/Demux.vhd)</SelectedItem>
+         <SelectedItem>Demux - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/Demux.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000012f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000012f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Demux - Behavioral (/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/Demux.vhd)</CurrentItem>
+      <CurrentItem>Demux - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/Demux.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -61,16 +61,17 @@
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View RTL Schematic</SelectedItem>
+         <SelectedItem>Synthesize - XST</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e30000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000146000000010000000100000000000000000000000064ffffffff000000810000000000000001000001460000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View RTL Schematic</CurrentItem>
+      <CurrentItem>Synthesize - XST</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -78,13 +79,13 @@
          <ClosedNode>/tes - behavior E:|BloquesCombinacionalesB2015|DemuxGeneric|tes.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tes - behavior (/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes.vhd)</SelectedItem>
+         <SelectedItem>tes - behavior (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000155000000020000000000000000000000000200000064ffffffff000000810000000300000002000001550000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tes - behavior (/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes.vhd)</CurrentItem>
+      <CurrentItem>tes - behavior (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -96,7 +97,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000149000000010000000100000000000000000000000064ffffffff000000810000000000000001000001490000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
@@ -109,7 +110,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>

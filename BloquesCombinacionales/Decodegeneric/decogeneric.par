@@ -1,7 +1,7 @@
 Release 14.7 par P.20160913 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-localhost.localdomain::  Tue Jan 07 12:04:28 2020
+localhost.localdomain::  Fri Feb 17 16:07:51 2023
 
 par -w -intstyle ise -ol high -mt off decogeneric_map.ncd decogeneric.ncd
 decogeneric.pcf 
@@ -93,7 +93,7 @@ Phase  1  : 24 unrouted;      REAL time: 8 secs
 
 Phase  2  : 24 unrouted;      REAL time: 8 secs 
 
-Phase  3  : 2 unrouted;      REAL time: 9 secs 
+Phase  3  : 2 unrouted;      REAL time: 8 secs 
 
 Phase  4  : 2 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 
@@ -111,7 +111,7 @@ Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 1
 
 Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
 Total REAL time to Router completion: 10 secs 
-Total CPU time to Router completion: 9 secs 
+Total CPU time to Router completion: 10 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -130,8 +130,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 12 secs 
-Total CPU time to PAR completion: 10 secs 
+Total REAL time to PAR completion: 11 secs 
+Total CPU time to PAR completion: 11 secs 
 
 Peak Memory Usage:  614 MB
 

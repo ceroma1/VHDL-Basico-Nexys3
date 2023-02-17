@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-28T12:22:40</DateModified>
+  <DateModified>2023-02-17T16:04:44</DateModified>
   <ModuleName>camparageneric</ModuleName>
   <SummaryTimeStamp>2018-10-03T07:27:34</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/iseconfig/camparageneric.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/iseconfig/camparageneric.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/</ImplementationReportsDirectory>
   <DateInitialized>2012-10-07T09:36:07</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

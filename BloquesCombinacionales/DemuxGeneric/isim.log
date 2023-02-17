@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.wdb 
+Running: /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.wdb 
 ISim P.20160913 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.

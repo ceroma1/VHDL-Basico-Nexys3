@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sat Dec 28 12:35:37 2019">
+<application name="pn" timeStamp="Fri Feb 17 16:05:26 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="ECF31BE4031F4390A18759FB6777CA84" type="project"/>
-<property name="ProjectIteration" value="2" type="project"/>
-<property name="ProjectFile" value="/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/comparageneric.xise" type="project"/>
+<property name="ProjectIteration" value="3" type="project"/>
+<property name="ProjectFile" value="/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/comparageneric.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2012-10-07T09:35:04" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -25,7 +25,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2012-10-07T09:35:04" type="design"/>
 <property name="PROP_intWbtProjectID" value="ECF31BE4031F4390A18759FB6777CA84" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="2" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="3" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>

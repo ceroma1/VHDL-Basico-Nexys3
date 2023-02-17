@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Modulo_BinBcd - Behavioral (/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/Modulo_BinBcd.vhd)</SelectedItem>
+         <SelectedItem>Modulo_BinBcd - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bin_Bcd/Modulo_BinBcd.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000010c000000020000000000000000000000000000000064ffffffff0000008100000000000000020000010c0000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Modulo_BinBcd - Behavioral (/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/Modulo_BinBcd.vhd)</CurrentItem>
+      <CurrentItem>Modulo_BinBcd - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bin_Bcd/Modulo_BinBcd.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -67,7 +67,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e30000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000146000000010000000100000000000000000000000064ffffffff000000810000000000000001000001460000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
@@ -79,13 +79,13 @@
          <ClosedNode>/test - behavior |home|ise|OSwin7|BloquesCombinacionales|Bin_Bcd|test.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>test - behavior (/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/test.vhd)</SelectedItem>
+         <SelectedItem>test - behavior (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bin_Bcd/test.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001bd000000020000000000000000000000000000000064ffffffff000000810000000000000002000001bd0000000100000000000000000000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>test - behavior (/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/test.vhd)</CurrentItem>
+      <CurrentItem>test - behavior (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bin_Bcd/test.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -97,12 +97,12 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000149000000010000000100000000000000000000000064ffffffff000000810000000000000001000001490000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Add Existing Source</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
@@ -112,7 +112,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000155000000010000000100000000000000000000000064ffffffff000000810000000000000001000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>

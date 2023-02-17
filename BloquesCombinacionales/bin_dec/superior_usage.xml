@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Wed Aug 28 22:31:47 2019"><group name="NetStatistics">
+<DesignStatistics TimeStamp="Fri Feb 17 15:57:33 2023"><group name="NetStatistics">
 <item name="NumNets_Active" rev="2">
 <attrib name="value" value="27"/></item>
 <item name="NumNets_Gnd" rev="2">
@@ -108,7 +108,7 @@
 <attrib name="value" value="2"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Wed Aug 28 22:31:47 2019"><group name="SiteSummary">
+<DeviceUsage TimeStamp="Fri Feb 17 15:57:33 2023"><group name="SiteSummary">
 <item name="IOB" rev="2">
 <attrib name="total" value="1000000"/><attrib name="used" value="16"/></item>
 <item name="IOB_IMUX" rev="2">
@@ -127,7 +127,7 @@
 <attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Wed Aug 28 22:31:47 2019"><group name="IOB_OUTBUF">
+<ReportConfigData TimeStamp="Fri Feb 17 15:57:33 2023"><group name="IOB_OUTBUF">
 <item name="DRIVEATTRBOX" rev="2">
 <attrib name="12" value="12"/></item>
 <item name="SLEW" rev="2">
@@ -136,7 +136,7 @@
 <attrib name="3STATE" value="12"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Wed Aug 28 22:31:47 2019"><group name="IOB_OUTBUF">
+<ReportPinData TimeStamp="Fri Feb 17 15:57:33 2023"><group name="IOB_OUTBUF">
 <item name="IN" rev="2">
 <attrib name="value" value="12"/></item>
 <item name="OUT" rev="2">

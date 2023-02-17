@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-19T13:51:01</DateModified>
+  <DateModified>2023-02-17T15:58:51</DateModified>
   <ModuleName>Bus_dato</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/iseconfig/Bus_dato.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/Bus_datos/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/iseconfig/Bus_dato.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bus_datos/</ImplementationReportsDirectory>
   <DateInitialized>2019-12-03T20:36:11</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

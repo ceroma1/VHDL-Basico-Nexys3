@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/camparageneric.ncd
-OUTFILE=/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric/camparageneric.bit
+INFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/camparageneric.ncd
+OUTFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric/camparageneric.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=/home/ise/Codigos_VHDL/BloquesCombinacionales/comparageneric
+WORKINGDIR=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/comparageneric
 LICENSE=WebPack
 USER_INFO=200815015_200816023_0_253

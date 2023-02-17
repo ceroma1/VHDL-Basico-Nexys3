@@ -22,7 +22,6 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="comparageneric.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -53,7 +52,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="camparageneric.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="camparageneric.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="camparageneric.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="camparageneric_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="camparageneric_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="camparageneric_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="camparageneric_map.mrp" xil_pn:subbranch="Map"/>
@@ -67,108 +65,44 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="camparageneric_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="camparageneric_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="camparageneric_usage.xml"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="camparageneric_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="camparageneric_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tes_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tes_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tes_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tes_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1567024719" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1567024719">
+    <transform xil_pn:end_ts="1676649886" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6864687107933067091" xil_pn:start_ts="1676649886">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1567024719" xil_pn:in_ck="8568617670877589214" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1567024719">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="camparageneric.vhd"/>
-      <outfile xil_pn:name="tes.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024724" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7290365938497881182" xil_pn:start_ts="1567024724">
+    <transform xil_pn:end_ts="1676649886" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7972752335942632706" xil_pn:start_ts="1676649886">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1567024724" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1414383863902131232" xil_pn:start_ts="1567024724">
+    <transform xil_pn:end_ts="1676649886" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1676649886">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1567024724" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7972752335942632706" xil_pn:start_ts="1567024724">
+    <transform xil_pn:end_ts="1676649886" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3642968119337922133" xil_pn:start_ts="1676649886">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1567024724" xil_pn:in_ck="8568617670877589214" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1567024724">
+    <transform xil_pn:end_ts="1676649886" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1676649886">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="camparageneric.vhd"/>
-      <outfile xil_pn:name="tes.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1567024728" xil_pn:in_ck="8568617670877589214" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8955234963447745956" xil_pn:start_ts="1567024724">
+    <transform xil_pn:end_ts="1676649886" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3391376218311568140" xil_pn:start_ts="1676649886">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1676649899" xil_pn:in_ck="-6105479962695919870" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="7007553678243128731" xil_pn:start_ts="1676649886">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tes_beh.prj"/>
-      <outfile xil_pn:name="tes_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
-    </transform>
-    <transform xil_pn:end_ts="1576678977" xil_pn:in_ck="4749523726770467451" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="636906039621207633" xil_pn:start_ts="1576678976">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tes_isim_beh.wdb"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6864687107933067091" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7972752335942632706" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3642968119337922133" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024594" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3391376218311568140" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1567024609" xil_pn:in_ck="-6105479962695919870" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="7007553678243128731" xil_pn:start_ts="1567024594">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="camparageneric.lso"/>
       <outfile xil_pn:name="camparageneric.ngc"/>
@@ -177,16 +111,15 @@
       <outfile xil_pn:name="camparageneric.stx"/>
       <outfile xil_pn:name="camparageneric.syr"/>
       <outfile xil_pn:name="camparageneric.xst"/>
-      <outfile xil_pn:name="camparageneric_vhdl.prj"/>
       <outfile xil_pn:name="camparageneric_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1577536510" xil_pn:in_ck="162138854071659" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6022059288800184086" xil_pn:start_ts="1577536510">
+    <transform xil_pn:end_ts="1676649899" xil_pn:in_ck="162138854071659" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6022059288800184086" xil_pn:start_ts="1676649899">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1577536521" xil_pn:in_ck="-3233778013389159101" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-358001477713800499" xil_pn:start_ts="1577536510">
+    <transform xil_pn:end_ts="1676649910" xil_pn:in_ck="-3233778013389159101" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-358001477713800499" xil_pn:start_ts="1676649899">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_ngo"/>
@@ -195,7 +128,7 @@
       <outfile xil_pn:name="camparageneric.ngd"/>
       <outfile xil_pn:name="camparageneric_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1577536536" xil_pn:in_ck="-3233731601904757148" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1577536521">
+    <transform xil_pn:end_ts="1676649926" xil_pn:in_ck="-3233731601904757148" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1676649910">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -208,7 +141,7 @@
       <outfile xil_pn:name="camparageneric_summary.xml"/>
       <outfile xil_pn:name="camparageneric_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1577536563" xil_pn:in_ck="-8424345481822419427" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1577536536">
+    <transform xil_pn:end_ts="1676649949" xil_pn:in_ck="-8424345481822419427" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1676649926">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
@@ -222,7 +155,7 @@
       <outfile xil_pn:name="camparageneric_pad.txt"/>
       <outfile xil_pn:name="camparageneric_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1577536587" xil_pn:in_ck="-6105479962695928747" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1577536570">
+    <transform xil_pn:end_ts="1676649963" xil_pn:in_ck="-6105479962695928747" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1676649949">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
@@ -234,7 +167,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1577536563" xil_pn:in_ck="-3239857917845814944" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1577536552">
+    <transform xil_pn:end_ts="1676649949" xil_pn:in_ck="-3239857917845814944" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1676649940">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

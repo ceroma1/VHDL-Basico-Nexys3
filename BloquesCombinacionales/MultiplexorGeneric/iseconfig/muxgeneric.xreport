@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-19T13:57:20</DateModified>
+  <DateModified>2023-02-17T16:10:47</DateModified>
   <ModuleName>muxgeneric</ModuleName>
   <SummaryTimeStamp>2019-08-16T14:32:48</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/MultiplexorGeneric/iseconfig/muxgeneric.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/MultiplexorGeneric/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/MultiplexorGeneric/iseconfig/muxgeneric.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/MultiplexorGeneric/</ImplementationReportsDirectory>
   <DateInitialized>2012-10-07T06:01:08</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe" -prj "/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_beh.prj" "work.tes" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe" -prj "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_beh.prj" "work.tes" 

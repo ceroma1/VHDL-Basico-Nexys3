@@ -6,7 +6,8 @@ ise -dd _ngo -nt timestamp -uc piines1.ucf -p xc6slx16-csg324-3 superior.ngc
 superior.ngd
 
 Reading NGO file
-"/home/ise/Codigos_VHDL/BloquesCombinacionales/bin_dec/superior.ngc" ...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/bin_dec/superio
+r.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 495732 kilobytes
+Total memory usage is 495724 kilobytes
 
 Writing NGD file "superior.ngd" ...
-Total REAL time to NGDBUILD completion:  7 sec
-Total CPU time to NGDBUILD completion:   7 sec
+Total REAL time to NGDBUILD completion:  6 sec
+Total CPU time to NGDBUILD completion:   6 sec
 
 Writing NGDBUILD log file "superior.bld"...

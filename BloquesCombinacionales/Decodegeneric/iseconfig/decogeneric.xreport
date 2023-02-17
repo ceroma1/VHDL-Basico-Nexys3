@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-01-07T11:55:43</DateModified>
+  <DateModified>2023-02-17T16:07:10</DateModified>
   <ModuleName>decogeneric</ModuleName>
   <SummaryTimeStamp>2019-08-16T14:04:52</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/iseconfig/decogeneric.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Decodegeneric/iseconfig/decogeneric.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Decodegeneric/</ImplementationReportsDirectory>
   <DateInitialized>2012-10-07T06:38:29</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

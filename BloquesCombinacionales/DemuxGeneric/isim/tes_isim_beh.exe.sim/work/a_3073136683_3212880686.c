@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/Demux.vhd";
+static const char *ng0 = "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/Demux.vhd";
 
 
 
@@ -92,7 +92,7 @@ LAB0:    xsi_set_current_line(20, ng0);
     xsi_set_current_line(24, ng0);
     t1 = (t0 + 1192U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5794);
+    t1 = (t0 + 5970);
     t8 = 1;
     if (2U == 2U)
         goto LAB5;
@@ -104,7 +104,7 @@ LAB7:    if (t8 != 0)
 
 LAB4:    t1 = (t0 + 1192U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5796);
+    t1 = (t0 + 5972);
     t8 = 1;
     if (2U == 2U)
         goto LAB13;
@@ -116,7 +116,7 @@ LAB15:    if (t8 != 0)
 
 LAB12:    t1 = (t0 + 1192U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5798);
+    t1 = (t0 + 5974);
     t8 = 1;
     if (2U == 2U)
         goto LAB21;

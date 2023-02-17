@@ -1,21 +1,21 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe -prj /home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_beh.prj work.tes 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe -prj /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_beh.prj work.tes 
 ISim P.20160913 (signature 0xfbc00daa)
-Number of CPUs detected in this system: 1
-Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/Demux.vhd" into library work
-Parsing VHDL file "/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/Demux.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 95312 KB
-Fuse CPU Usage: 1250 ms
+Fuse Memory Usage: 95304 KB
+Fuse CPU Usage: 1080 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling architecture behavioral of entity Demux [\Demux(4)\]
 Compiling architecture behavior of entity tes
 Time Resolution for simulation is 1ps.
 Compiled 5 VHDL Units
-Built simulation executable /home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe
-Fuse Memory Usage: 103960 KB
-Fuse CPU Usage: 1310 ms
-GCC CPU Usage: 680 ms
+Built simulation executable /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/tes_isim_beh.exe
+Fuse Memory Usage: 527924 KB
+Fuse CPU Usage: 1130 ms
+GCC CPU Usage: 600 ms

@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Wed Aug 28 22:31:03 2019">
+  <application stringID="Map" timeStamp="Fri Feb 17 15:56:56 2023">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -49,7 +49,11 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"/>
-          <item stringID="speed" value="1800.002 MHz"/>
+          <item stringID="speed" value="1800.001 MHz"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="arch" value="Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"/>
+          <item stringID="speed" value="1800.001 MHz"/>
         </row>
       </table>
     </section>
@@ -121,9 +125,9 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="0"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="773060"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="12 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="11 secs "/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="773072"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="10 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="10 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
         <item AVAILABLE="18224" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="0">

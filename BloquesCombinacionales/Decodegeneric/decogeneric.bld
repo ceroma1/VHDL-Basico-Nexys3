@@ -6,8 +6,8 @@ ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 decogeneric.ngc
 decogeneric.ngd
 
 Reading NGO file
-"/home/ise/Codigos_VHDL/BloquesCombinacionales/Decodegeneric/decogeneric.ngc"
-...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Decodegeneric/d
+ecogeneric.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 398804 kilobytes
+Total memory usage is 495932 kilobytes
 
 Writing NGD file "decogeneric.ngd" ...
 Total REAL time to NGDBUILD completion:  7 sec
-Total CPU time to NGDBUILD completion:   6 sec
+Total CPU time to NGDBUILD completion:   7 sec
 
 Writing NGDBUILD log file "decogeneric.bld"...

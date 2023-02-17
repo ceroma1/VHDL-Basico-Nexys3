@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-19T13:55:54</DateModified>
+  <DateModified>2023-02-17T16:11:32</DateModified>
   <ModuleName>Demux</ModuleName>
-  <SummaryTimeStamp>2019-08-28T20:10:41</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/iseconfig/Demux.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/DemuxGeneric/</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2023-02-17T16:09:55</SummaryTimeStamp>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/iseconfig/Demux.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/DemuxGeneric/</ImplementationReportsDirectory>
   <DateInitialized>2016-04-23T04:19:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
