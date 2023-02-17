@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-19T13:47:05</DateModified>
+  <DateModified>2023-02-17T15:43:36</DateModified>
   <ModuleName>Modulo_BinBcd</ModuleName>
   <SummaryTimeStamp>2019-08-28T20:52:21</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/iseconfig/Modulo_BinBcd.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL/BloquesCombinacionales/Bin_Bcd/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bin_Bcd/iseconfig/Modulo_BinBcd.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesCombinacionales/Bin_Bcd/</ImplementationReportsDirectory>
   <DateInitialized>2011-12-07T18:45:04</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
