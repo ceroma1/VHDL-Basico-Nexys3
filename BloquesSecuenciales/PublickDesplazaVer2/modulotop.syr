@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: modulotop.prj
@@ -108,25 +108,25 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/mux4a1.vhd" into library work
 Parsing entity <mux4a1>.
 Parsing architecture <Behavioral> of entity <mux4a1>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/Modulodisplay.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/Modulodisplay.vhd" into library work
 Parsing entity <Modulodisplay>.
 Parsing architecture <Behavioral> of entity <modulodisplay>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/ModuloBotones.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/ModuloBotones.vhd" into library work
 Parsing entity <ModuloBotones>.
 Parsing architecture <Behavioral> of entity <modulobotones>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/divfre.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/divfre.vhd" into library work
 Parsing entity <divfre>.
 Parsing architecture <Behavioral> of entity <divfre>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/contador.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/contador.vhd" into library work
 Parsing entity <contador>.
 Parsing architecture <Behavioral> of entity <contador>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/arreglo_reg.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/arreglo_reg.vhd" into library work
 Parsing entity <arreglo_reg>.
 Parsing architecture <Behavioral> of entity <arreglo_reg>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/modulotop.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/modulotop.vhd" into library work
 Parsing entity <modulotop>.
 Parsing architecture <Behavioral> of entity <modulotop>.
 
@@ -153,13 +153,13 @@ Elaborating entity <ModuloBotones> (architecture <Behavioral>) from library <wor
 =========================================================================
 
 Synthesizing Unit <modulotop>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/modulotop.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/modulotop.vhd".
     Summary:
 	no macro.
 Unit <modulotop> synthesized.
 
 Synthesizing Unit <divfre>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/divfre.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/divfre.vhd".
     Found 26-bit register for signal <temp>.
     Found 26-bit adder for signal <temp[25]_GND_6_o_add_0_OUT> created at line 19.
     Summary:
@@ -168,21 +168,21 @@ Synthesizing Unit <divfre>.
 Unit <divfre> synthesized.
 
 Synthesizing Unit <arreglo_reg>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/arreglo_reg.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/arreglo_reg.vhd".
     Found 222-bit register for signal <mensa>.
     Summary:
 	inferred 222 D-type flip-flop(s).
 Unit <arreglo_reg> synthesized.
 
 Synthesizing Unit <mux4a1>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/mux4a1.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/mux4a1.vhd".
     Found 6-bit 4-to-1 multiplexer for signal <salida> created at line 16.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux4a1> synthesized.
 
 Synthesizing Unit <Modulodisplay>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/Modulodisplay.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/Modulodisplay.vhd".
     Found 64x8-bit Read Only RAM for signal <_n0081>
     Found 1-bit tristate buffer for signal <seg<6>> created at line 13
     Found 1-bit tristate buffer for signal <seg<5>> created at line 13
@@ -197,7 +197,7 @@ Synthesizing Unit <Modulodisplay>.
 Unit <Modulodisplay> synthesized.
 
 Synthesizing Unit <contador>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/contador.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/contador.vhd".
     Found 2-bit register for signal <sig_salida>.
     Found 2-bit adder for signal <sig_salida[1]_GND_18_o_add_0_OUT> created at line 21.
     Summary:
@@ -206,7 +206,7 @@ Synthesizing Unit <contador>.
 Unit <contador> synthesized.
 
 Synthesizing Unit <ModuloBotones>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/ModuloBotones.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/ModuloBotones.vhd".
     Found 1-bit tristate buffer for signal <anodos<3>> created at line 13
     Found 1-bit tristate buffer for signal <anodos<2>> created at line 13
     Found 1-bit tristate buffer for signal <anodos<1>> created at line 13
@@ -672,12 +672,12 @@ u0/temp_25     |    2.302|         |         |         |
 
 
 Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 11.16 secs
+Total CPU time to Xst completion: 11.45 secs
  
 --> 
 
 
-Total memory usage is 387184 kilobytes
+Total memory usage is 485028 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

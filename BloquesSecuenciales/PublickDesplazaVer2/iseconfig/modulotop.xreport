@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-10T20:33:21</DateModified>
+  <DateModified>2023-02-18T10:33:38</DateModified>
   <ModuleName>modulotop</ModuleName>
   <SummaryTimeStamp>2020-04-10T20:29:27</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/iseconfig/modulotop.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL_Nexys3/AplicacionRegistroPublick/PublickDesplazaVer2/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/iseconfig/modulotop.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/PublickDesplazaVer2/</ImplementationReportsDirectory>
   <DateInitialized>2015-05-12T21:21:34</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

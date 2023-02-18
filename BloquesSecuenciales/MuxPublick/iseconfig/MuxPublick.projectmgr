@@ -7,15 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/SupMuxPublick - Behavioral |home|ise|gitVHDL2023|VHDL-Basico-Nexys3|BloquesSecuenciales|MuxPublick|SupMuxPublick.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>SupMuxPublick - Behavioral (/home/ise/Secuencial_Nexys3/MuxPublick/SupMuxPublick.vhd)</SelectedItem>
+         <SelectedItem>SupMuxPublick - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxPublick/SupMuxPublick.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000195000000020000000000000000000000000200000064ffffffff000000810000000300000002000001950000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>SupMuxPublick - Behavioral (/home/ise/Secuencial_Nexys3/MuxPublick/SupMuxPublick.vhd)</CurrentItem>
+      <CurrentItem>SupMuxPublick - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxPublick/SupMuxPublick.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -38,7 +39,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028a000000040101000100000000000000000000000064ffffffff0000008100000000000000040000005100000001000000000000002900000001000000000000008400000001000000000000018c0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000162000000040101000100000000000000000000000064ffffffff000000810000000000000004000000510000000100000000000000290000000100000000000000840000000100000000000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>cuenta.vhd</CurrentItem>
    </ItemView>

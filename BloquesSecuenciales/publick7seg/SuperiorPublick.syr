@@ -108,19 +108,19 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/negacion.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/negacion.vhd" into library work
 Parsing entity <negacion>.
 Parsing architecture <Behavioral> of entity <negacion>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/mux4a1.vhd" into library work
 Parsing entity <mux4a1>.
 Parsing architecture <Behavioral> of entity <mux4a1>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/cuenta.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/cuenta.vhd" into library work
 Parsing entity <cuenta>.
 Parsing architecture <Behavioral> of entity <cuenta>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.vhd" into library work
 Parsing entity <SuperiorPublick>.
 Parsing architecture <Behavioral> of entity <superiorpublick>.
 
@@ -143,27 +143,27 @@ Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <SuperiorPublick>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/SuperiorPublick.vhd".
     Summary:
 	no macro.
 Unit <SuperiorPublick> synthesized.
 
 Synthesizing Unit <negacion>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/negacion.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/negacion.vhd".
     Found 8x4-bit Read Only RAM for signal <anodo>
     Summary:
 	inferred   1 RAM(s).
 Unit <negacion> synthesized.
 
 Synthesizing Unit <mux4a1>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/mux4a1.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/mux4a1.vhd".
     Found 8x7-bit Read Only RAM for signal <fout>
     Summary:
 	inferred   1 RAM(s).
 Unit <mux4a1> synthesized.
 
 Synthesizing Unit <cuenta>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/cuenta.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/cuenta.vhd".
     Found 3-bit register for signal <cuenta>.
     Found 3-bit adder for signal <cuenta[2]_GND_8_o_add_1_OUT> created at line 24.
     Summary:
@@ -173,7 +173,7 @@ Synthesizing Unit <cuenta>.
 Unit <cuenta> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/divide.vhd".
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
     Found 18-bit register for signal <cuenta>.
@@ -495,12 +495,12 @@ u4/aux         |    2.190|         |         |         |
 
 
 Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.70 secs
+Total CPU time to Xst completion: 10.93 secs
  
 --> 
 
 
-Total memory usage is 385812 kilobytes
+Total memory usage is 483728 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

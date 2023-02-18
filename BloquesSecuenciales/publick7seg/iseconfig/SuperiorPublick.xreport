@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-09T12:54:12</DateModified>
+  <DateModified>2023-02-18T10:28:44</DateModified>
   <ModuleName>SuperiorPublick</ModuleName>
   <SummaryTimeStamp>2020-04-09T12:47:35</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/iseconfig/SuperiorPublick.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/publick7seg/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/iseconfig/SuperiorPublick.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/publick7seg/</ImplementationReportsDirectory>
   <DateInitialized>2015-04-18T07:34:07</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
