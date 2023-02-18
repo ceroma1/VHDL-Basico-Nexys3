@@ -8,7 +8,34 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Tes.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloCuenta.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloDivide.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Modulo_BinBcd.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContadorDisplay.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorBinarioDecimal.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/cuenta.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/display.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/divide.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/mux4a1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/negacion.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

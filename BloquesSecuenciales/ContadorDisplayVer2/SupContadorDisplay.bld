@@ -6,8 +6,8 @@ ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3
 SupContadorDisplay.ngc SupContadorDisplay.ngd
 
 Reading NGO file
-"/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContad
-orDisplay.ngc" ...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer
+2/SupContadorDisplay.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,7 +29,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 399832 kilobytes
+Total memory usage is 496740 kilobytes
 
 Writing NGD file "SupContadorDisplay.ngd" ...
 Total REAL time to NGDBUILD completion:  7 sec

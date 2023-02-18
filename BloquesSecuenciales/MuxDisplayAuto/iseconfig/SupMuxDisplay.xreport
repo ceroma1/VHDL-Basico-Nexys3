@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-06T00:51:05</DateModified>
+  <DateModified>2023-02-18T10:14:29</DateModified>
   <ModuleName>SupMuxDisplay</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayAuto/iseconfig/SupMuxDisplay.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayAuto</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayAuto/iseconfig/SupMuxDisplay.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayAuto/</ImplementationReportsDirectory>
   <DateInitialized>2020-04-06T00:50:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

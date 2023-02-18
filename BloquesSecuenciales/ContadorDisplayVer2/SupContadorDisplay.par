@@ -1,7 +1,7 @@
 Release 14.7 par P.20160913 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-localhost.localdomain::  Wed Apr 08 14:33:44 2020
+localhost.localdomain::  Sat Feb 18 10:04:09 2023
 
 par -w -intstyle ise -ol high -mt off SupContadorDisplay_map.ncd
 SupContadorDisplay.ncd SupContadorDisplay.pcf 
@@ -88,8 +88,8 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 8 secs 
-Finished initial Timing Analysis.  REAL time: 8 secs 
+Starting initial Timing Analysis.  REAL time: 7 secs 
+Finished initial Timing Analysis.  REAL time: 7 secs 
 
 Starting Router
 
@@ -98,9 +98,9 @@ Phase  1  : 857 unrouted;      REAL time: 8 secs
 
 Phase  2  : 777 unrouted;      REAL time: 8 secs 
 
-Phase  3  : 327 unrouted;      REAL time: 9 secs 
+Phase  3  : 327 unrouted;      REAL time: 8 secs 
 
-Phase  4  : 327 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
+Phase  4  : 327 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
 
 Updating file: SupContadorDisplay.ncd with current fully routed design.
 

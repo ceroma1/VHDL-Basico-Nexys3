@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/Superior.ncd
-OUTFILE=/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/Superior.bit
+INFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/Superior.ncd
+OUTFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/Superior.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo
+WORKINGDIR=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo
 LICENSE=WebPack
 USER_INFO=200815015_200816023_0_253

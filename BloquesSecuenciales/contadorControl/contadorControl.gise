@@ -22,122 +22,90 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="contadorControl.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ContadorControl.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="SuperiorContadorControl.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="SuperiorContadorControl.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="SuperiorContadorControl.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SuperiorContadorControl.cmd_log"/>
-    <file xil_pn:fileType="FILE_JHD" xil_pn:name="SuperiorContadorControl.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="SuperiorContadorControl.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SuperiorContadorControl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="SuperiorContadorControl.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SuperiorContadorControl.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="SuperiorContadorControl.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SuperiorContadorControl.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="SuperiorContadorControl.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="SuperiorContadorControl.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="SuperiorContadorControl.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SuperiorContadorControl.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="SuperiorContadorControl.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SuperiorContadorControl.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SuperiorContadorControl.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="SuperiorContadorControl.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="SuperiorContadorControl.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="SuperiorContadorControl.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="SuperiorContadorControl.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="SuperiorContadorControl.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="SuperiorContadorControl.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SuperiorContadorControl.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="SuperiorContadorControl_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="SuperiorContadorControl_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SuperiorContadorControl_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SuperiorContadorControl_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="SuperiorContadorControl_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="SuperiorContadorControl_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SuperiorContadorControl_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SuperiorContadorControl_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="SuperiorContadorControl_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="SuperiorContadorControl_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SuperiorContadorControl_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="SuperiorContadorControl_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="SuperiorContadorControl_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="SuperiorContadorControl_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SuperiorContadorControl_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tes0_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tes0_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tes0_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tes0_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1606823468" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1606823468">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823468" xil_pn:in_ck="8689826303701766418" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606823468">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ContadorControl.vhd"/>
-      <outfile xil_pn:name="ModuloDisplay.vhd"/>
-      <outfile xil_pn:name="divide.vhd"/>
-      <outfile xil_pn:name="tes0.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823472" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6237248606607417650" xil_pn:start_ts="1606823472">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823475" xil_pn:in_ck="4871473315042912512" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6662369787539102128" xil_pn:start_ts="1606823472">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823475" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="558995684306951310" xil_pn:start_ts="1606823475">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823475" xil_pn:in_ck="8689826303701766418" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606823475">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ContadorControl.vhd"/>
-      <outfile xil_pn:name="ModuloDisplay.vhd"/>
-      <outfile xil_pn:name="divide.vhd"/>
-      <outfile xil_pn:name="tes0.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823479" xil_pn:in_ck="8689826303701766418" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7739095985555597372" xil_pn:start_ts="1606823475">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tes0_beh.prj"/>
-      <outfile xil_pn:name="tes0_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823480" xil_pn:in_ck="6085440581904338475" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="161940934464927825" xil_pn:start_ts="1606823479">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tes0_isim_beh.wdb"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823340" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1606823340">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1606823342" xil_pn:in_ck="4871473315042912512" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1545530756293429855" xil_pn:start_ts="1606823340">
+    <transform xil_pn:end_ts="1676713448" xil_pn:in_ck="4871473315042912512" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1545530756293429855" xil_pn:start_ts="1676713447">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SuperiorContadorControl.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1606823342" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="558995684306951310" xil_pn:start_ts="1606823342">
+    <transform xil_pn:end_ts="1676713448" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="558995684306951310" xil_pn:start_ts="1676713448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606823342" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1606823342">
+    <transform xil_pn:end_ts="1676713448" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1676713448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606823342" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4719273160290500767" xil_pn:start_ts="1606823342">
+    <transform xil_pn:end_ts="1676713448" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4719273160290500767" xil_pn:start_ts="1676713448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606823342" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1606823342">
+    <transform xil_pn:end_ts="1676713448" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1676713448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606823342" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-686699842019026792" xil_pn:start_ts="1606823342">
+    <transform xil_pn:end_ts="1676713448" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-686699842019026792" xil_pn:start_ts="1676713448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606823358" xil_pn:in_ck="1184552137356353676" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="5244502700807569447" xil_pn:start_ts="1606823342">
+    <transform xil_pn:end_ts="1676713462" xil_pn:in_ck="1184552137356353676" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="5244502700807569447" xil_pn:start_ts="1676713448">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ContadorControl.ngr"/>
-      <outfile xil_pn:name="SuperiorContadorControl.jhd"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SuperiorContadorControl.lso"/>
       <outfile xil_pn:name="SuperiorContadorControl.ngc"/>
       <outfile xil_pn:name="SuperiorContadorControl.ngr"/>
@@ -149,6 +117,65 @@
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1676713462" xil_pn:in_ck="162138854071659" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="475543754853495926" xil_pn:start_ts="1676713462">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1676713471" xil_pn:in_ck="-4883764476469456155" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2435108043049204953" xil_pn:start_ts="1676713462">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SuperiorContadorControl.bld"/>
+      <outfile xil_pn:name="SuperiorContadorControl.ngd"/>
+      <outfile xil_pn:name="SuperiorContadorControl_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1676713487" xil_pn:in_ck="-4883718064985054202" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1676713471">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SuperiorContadorControl.pcf"/>
+      <outfile xil_pn:name="SuperiorContadorControl_map.map"/>
+      <outfile xil_pn:name="SuperiorContadorControl_map.mrp"/>
+      <outfile xil_pn:name="SuperiorContadorControl_map.ncd"/>
+      <outfile xil_pn:name="SuperiorContadorControl_map.ngm"/>
+      <outfile xil_pn:name="SuperiorContadorControl_map.xrpt"/>
+      <outfile xil_pn:name="SuperiorContadorControl_summary.xml"/>
+      <outfile xil_pn:name="SuperiorContadorControl_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1676713511" xil_pn:in_ck="-5196265316387777345" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1676713487">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SuperiorContadorControl.ncd"/>
+      <outfile xil_pn:name="SuperiorContadorControl.pad"/>
+      <outfile xil_pn:name="SuperiorContadorControl.par"/>
+      <outfile xil_pn:name="SuperiorContadorControl.ptwx"/>
+      <outfile xil_pn:name="SuperiorContadorControl.unroutes"/>
+      <outfile xil_pn:name="SuperiorContadorControl.xpi"/>
+      <outfile xil_pn:name="SuperiorContadorControl_pad.csv"/>
+      <outfile xil_pn:name="SuperiorContadorControl_pad.txt"/>
+      <outfile xil_pn:name="SuperiorContadorControl_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1676713526" xil_pn:in_ck="4871473315042907063" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1676713511">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SuperiorContadorControl.bgn"/>
+      <outfile xil_pn:name="SuperiorContadorControl.bit"/>
+      <outfile xil_pn:name="SuperiorContadorControl.drc"/>
+      <outfile xil_pn:name="SuperiorContadorControl.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1676713511" xil_pn:in_ck="-4889844380926111998" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1676713502">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SuperiorContadorControl.twr"/>
+      <outfile xil_pn:name="SuperiorContadorControl.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>
 

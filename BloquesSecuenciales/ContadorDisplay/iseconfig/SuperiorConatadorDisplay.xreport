@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-12-12T14:03:00</DateModified>
+  <DateModified>2023-02-18T09:40:08</DateModified>
   <ModuleName>SuperiorConatadorDisplay</ModuleName>
   <SummaryTimeStamp>2020-10-14T09:02:30</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/BloquesSecuenciales/ContadorDisplay/iseconfig/SuperiorConatadorDisplay.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/BloquesSecuenciales/ContadorDisplay/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/iseconfig/SuperiorConatadorDisplay.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/</ImplementationReportsDirectory>
   <DateInitialized>2015-04-11T04:25:04</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

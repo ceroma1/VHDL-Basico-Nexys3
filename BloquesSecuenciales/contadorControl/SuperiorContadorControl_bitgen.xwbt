@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=E:\EjemplosVHDL\BoquesSecuenciales\contadorControl\SuperiorContadorControl.ncd
-OUTFILE=E:\EjemplosVHDL\BoquesSecuenciales\contadorControl\SuperiorContadorControl.bit
+INFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/SuperiorContadorControl.ncd
+OUTFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/SuperiorContadorControl.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=E:\EjemplosVHDL\BoquesSecuenciales\contadorControl
+WORKINGDIR=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl
 LICENSE=WebPack
-USER_INFO=__0_0_0
+USER_INFO=200815015_200816023_0_253

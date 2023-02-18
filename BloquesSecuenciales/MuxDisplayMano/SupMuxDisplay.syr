@@ -108,16 +108,16 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd" into library work
 Parsing entity <negacion>.
 Parsing architecture <Behavioral> of entity <negacion>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd" into library work
 Parsing entity <mux4a1>.
 Parsing architecture <Behavioral> of entity <mux4a1>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/display.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/display.vhd" into library work
 Parsing entity <display>.
 Parsing architecture <Behavioral> of entity <display>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/SupMuxDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/SupMuxDisplay.vhd" into library work
 Parsing entity <SupMuxDisplay>.
 Parsing architecture <Behavioral> of entity <supmuxdisplay>.
 
@@ -128,10 +128,10 @@ Parsing architecture <Behavioral> of entity <supmuxdisplay>.
 Elaborating entity <SupMuxDisplay> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <mux4a1> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd" Line 19. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd" Line 19. Case statement is complete. others clause is never selected
 
 Elaborating entity <negacion> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd" Line 18. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd" Line 18. Case statement is complete. others clause is never selected
 
 Elaborating entity <display> (architecture <Behavioral>) from library <work>.
 
@@ -140,25 +140,25 @@ Elaborating entity <display> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <SupMuxDisplay>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/SupMuxDisplay.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/SupMuxDisplay.vhd".
     Summary:
 	no macro.
 Unit <SupMuxDisplay> synthesized.
 
 Synthesizing Unit <mux4a1>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/mux4a1.vhd".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux4a1> synthesized.
 
 Synthesizing Unit <negacion>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/negacion.vhd".
     Summary:
 	no macro.
 Unit <negacion> synthesized.
 
 Synthesizing Unit <display>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/MuxDisplayMano/display.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/MuxDisplayMano/display.vhd".
     Found 16x7-bit Read Only RAM for signal <segmento>
     Summary:
 	inferred   1 RAM(s).
@@ -339,13 +339,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 10.60 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.55 secs
  
 --> 
 
 
-Total memory usage is 376348 kilobytes
+Total memory usage is 474172 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

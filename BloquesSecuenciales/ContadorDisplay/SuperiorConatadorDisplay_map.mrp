@@ -1,4 +1,4 @@
-Release 13.4 Map O.87xd (nt)
+Release 14.7 Map P.20160913 (lin64)
 Xilinx Mapping Report File for Design 'SuperiorConatadorDisplay'
 
 Design Information
@@ -11,7 +11,7 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sun Jan 15 05:56:36 2017
+Mapped Date    : Sat Feb 18 09:40:49 2023
 
 Design Summary
 --------------
@@ -37,7 +37,7 @@ Slice Logic Utilization:
 
 Slice Logic Distribution:
   Number of occupied Slices:                    22 out of   2,278    1%
-  Nummber of MUXCYs used:                       28 out of   4,556    1%
+  Number of MUXCYs used:                        28 out of   4,556    1%
   Number of LUT Flip Flop pairs used:           65
     Number with an unused Flip Flop:            34 out of      65   52%
     Number with an unused LUT:                   0 out of      65    0%
@@ -83,9 +83,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                2.32
 
-Peak Memory Usage:  256 MB
-Total REAL time to MAP completion:  4 secs 
-Total CPU time to MAP completion:   4 secs 
+Peak Memory Usage:  759 MB
+Total REAL time to MAP completion:  12 secs 
+Total CPU time to MAP completion:   12 secs 
 
 Table of Contents
 -----------------

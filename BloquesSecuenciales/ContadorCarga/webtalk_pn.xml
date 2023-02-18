@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sat Apr 11 13:34:41 2020">
+<application name="pn" timeStamp="Sat Feb 18 09:59:35 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="F11D9B30910C438091531DCBFE7CA37E" type="project"/>
-<property name="ProjectIteration" value="22" type="project"/>
-<property name="ProjectFile" value="/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/ContadorAnillo.xise" type="project"/>
+<property name="ProjectIteration" value="23" type="project"/>
+<property name="ProjectFile" value="/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/ContadorAnillo.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2015-05-17T06:16:10" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -25,7 +25,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2015-05-17T06:16:10" type="design"/>
 <property name="PROP_intWbtProjectID" value="F11D9B30910C438091531DCBFE7CA37E" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="22" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="23" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>

@@ -108,13 +108,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/Anillo.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/Anillo.vhd" into library work
 Parsing entity <Anillo>.
 Parsing architecture <Behavioral> of entity <anillo>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/Superior.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/Superior.vhd" into library work
 Parsing entity <Superior>.
 Parsing architecture <Behavioral> of entity <superior>.
 
@@ -133,13 +133,13 @@ Elaborating entity <Anillo> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <Superior>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/Superior.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/Superior.vhd".
     Summary:
 	no macro.
 Unit <Superior> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/divide.vhd".
     Found 26-bit register for signal <cuenta>.
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
@@ -151,7 +151,7 @@ Synthesizing Unit <divide>.
 Unit <divide> synthesized.
 
 Synthesizing Unit <Anillo>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorAnillo/Anillo.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorAnillo/Anillo.vhd".
     Found 8-bit register for signal <dato>.
     Summary:
 	inferred   8 D-type flip-flop(s).
@@ -448,12 +448,12 @@ u0/aux         |    1.165|         |         |         |
 
 
 Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.70 secs
+Total CPU time to Xst completion: 10.62 secs
  
 --> 
 
 
-Total memory usage is 384640 kilobytes
+Total memory usage is 483320 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

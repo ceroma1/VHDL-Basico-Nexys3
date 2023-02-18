@@ -1,13 +1,13 @@
-Release 13.4 ngdbuild O.87xd (nt)
-Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Release 14.7 ngdbuild P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3
 SuperiorConatadorDisplay.ngc SuperiorConatadorDisplay.ngd
 
 Reading NGO file
-"E:/EjemplosVHDL/BoquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.ngc
-" ...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/Su
+periorConatadorDisplay.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 116600 kilobytes
+Total memory usage is 496240 kilobytes
 
 Writing NGD file "SuperiorConatadorDisplay.ngd" ...
-Total REAL time to NGDBUILD completion:  2 sec
-Total CPU time to NGDBUILD completion:   2 sec
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
 
 Writing NGDBUILD log file "SuperiorConatadorDisplay.bld"...

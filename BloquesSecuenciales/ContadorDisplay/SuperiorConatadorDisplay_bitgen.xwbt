@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=E:\EjemplosVHDL\BoquesSecuenciales\ContadorDisplay\SuperiorConatadorDisplay.ncd
-OUTFILE=E:\EjemplosVHDL\BoquesSecuenciales\ContadorDisplay\SuperiorConatadorDisplay.bit
+INFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.ncd
+OUTFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=E:\EjemplosVHDL\BoquesSecuenciales\ContadorDisplay
+WORKINGDIR=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay
 LICENSE=WebPack
-USER_INFO=__0_0_0
+USER_INFO=200815015_200816023_0_253

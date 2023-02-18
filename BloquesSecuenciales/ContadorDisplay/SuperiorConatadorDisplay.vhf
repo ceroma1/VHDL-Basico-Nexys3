@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : SuperiorConatadorDisplay.vhf
--- /___/   /\     Timestamp : 10/14/2020 09:02:13
+-- /___/   /\     Timestamp : 02/18/2023 09:40:21
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl /home/ise/Secuencial_Nexys3/BloquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.vhf -w /home/ise/Secuencial_Nexys3/BloquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.sch
+--Command: sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.vhf -w /home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplay/SuperiorConatadorDisplay.sch
 --Design Name: SuperiorConatadorDisplay
 --Device: spartan6
 --Purpose:

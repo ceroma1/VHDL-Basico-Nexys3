@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Reading design: Superior.prj
@@ -108,13 +108,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/Anillo.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/Anillo.vhd" into library work
 Parsing entity <Anillo>.
 Parsing architecture <Behavioral> of entity <anillo>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/Superior.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/Superior.vhd" into library work
 Parsing entity <Superior>.
 Parsing architecture <Behavioral> of entity <superior>.
 
@@ -133,13 +133,13 @@ Elaborating entity <Anillo> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <Superior>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/Superior.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/Superior.vhd".
     Summary:
 	no macro.
 Unit <Superior> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/divide.vhd".
     Found 26-bit register for signal <cuenta>.
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
@@ -151,7 +151,7 @@ Synthesizing Unit <divide>.
 Unit <divide> synthesized.
 
 Synthesizing Unit <Anillo>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesContadores/ContadorCarga/Anillo.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorCarga/Anillo.vhd".
     Found 8-bit register for signal <dato>.
     Found 8-bit adder for signal <dato[7]_GND_7_o_add_0_OUT> created at line 22.
     Summary:
@@ -473,12 +473,12 @@ u0/aux         |    1.837|         |         |         |
 
 
 Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.70 secs
+Total CPU time to Xst completion: 11.21 secs
  
 --> 
 
 
-Total memory usage is 385836 kilobytes
+Total memory usage is 483668 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

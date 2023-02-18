@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-04T21:43:21</DateModified>
+  <DateModified>2023-02-18T09:24:03</DateModified>
   <ModuleName>divide</ModuleName>
   <SummaryTimeStamp>2019-03-06T12:31:04</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL_Nexys3/Divide_fre/iseconfig/divide.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL_Nexys3/Divide_fre/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Divide_fre/iseconfig/divide.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Divide_fre/</ImplementationReportsDirectory>
   <DateInitialized>2019-03-03T11:23:46</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

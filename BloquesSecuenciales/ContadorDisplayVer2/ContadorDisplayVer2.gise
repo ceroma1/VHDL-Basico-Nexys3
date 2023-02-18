@@ -54,6 +54,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="SupContadorDisplay.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="SupContadorDisplay.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SupContadorDisplay.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SupContadorDisplay_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="SupContadorDisplay_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SupContadorDisplay_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SupContadorDisplay_map.mrp" xil_pn:subbranch="Map"/>
@@ -130,6 +131,10 @@
     <transform xil_pn:end_ts="1586356988" xil_pn:in_ck="-5276249507259571131" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1586356988">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ModuloCuenta.vhd"/>
       <outfile xil_pn:name="ModuloDivide.vhd"/>
       <outfile xil_pn:name="Modulo_BinBcd.vhd"/>
@@ -157,6 +162,11 @@
     <transform xil_pn:end_ts="1586357005" xil_pn:in_ck="-5276249507259571131" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1586357005">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ModuloCuenta.vhd"/>
       <outfile xil_pn:name="ModuloDivide.vhd"/>
       <outfile xil_pn:name="Modulo_BinBcd.vhd"/>
@@ -172,7 +182,10 @@
     <transform xil_pn:end_ts="1586357011" xil_pn:in_ck="-5276249507259571131" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4787293007472647836" xil_pn:start_ts="1586357005">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Tes_beh.prj"/>
       <outfile xil_pn:name="Tes_isim_beh.exe"/>
@@ -183,6 +196,7 @@
     <transform xil_pn:end_ts="1586357147" xil_pn:in_ck="-4397887868638546341" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7197474990233347532" xil_pn:start_ts="1586357146">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Tes_isim_beh.wdb"/>
@@ -217,7 +231,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586356152" xil_pn:in_ck="-2874812003293127671" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-8421535809070227055" xil_pn:start_ts="1586356131">
+    <transform xil_pn:end_ts="1676714621" xil_pn:in_ck="-4718961632277819453" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-8421535809070227055" xil_pn:start_ts="1676714604">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -230,6 +244,7 @@
       <outfile xil_pn:name="SupContadorDisplay.syr"/>
       <outfile xil_pn:name="SupContadorDisplay.xst"/>
       <outfile xil_pn:name="SupContadorDisplay_xst.xrpt"/>
+      <outfile xil_pn:name="SuperiorContadorDisplayVer2.ngr"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
@@ -238,7 +253,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1586356403" xil_pn:in_ck="7156831724518965689" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7458939883248578173" xil_pn:start_ts="1586356393">
+    <transform xil_pn:end_ts="1676714630" xil_pn:in_ck="7190345415714876999" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7458939883248578173" xil_pn:start_ts="1676714621">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SupContadorDisplay.bld"/>
@@ -247,11 +262,9 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1586356422" xil_pn:in_ck="7156878136003367642" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1586356403">
+    <transform xil_pn:end_ts="1676714647" xil_pn:in_ck="7156878136003367642" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1676714630">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="SupContadorDisplay.pcf"/>
       <outfile xil_pn:name="SupContadorDisplay_map.map"/>
       <outfile xil_pn:name="SupContadorDisplay_map.mrp"/>
@@ -262,7 +275,7 @@
       <outfile xil_pn:name="SupContadorDisplay_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1586356449" xil_pn:in_ck="8825406278957174163" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1586356422">
+    <transform xil_pn:end_ts="1676714670" xil_pn:in_ck="8825406278957174163" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1676714647">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SupContadorDisplay.ncd"/>
@@ -276,7 +289,7 @@
       <outfile xil_pn:name="SupContadorDisplay_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1586356486" xil_pn:in_ck="4424680887842038795" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1586356471">
+    <transform xil_pn:end_ts="1676714686" xil_pn:in_ck="4424680887842038795" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1676714670">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SupContadorDisplay.bgn"/>
@@ -288,7 +301,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1586356449" xil_pn:in_ck="7150751820062309846" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1586356438">
+    <transform xil_pn:end_ts="1676714670" xil_pn:in_ck="7150751820062309846" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1676714661">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SupContadorDisplay.twr"/>

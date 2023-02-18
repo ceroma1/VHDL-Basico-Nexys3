@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20160913 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Sun Apr  5 23:41:53 2020
+Sat Feb 18 09:48:46 2023
 
 drc -z SupContadorModulo.ncd SupContadorModulo.pcf
 

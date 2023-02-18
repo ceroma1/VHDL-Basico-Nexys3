@@ -1,4 +1,4 @@
-xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/Cronometro/TopCronometro/TopCronometro.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/Cronometro/TopCronometro/TopCronometro.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Cronometro/TopCronometro/TopCronometro.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Cronometro/TopCronometro/TopCronometro.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 TopCronometro.ngc TopCronometro.ngd  
 map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopCronometro_map.ncd TopCronometro.ngd TopCronometro.pcf 
 par -w -intstyle ise -ol high -mt off TopCronometro_map.ncd TopCronometro.ncd TopCronometro.pcf 

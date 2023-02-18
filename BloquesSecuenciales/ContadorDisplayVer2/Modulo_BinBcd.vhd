@@ -32,7 +32,7 @@ begin
 					end if;
 					--if z(29 downto 26) > 4 then
 					--	  z(29 downto 26):=z(29 downto 26)+3;
-					--end if; -- ojo esto para 16383 maximo valo pero ojo un bit mas de salida
+					--end if; -- ojo esto para 16383 maximo valor pero ojo un bit mas de salida
 					z(29 downto 1):=z(28 downto 0);
 			end loop;
 			p<=z(29 downto 14);

@@ -108,13 +108,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/Contador/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Contador/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/Contador/cuenta.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Contador/cuenta.vhd" into library work
 Parsing entity <cuenta>.
 Parsing architecture <Behavioral> of entity <cuenta>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/Contador/SupContador.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Contador/SupContador.vhd" into library work
 Parsing entity <SupContador>.
 Parsing architecture <Behavioral> of entity <supcontador>.
 
@@ -133,13 +133,13 @@ Elaborating entity <cuenta> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <SupContador>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/Contador/SupContador.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Contador/SupContador.vhd".
     Summary:
 	no macro.
 Unit <SupContador> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/Contador/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Contador/divide.vhd".
     Found 26-bit register for signal <cuenta>.
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
@@ -151,7 +151,7 @@ Synthesizing Unit <divide>.
 Unit <divide> synthesized.
 
 Synthesizing Unit <cuenta>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/Contador/cuenta.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Contador/cuenta.vhd".
     Found 8-bit register for signal <cuenta>.
     Found 8-bit adder for signal <cuenta[7]_GND_7_o_add_0_OUT> created at line 21.
     Summary:
@@ -461,12 +461,12 @@ uo/aux         |    1.837|         |         |         |
 
 
 Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 10.77 secs
+Total CPU time to Xst completion: 10.92 secs
  
 --> 
 
 
-Total memory usage is 385812 kilobytes
+Total memory usage is 483620 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

@@ -1,14 +1,14 @@
-Release 13.4 - Bitgen O.87xd (nt)
-Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Release 14.7 - Bitgen P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Loading device for application Rf_Device from file '6slx16.nph' in environment
-C:\Xilinx\13.4\ISE_DS\ISE\.
+/opt/Xilinx/14.7/ISE_DS/ISE/.
    "SuperiorConatadorDisplay" is an NCD, version 3.2, device xc6slx16, package
 csg324, speed -3
 Opened constraints file SuperiorConatadorDisplay.pcf.
 
-Sun Jan 15 05:56:59 2017
+Sat Feb 18 09:41:33 2023
 
-C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 SuperiorConatadorDisplay.ncd 
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 SuperiorConatadorDisplay.ncd 
 
 Summary of Bitgen Options:
 +----------------------+----------------------+
@@ -94,7 +94,7 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | ExtMasterCclk_divide | 1*                   |
 +----------------------+----------------------+
-| MaskVectorFile       | No*                  |
+| CrcCoverage          | No*                  |
 +----------------------+----------------------+
 | glutmask             | Yes*                 |
 +----------------------+----------------------+
@@ -116,6 +116,8 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | spi_buswidth         | 1**                  |
 +----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
 | IEEE1532             | No*                  |
 +----------------------+----------------------+
 | Binary               | No**                 |
@@ -129,5 +131,5 @@ There were 0 CONFIG constraint(s) processed from SuperiorConatadorDisplay.pcf.
 Running DRC.
 DRC detected 0 errors and 0 warnings.
 Creating bit map...
-Saving bit stream in "superiorconatadordisplay.bit".
+Saving bit stream in "SuperiorConatadorDisplay.bit".
 Bitstream generation is complete.

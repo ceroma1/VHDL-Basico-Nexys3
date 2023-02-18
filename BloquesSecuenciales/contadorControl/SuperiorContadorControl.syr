@@ -12,7 +12,7 @@ Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: SuperiorContadorControl.prj
@@ -108,16 +108,16 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/ModuloDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/ModuloDisplay.vhd" into library work
 Parsing entity <ModuloDisplay>.
 Parsing architecture <Behavioral> of entity <modulodisplay>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/ContadorControl.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/ContadorControl.vhd" into library work
 Parsing entity <ContadorControl>.
 Parsing architecture <Behavioral> of entity <contadorcontrol>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/SuperiorContadorControl.vhf" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/SuperiorContadorControl.vhf" into library work
 Parsing entity <SuperiorContadorControl>.
 Parsing architecture <BEHAVIORAL> of entity <superiorcontadorcontrol>.
 
@@ -130,7 +130,7 @@ Elaborating entity <SuperiorContadorControl> (architecture <BEHAVIORAL>) from li
 Elaborating entity <ContadorControl> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <ModuloDisplay> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/ModuloDisplay.vhd" Line 33. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/ModuloDisplay.vhd" Line 33. Case statement is complete. others clause is never selected
 
 Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
 
@@ -139,13 +139,13 @@ Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <SuperiorContadorControl>.
-    Related source file is "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/SuperiorContadorControl.vhf".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/SuperiorContadorControl.vhf".
     Summary:
 	no macro.
 Unit <SuperiorContadorControl> synthesized.
 
 Synthesizing Unit <ContadorControl>.
-    Related source file is "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/ContadorControl.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/ContadorControl.vhd".
     Found 4-bit register for signal <led>.
     Found 3-bit register for signal <a>.
     Found 1-bit register for signal <f>.
@@ -160,14 +160,14 @@ Synthesizing Unit <ContadorControl>.
 Unit <ContadorControl> synthesized.
 
 Synthesizing Unit <ModuloDisplay>.
-    Related source file is "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/ModuloDisplay.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/ModuloDisplay.vhd".
     Found 16x7-bit Read Only RAM for signal <segmento>
     Summary:
 	inferred   1 RAM(s).
 Unit <ModuloDisplay> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Secuencial_Nexys3/BloquesSecuenciales/contadorControl/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/contadorControl/divide.vhd".
     Found 26-bit register for signal <cuenta>.
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
@@ -506,12 +506,12 @@ clk            |    3.964|         |         |         |
 
 
 Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 11.34 secs
+Total CPU time to Xst completion: 11.00 secs
  
 --> 
 
 
-Total memory usage is 403216 kilobytes
+Total memory usage is 499636 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

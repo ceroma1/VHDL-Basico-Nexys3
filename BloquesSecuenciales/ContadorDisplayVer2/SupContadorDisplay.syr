@@ -108,36 +108,39 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/negacion.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/negacion.vhd" into library work
 Parsing entity <negacion>.
 Parsing architecture <Behavioral> of entity <negacion>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/mux4a1.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/mux4a1.vhd" into library work
 Parsing entity <mux4a1>.
 Parsing architecture <Behavioral> of entity <mux4a1>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Modulo_BinBcd.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Modulo_BinBcd.vhd" into library work
 Parsing entity <Modulo_BinBcd>.
 Parsing architecture <Behavioral> of entity <modulo_binbcd>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/display.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/display.vhd" into library work
 Parsing entity <display>.
 Parsing architecture <Behavioral> of entity <display>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/cuenta.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/cuenta.vhd" into library work
 Parsing entity <cuenta>.
 Parsing architecture <Behavioral> of entity <cuenta>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorBinarioDecimal.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorBinarioDecimal.vhd" into library work
 Parsing entity <SuperiorBinarioDecimal>.
 Parsing architecture <Behavioral> of entity <superiorbinariodecimal>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloDivide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloDivide.vhd" into library work
 Parsing entity <ModuloDivide>.
 Parsing architecture <Behavioral> of entity <modulodivide>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloCuenta.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloCuenta.vhd" into library work
 Parsing entity <ModuloCuenta>.
 Parsing architecture <Behavioral> of entity <modulocuenta>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContadorDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContadorDisplay.vhd" into library work
 Parsing entity <SupContadorDisplay>.
 Parsing architecture <Behavioral> of entity <supcontadordisplay>.
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorContadorDisplayVer2.vhf" into library work
+Parsing entity <SuperiorContadorDisplayVer2>.
+Parsing architecture <BEHAVIORAL> of entity <superiorcontadordisplayver2>.
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -168,13 +171,13 @@ Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <SupContadorDisplay>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContadorDisplay.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SupContadorDisplay.vhd".
     Summary:
 	no macro.
 Unit <SupContadorDisplay> synthesized.
 
 Synthesizing Unit <ModuloDivide>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloDivide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloDivide.vhd".
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
     Found 26-bit register for signal <cuenta>.
@@ -185,7 +188,7 @@ Synthesizing Unit <ModuloDivide>.
 Unit <ModuloDivide> synthesized.
 
 Synthesizing Unit <ModuloCuenta>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloCuenta.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/ModuloCuenta.vhd".
     Found 14-bit register for signal <cuenta>.
     Found 14-bit adder for signal <cuenta[13]_GND_7_o_add_1_OUT> created at line 30.
     Summary:
@@ -195,13 +198,13 @@ Synthesizing Unit <ModuloCuenta>.
 Unit <ModuloCuenta> synthesized.
 
 Synthesizing Unit <SuperiorBinarioDecimal>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorBinarioDecimal.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/SuperiorBinarioDecimal.vhd".
     Summary:
 	no macro.
 Unit <SuperiorBinarioDecimal> synthesized.
 
 Synthesizing Unit <Modulo_BinBcd>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Modulo_BinBcd.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/Modulo_BinBcd.vhd".
     Found 4-bit adder for signal <GND_9_o_GND_9_o_add_1_OUT> created at line 25.
     Found 4-bit adder for signal <B[13]_GND_9_o_add_3_OUT> created at line 25.
     Found 4-bit adder for signal <B[12]_GND_9_o_add_5_OUT> created at line 25.
@@ -257,21 +260,21 @@ Synthesizing Unit <Modulo_BinBcd>.
 Unit <Modulo_BinBcd> synthesized.
 
 Synthesizing Unit <mux4a1>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/mux4a1.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/mux4a1.vhd".
     Found 4-bit 5-to-1 multiplexer for signal <fout> created at line 18.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux4a1> synthesized.
 
 Synthesizing Unit <display>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/display.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/display.vhd".
     Found 16x7-bit Read Only RAM for signal <segmento>
     Summary:
 	inferred   1 RAM(s).
 Unit <display> synthesized.
 
 Synthesizing Unit <cuenta>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/cuenta.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/cuenta.vhd".
     Found 3-bit register for signal <cuenta>.
     Found 3-bit adder for signal <cuenta[2]_GND_12_o_add_1_OUT> created at line 24.
     Summary:
@@ -281,14 +284,14 @@ Synthesizing Unit <cuenta>.
 Unit <cuenta> synthesized.
 
 Synthesizing Unit <negacion>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/negacion.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/negacion.vhd".
     Found 8x4-bit Read Only RAM for signal <anodo>
     Summary:
 	inferred   1 RAM(s).
 Unit <negacion> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesSecuenciales/ContadorDisplayVer2/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/ContadorDisplayVer2/divide.vhd".
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
     Found 18-bit register for signal <cuenta>.
@@ -733,13 +736,13 @@ u2/u5/aux      |    2.216|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 14.98 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.14 secs
  
 --> 
 
 
-Total memory usage is 387840 kilobytes
+Total memory usage is 500532 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

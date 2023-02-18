@@ -1,14 +1,14 @@
 --------------------------------------------------------------------------------
-Release 13.4 Trace  (nt)
-Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
 3 -fastpaths -xml SuperiorConatadorDisplay.twx SuperiorConatadorDisplay.ncd -o
 SuperiorConatadorDisplay.twr SuperiorConatadorDisplay.pcf -ucf pines.ucf
 
 Design file:              SuperiorConatadorDisplay.ncd
 Physical constraint file: SuperiorConatadorDisplay.pcf
-Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.21 2012-01-07)
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2016-11-22)
 Report level:             verbose report
 
 Environment Variable      Effect 
@@ -586,14 +586,14 @@ Design statistics:
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Sun Jan 15 05:56:54 2017 
+Analysis completed Sat Feb 18 09:41:26 2023 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 163 MB
+Peak Memory Usage: 396 MB
 
 
 
