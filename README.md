@@ -28,6 +28,12 @@
 * **Ejemplo desplazamiento de mensaje fijo caso uno.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/PublickDesplaza)
 * **Ejemplo desplazamiento de mensaje fijo caso dos.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/PublickDesplazaVer2)
 
+## **Registros**
+* **Ejemplo registro carga paralela de 8 bits.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/Registro)
+* **Ejemplo registro desplazamiento Izquierda/derecha un bit de entrada serial.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/registroDesplaza)
+
+* **Ejemplo registro de desplazamiento sobre una constante de 64 bits.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/registro2)
+
 
 
 ## **Maquinas de estado.**
