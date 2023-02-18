@@ -11,7 +11,20 @@
 * **Conversión números binarios de 4 bits a formato Decimal.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesCombinacionales/bin_dec)
 * **Ejemplo aplicación Bus de datos.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesCombinacionales/Bus_datos)
 
-
 ## **Secuenciales basicos.**
+* **Ejemplo Divifor de frecuencia.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/Divide_fre)
+* **Ejemplo Contador binario libre de 8 bits.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/Contador)
+* **Ejemplo Contador binario de 8 bits en anillo.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/ContadorAnillo)
+* **Ejemplo Contador binario de 8 bits con carga en paralela.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/ContadorCarga)
+* **Ejemplo Contador Hexadecimal 0 a F en display.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/ContadorDisplay)
+* **Ejemplo Contador Decimal controlado (Par/Impar) rango 0 a 15 en display.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/contadorControl)
+* **Ejemplo Contador módulo Decimal rango 0 a 12 en display.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/ContadorModulo)
+* **Ejemplo concepto visualización dinámica manual.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/MuxDisplayMano)
+* **Ejemplo concepto visualización dinámica automática.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/MuxDisplayAuto)
+* **Ejemplo Contador Decimal de 0 a 9999.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/ContadorDisplayVer2)
+* **Ejemplo Cronometro de 5 minutos con habilitador (memoria).**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/Cronometro)
+* **Ejemplo multiplexación de mensajes.**[Ver -> GitHub]()
+
+
 
 ## **Maquinas de estado.**
