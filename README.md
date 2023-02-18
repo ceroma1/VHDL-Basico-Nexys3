@@ -23,7 +23,10 @@
 * **Ejemplo concepto visualización dinámica automática.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/MuxDisplayAuto)
 * **Ejemplo Contador Decimal de 0 a 9999.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/ContadorDisplayVer2)
 * **Ejemplo Cronometro de 5 minutos con habilitador (memoria).**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/Cronometro)
-* **Ejemplo multiplexación de mensajes.**[Ver -> GitHub]()
+* **Ejemplo mostrar un mensaje fijo.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/publick7seg)
+* **Ejemplo multiplexación de mensajes fijos.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/MuxPublick)
+* **Ejemplo desplazamiento de mensaje fijo caso uno.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/PublickDesplaza)
+* **Ejemplo desplazamiento de mensaje fijo caso dos.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesSecuenciales/PublickDesplazaVer2)
 
 
 
