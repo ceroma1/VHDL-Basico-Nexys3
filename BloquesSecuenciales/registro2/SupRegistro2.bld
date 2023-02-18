@@ -6,7 +6,8 @@ ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 SupRegistro2.ngc
 SupRegistro2.ngd
 
 Reading NGO file
-"/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/SupRegistro2.ngc" ...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/SupRegis
+tro2.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,7 +29,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 399348 kilobytes
+Total memory usage is 496224 kilobytes
 
 Writing NGD file "SupRegistro2.ngd" ...
 Total REAL time to NGDBUILD completion:  7 sec

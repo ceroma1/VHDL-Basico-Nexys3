@@ -1,4 +1,4 @@
-xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registroDesplaza/RegDespL_R.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registroDesplaza/RegDespL_R.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines0.ucf -p xc6slx16-csg324-3 RegDespL_R.ngc RegDespL_R.ngd  
 map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RegDespL_R_map.ncd RegDespL_R.ngd RegDespL_R.pcf 
 par -w -intstyle ise -ol high -mt off RegDespL_R_map.ncd RegDespL_R.ncd RegDespL_R.pcf 

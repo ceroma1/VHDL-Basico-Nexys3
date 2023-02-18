@@ -1,4 +1,4 @@
-xst -intstyle ise -ifn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/Registro/registro.xst" -ofn "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/Registro/registro.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Registro/registro.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Registro/registro.syr" 
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc6slx16-csg324-3 registro.ngc registro.ngd  
 map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o registro_map.ncd registro.ngd registro.pcf 
 par -w -intstyle ise -ol high -mt off registro_map.ncd registro.ncd registro.pcf 

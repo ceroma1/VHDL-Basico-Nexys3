@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-20T19:43:44</DateModified>
+  <DateModified>2023-02-18T10:43:19</DateModified>
   <ModuleName>registro</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/Registro/iseconfig/registro.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/Registro/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Registro/iseconfig/registro.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Registro/</ImplementationReportsDirectory>
   <DateInitialized>2015-05-12T10:12:40</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

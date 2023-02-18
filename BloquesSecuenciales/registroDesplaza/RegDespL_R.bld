@@ -6,8 +6,8 @@ ise -dd _ngo -nt timestamp -uc pines0.ucf -p xc6slx16-csg324-3 RegDespL_R.ngc
 RegDespL_R.ngd
 
 Reading NGO file
-"/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplaza/RegDespL_R.ngc"
-...
+"/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registroDesplaza/R
+egDespL_R.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,7 +29,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 399316 kilobytes
+Total memory usage is 496200 kilobytes
 
 Writing NGD file "RegDespL_R.ngd" ...
 Total REAL time to NGDBUILD completion:  7 sec

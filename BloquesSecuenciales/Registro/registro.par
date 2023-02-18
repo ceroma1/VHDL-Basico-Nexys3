@@ -1,7 +1,7 @@
 Release 14.7 par P.20160913 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-localhost.localdomain::  Sat Apr 11 13:52:58 2020
+localhost.localdomain::  Sat Feb 18 10:43:59 2023
 
 par -w -intstyle ise -ol high -mt off registro_map.ncd registro.ncd
 registro.pcf 
@@ -146,7 +146,7 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 11 secs 
+Total REAL time to PAR completion: 10 secs 
 Total CPU time to PAR completion: 10 secs 
 
 Peak Memory Usage:  612 MB

@@ -5,7 +5,7 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
@@ -108,13 +108,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/divfre.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/divfre.vhd" into library work
 Parsing entity <divfre>.
 Parsing architecture <Behavioral> of entity <divfre>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/arreglo_reg.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/arreglo_reg.vhd" into library work
 Parsing entity <arreglo_reg>.
 Parsing architecture <Behavioral> of entity <arreglo_reg>.
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/SupRegistro2.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/SupRegistro2.vhd" into library work
 Parsing entity <SupRegistro2>.
 Parsing architecture <Behavioral> of entity <supregistro2>.
 
@@ -133,13 +133,13 @@ Elaborating entity <arreglo_reg> (architecture <Behavioral>) from library <work>
 =========================================================================
 
 Synthesizing Unit <SupRegistro2>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/SupRegistro2.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/SupRegistro2.vhd".
     Summary:
 	no macro.
 Unit <SupRegistro2> synthesized.
 
 Synthesizing Unit <divfre>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/divfre.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/divfre.vhd".
     Found 26-bit register for signal <temp>.
     Found 26-bit adder for signal <temp[25]_GND_6_o_add_0_OUT> created at line 21.
     Summary:
@@ -148,7 +148,7 @@ Synthesizing Unit <divfre>.
 Unit <divfre> synthesized.
 
 Synthesizing Unit <arreglo_reg>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registro2/arreglo_reg.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registro2/arreglo_reg.vhd".
     Found 64-bit register for signal <mensa>.
     Summary:
 	inferred  64 D-type flip-flop(s).
@@ -483,13 +483,13 @@ u0/temp_25     |    2.302|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 10.66 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.53 secs
  
 --> 
 
 
-Total memory usage is 385732 kilobytes
+Total memory usage is 483556 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Reading design: registro.prj
@@ -108,7 +108,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/Registro/registro.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Registro/registro.vhd" into library work
 Parsing entity <registro>.
 Parsing architecture <Behavioral> of entity <registro>.
 
@@ -123,7 +123,7 @@ Elaborating entity <registro> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <registro>.
-    Related source file is "/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/Registro/registro.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/Registro/registro.vhd".
     Found 8-bit register for signal <DatoOut>.
     Summary:
 	inferred   8 D-type flip-flop(s).
@@ -311,12 +311,12 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.51 secs
+Total CPU time to Xst completion: 10.41 secs
  
 --> 
 
 
-Total memory usage is 384396 kilobytes
+Total memory usage is 482228 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
