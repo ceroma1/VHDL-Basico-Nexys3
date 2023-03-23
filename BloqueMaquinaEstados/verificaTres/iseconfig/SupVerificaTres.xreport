@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-26T15:02:03</DateModified>
+  <DateModified>2023-03-23T01:14:48</DateModified>
   <ModuleName>SupVerificaTres</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/iseconfig/SupVerificaTres.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/iseconfig/SupVerificaTres.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/</ImplementationReportsDirectory>
   <DateInitialized>2021-11-12T08:47:10</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

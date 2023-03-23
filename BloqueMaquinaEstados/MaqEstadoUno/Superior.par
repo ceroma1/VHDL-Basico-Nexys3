@@ -1,7 +1,7 @@
 Release 14.7 par P.20160913 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-localhost.localdomain::  Fri Oct 14 20:21:33 2022
+localhost.localdomain::  Mon Mar 20 16:54:17 2023
 
 par -w -intstyle ise -ol high -mt off Superior_map.ncd Superior.ncd
 Superior.pcf 

@@ -88,7 +88,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1666799339" xil_pn:in_ck="-4880507161289941745" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1666799339">
+    <transform xil_pn:end_ts="1679532377" xil_pn:in_ck="-4880507161289941745" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1679532377">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Estados.vhd"/>
@@ -106,13 +106,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1666799339" xil_pn:in_ck="-4880507161289941745" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1666799339">
+    <transform xil_pn:end_ts="1679532381" xil_pn:in_ck="-4880507161289941745" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1679532381">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Estados.vhd"/>
       <outfile xil_pn:name="Tes0.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1666799341" xil_pn:in_ck="-4880507161289941745" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="941786409651871620" xil_pn:start_ts="1666799339">
+    <transform xil_pn:end_ts="1679532382" xil_pn:in_ck="-4880507161289941745" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="941786409651871620" xil_pn:start_ts="1679532381">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -124,7 +124,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1666799341" xil_pn:in_ck="-631236887240290805" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5938640798392298479" xil_pn:start_ts="1666799341">
+    <transform xil_pn:end_ts="1679532383" xil_pn:in_ck="-631236887240290805" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5938640798392298479" xil_pn:start_ts="1679532382">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -161,7 +161,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1666799311" xil_pn:in_ck="111183681707147875" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="728111789538425532" xil_pn:start_ts="1666799297">
+    <transform xil_pn:end_ts="1679532374" xil_pn:in_ck="111183681707147875" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="728111789538425532" xil_pn:start_ts="1679532360">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Estados.lso"/>

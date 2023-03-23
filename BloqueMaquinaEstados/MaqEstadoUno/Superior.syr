@@ -108,19 +108,19 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/ModuloDisplay.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/ModuloDisplay.vhd" into library work
 Parsing entity <ModuloDisplay>.
 Parsing architecture <Behavioral> of entity <modulodisplay>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/divide.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/divide.vhd" into library work
 Parsing entity <divide>.
 Parsing architecture <Behavioral> of entity <divide>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/cuenta.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/cuenta.vhd" into library work
 Parsing entity <cuenta>.
 Parsing architecture <Behavioral> of entity <cuenta>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/CombinaSalida.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/CombinaSalida.vhd" into library work
 Parsing entity <CombinaSalida>.
 Parsing architecture <Behavioral> of entity <combinasalida>.
-Parsing VHDL file "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/Superior.vhd" into library work
+Parsing VHDL file "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/Superior.vhd" into library work
 Parsing entity <Superior>.
 Parsing architecture <Behavioral> of entity <superior>.
 
@@ -135,7 +135,7 @@ Elaborating entity <divide> (architecture <Behavioral>) from library <work>.
 Elaborating entity <cuenta> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <CombinaSalida> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/CombinaSalida.vhd" Line 23. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/CombinaSalida.vhd" Line 23. Case statement is complete. others clause is never selected
 
 Elaborating entity <ModuloDisplay> (architecture <Behavioral>) from library <work>.
 
@@ -144,13 +144,13 @@ Elaborating entity <ModuloDisplay> (architecture <Behavioral>) from library <wor
 =========================================================================
 
 Synthesizing Unit <Superior>.
-    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/Superior.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/Superior.vhd".
     Summary:
 	no macro.
 Unit <Superior> synthesized.
 
 Synthesizing Unit <divide>.
-    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/divide.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/divide.vhd".
     Found 26-bit register for signal <cuenta>.
     Found 1-bit register for signal <unseg>.
     Found 1-bit register for signal <aux>.
@@ -162,7 +162,7 @@ Synthesizing Unit <divide>.
 Unit <divide> synthesized.
 
 Synthesizing Unit <cuenta>.
-    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/cuenta.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/cuenta.vhd".
     Found 3-bit register for signal <cuenta>.
     Found 3-bit adder for signal <cuenta[2]_GND_7_o_add_0_OUT> created at line 21.
     Summary:
@@ -171,14 +171,14 @@ Synthesizing Unit <cuenta>.
 Unit <cuenta> synthesized.
 
 Synthesizing Unit <CombinaSalida>.
-    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/CombinaSalida.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/CombinaSalida.vhd".
     Found 8x3-bit Read Only RAM for signal <Foutq>
     Summary:
 	inferred   1 RAM(s).
 Unit <CombinaSalida> synthesized.
 
 Synthesizing Unit <ModuloDisplay>.
-    Related source file is "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/ModuloDisplay.vhd".
+    Related source file is "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/ModuloDisplay.vhd".
     Found 1-bit tristate buffer for signal <segmento<6>> created at line 14
     Found 1-bit tristate buffer for signal <segmento<5>> created at line 14
     Found 1-bit tristate buffer for signal <segmento<4>> created at line 14
@@ -506,13 +506,13 @@ u0/aux         |    2.163|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 11.32 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.20 secs
  
 --> 
 
 
-Total memory usage is 484764 kilobytes
+Total memory usage is 484016 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

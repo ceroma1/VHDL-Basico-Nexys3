@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-26T16:12:53</DateModified>
+  <DateModified>2023-03-23T00:57:54</DateModified>
   <ModuleName>superiorVerifica</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaUno/iseconfig/superiorVerifica.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaUno/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaUno/iseconfig/superiorVerifica.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaUno/</ImplementationReportsDirectory>
   <DateInitialized>2021-11-10T01:32:21</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

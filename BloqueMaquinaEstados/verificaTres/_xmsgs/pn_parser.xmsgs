@@ -8,40 +8,40 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Maq_Estado.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/Maq_Estado.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Modulo_BinBcd.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/Modulo_BinBcd.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupReboteTemporizado.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/SupReboteTemporizado.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/SupVerificaTres.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SuperiorBinarioDecimal.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/SuperiorBinarioDecimal.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/Temporizador.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/Temporizador.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/cuenta.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/cuenta.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/cuenta2.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/cuenta2.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/display.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/display.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/divide.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/divide.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/mux4a1.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/mux4a1.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/negacion.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/negacion.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

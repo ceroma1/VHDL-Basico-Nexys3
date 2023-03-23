@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-17T10:45:51</DateModified>
+  <DateModified>2023-03-23T00:37:39</DateModified>
   <ModuleName>Superior</ModuleName>
   <SummaryTimeStamp>2022-10-14T20:33:21</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/iseconfig/Superior.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUnoA/iseconfig/Superior.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUnoA/</ImplementationReportsDirectory>
   <DateInitialized>2019-06-15T20:01:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

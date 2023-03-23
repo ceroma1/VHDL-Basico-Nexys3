@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/Superior.ncd
-OUTFILE=/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno/Superior.bit
+INFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/Superior.ncd
+OUTFILE=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno/Superior.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUno
+WORKINGDIR=/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUno
 LICENSE=WebPack
 USER_INFO=200815015_200816023_0_253

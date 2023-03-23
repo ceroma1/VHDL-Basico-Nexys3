@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-27T15:50:48</DateModified>
+  <DateModified>2023-03-23T01:26:00</DateModified>
   <ModuleName>Maq_estado</ModuleName>
-  <SummaryTimeStamp>2021-11-09T08:37:39</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/iseconfig/Maq_estado.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2023-03-23T01:23:02</SummaryTimeStamp>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoCuatro/iseconfig/Maq_estado.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoCuatro/</ImplementationReportsDirectory>
   <DateInitialized>2019-06-20T15:43:24</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

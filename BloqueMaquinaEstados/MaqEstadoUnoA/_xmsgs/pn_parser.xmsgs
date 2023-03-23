@@ -8,16 +8,16 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/Estados.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUnoA/Estados.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/ModuloDisplay.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUnoA/ModuloDisplay.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/Superior.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUnoA/Superior.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoUnoA/divide.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoUnoA/divide.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

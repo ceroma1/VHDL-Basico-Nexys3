@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-20T19:40:35</DateModified>
+  <DateModified>2023-03-20T16:51:06</DateModified>
   <ModuleName>RegDespL_R</ModuleName>
   <SummaryTimeStamp>2020-04-20T19:32:44</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplazaE/iseconfig/RegDespL_R.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Codigos_VHDL_Nexys3/BloquesRegistros/registroDesplazaE/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registroDesplazaE/iseconfig/RegDespL_R.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloquesSecuenciales/registroDesplazaE/</ImplementationReportsDirectory>
   <DateInitialized>2019-10-03T20:39:04</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

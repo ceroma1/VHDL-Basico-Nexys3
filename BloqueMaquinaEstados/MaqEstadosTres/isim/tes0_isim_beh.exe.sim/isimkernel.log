@@ -2,14 +2,14 @@ Command line:
    tes0_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  51789
+     -socket  47368
 
-Thu Oct 27 15:46:33 2022
+Thu Mar 23 01:19:30 2023
 
 
- Elaboration Time: 0.06 sec
+ Elaboration Time: 0.03 sec
 
- Current Memory Usage: 197.48 Meg
+ Current Memory Usage: 197.546 Meg
 
  Total Signals          : 10
  Total Nets             : 6
@@ -21,9 +21,9 @@ Thu Oct 27 15:46:33 2022
  Total Scalar Nets and Variables : 367
 Total Line Count : 55
 
- Total Simulation Time: 0.07 sec
+ Total Simulation Time: 0.04 sec
 
- Current Memory Usage: 274.035 Meg
+ Current Memory Usage: 274.1 Meg
 
-Thu Oct 27 15:47:35 2022
+Thu Mar 23 01:20:12 2023
 

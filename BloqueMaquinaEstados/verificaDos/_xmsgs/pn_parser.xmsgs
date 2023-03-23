@@ -8,34 +8,34 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/Estados.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/Estados.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/Modulo_BinBcd.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/Modulo_BinBcd.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/SpVerificaDos.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/SpVerificaDos.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/SuperiorBinarioDecimal.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/SuperiorBinarioDecimal.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/cuenta.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/cuenta.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/cuenta2.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/cuenta2.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/display.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/display.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/divide.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/divide.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/mux4a1.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/mux4a1.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/negacion.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/negacion.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

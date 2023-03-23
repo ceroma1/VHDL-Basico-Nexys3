@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-27T10:36:12</DateModified>
+  <DateModified>2023-03-23T00:51:51</DateModified>
   <ModuleName>SpVerificaDos</ModuleName>
   <SummaryTimeStamp>2022-05-17T21:55:50</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/iseconfig/SpVerificaDos.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaDos/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/iseconfig/SpVerificaDos.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaDos/</ImplementationReportsDirectory>
   <DateInitialized>2019-06-24T13:38:46</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-26T15:52:21</DateModified>
+  <DateModified>2023-03-23T00:47:11</DateModified>
   <ModuleName>Estados</ModuleName>
   <SummaryTimeStamp>2019-06-16T09:58:01</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDosA/iseconfig/Estados.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDosA/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDosA/iseconfig/Estados.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDosA/</ImplementationReportsDirectory>
   <DateInitialized>2019-06-15T21:34:01</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

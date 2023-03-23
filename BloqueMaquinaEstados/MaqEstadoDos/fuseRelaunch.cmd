@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Tes0_isim_beh.exe" -prj "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Tes0_beh.prj" "work.Tes0" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Tes0_isim_beh.exe" -prj "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Tes0_beh.prj" "work.Tes0" 

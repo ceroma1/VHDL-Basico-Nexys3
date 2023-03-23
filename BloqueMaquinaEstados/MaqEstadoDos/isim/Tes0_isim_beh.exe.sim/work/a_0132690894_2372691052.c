@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Tes0.vhd";
+static const char *ng0 = "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Tes0.vhd";
 
 
 

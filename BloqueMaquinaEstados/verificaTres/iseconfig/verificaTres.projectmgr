@@ -10,16 +10,17 @@
          <ClosedNode>/SupReboteTemporizado - Behavioral |home|ise|Secuencial_Nexys3|MaquinasDeEstados|verificaTres|SupReboteTemporizado.vhd</ClosedNode>
          <ClosedNode>/SupVerificaTres - Behavioral |home|ise|Secuencial_Nexys3|MaquinasDeEstados|verificaTres|SupVerificaTres.vhd/u2 - SuperiorBinarioDecimal - Behavioral</ClosedNode>
          <ClosedNode>/SupVerificaTres - Behavioral |home|ise|Secuencial_Nexys3|MaquinasDeEstados|verificaTres|SupVerificaTres.vhd/uo - SupReboteTemporizado - Behavioral</ClosedNode>
+         <ClosedNode>/SupVerificaTres - Behavioral |home|ise|gitVHDL2023|VHDL-Basico-Nexys3|BloqueMaquinaEstados|verificaTres|SupVerificaTres.vhd/uo - SupReboteTemporizado - Behavioral</ClosedNode>
          <ClosedNode>/SuperiorBinarioDecimal - Behavioral |home|ise|Secuencial_Nexys3|MaquinasDeEstados|verificaTres|SuperiorBinarioDecimal.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>SupVerificaTres - Behavioral (/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.vhd)</SelectedItem>
+         <SelectedItem>SupVerificaTres - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/SupVerificaTres.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000226000000020000000000000000000000000200000064ffffffff000000810000000300000002000002260000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>SupVerificaTres - Behavioral (/home/ise/Secuencial_Nexys3/MaquinasDeEstados/verificaTres/SupVerificaTres.vhd)</CurrentItem>
+      <CurrentItem>SupVerificaTres - Behavioral (/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/verificaTres/SupVerificaTres.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -64,17 +65,16 @@
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Generate Programming File</SelectedItem>
+         <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000146000000010000000100000000000000000000000064ffffffff000000810000000000000001000001460000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Generate Programming File</CurrentItem>
+      <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

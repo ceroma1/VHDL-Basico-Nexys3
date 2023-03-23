@@ -9,3 +9,5 @@ bitgen -intstyle ise -f Estados.ut Estados.ncd
 xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Estados.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Estados.syr" 
 xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Estados.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Estados.syr" 
 xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Estados.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoDos/Estados.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Estados.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Estados.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Estados.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoDos/Estados.syr" 

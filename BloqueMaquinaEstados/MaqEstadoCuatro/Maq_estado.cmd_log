@@ -1,4 +1,2 @@
-xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.syr" 
-xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.syr" 
-xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.syr" 
-xst -intstyle ise -ifn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.xst" -ofn "/home/ise/Secuencial_Nexys3/MaquinasDeEstados/MaqEstadoCuatro/Maq_estado.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoCuatro/Maq_estado.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoCuatro/Maq_estado.syr" 
+xst -intstyle ise -ifn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoCuatro/Maq_estado.xst" -ofn "/home/ise/gitVHDL2023/VHDL-Basico-Nexys3/BloqueMaquinaEstados/MaqEstadoCuatro/Maq_estado.syr" 

@@ -43,8 +43,8 @@ begin
 				estadoSiguiente<=s4;
 			elsif int_ext="10" then
 				estadoSiguiente<=Idle;
-			--else
-			--	estadoSiguiente<=s2;
+			else
+				estadoSiguiente<=s2;
 		end if;
 	when s3 =>
 			estadoSiguiente<=s4;
