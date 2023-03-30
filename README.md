@@ -37,3 +37,9 @@
 
 
 ## **Maquinas de estado.**
+* **Ejemplo Maquina de estados sin entradas externas caso uno: contador más circuito combinacional** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoUno)
+* **Ejemplo Maquina de estados sin entradas externas caso unoA: Uso plantilla máquina de estado tipo Moore** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoUnoA)
+* **Ejemplo Maquina de estados detector de flanco de subida caso uno: Uso plantilla máquina de estado tipo Moore de dos estados** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoDos)
+* **Ejemplo Maquina de estados detector de flanco de subida caso dos: Uso plantilla máquina de estado tipo Moore de tres estados** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoDosA)
+* **Ejemplo Maquina de estados detector de secuencia 01: Uso plantilla máquina de estado tipo Moore de cinco estados** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadosTres)
+* **Ejemplo Maquina de estados con entradas sincrónicas multiplex: Uso plantilla máquina de estado tipo Moore de cinco estados** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoCuatro)
