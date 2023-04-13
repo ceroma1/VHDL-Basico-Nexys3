@@ -43,3 +43,8 @@
 * **Ejemplo Maquina de estados detector de flanco de subida caso dos: Uso plantilla máquina de estado tipo Moore de tres estados** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoDosA)
 * **Ejemplo Maquina de estados detector de secuencia 01: Uso plantilla máquina de estado tipo Moore de cinco estados** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadosTres)
 * **Ejemplo Maquina de estados con entradas sincrónicas multiplex: Uso plantilla máquina de estado tipo Moore de cinco estados** [Ver -> GitHub]( https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqEstadoCuatro)
+* **Ejemplo Maquina de estados temporizada** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/ReboteTemporizado)
+* **Ejemplo Maquina de estados led ON/OFF** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/MaqLEDONOFF)
+* **Ejemplo Semaforo peatonal caso uno** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/semaforoPeatonV0)
+* **Ejemplo semaforo peatonal caso dos** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/SemaforoPeatonV2)
+* **Ejemplo Semaforo peatonal solucion alternativa caso dos** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/SemaforoPeatonV1)
