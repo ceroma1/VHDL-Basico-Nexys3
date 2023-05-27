@@ -1,0 +1,3 @@
+vhdl work "Sync.vhd"
+vhdl work "DivisorFreq.vhd"
+vhdl work "main.vhd"

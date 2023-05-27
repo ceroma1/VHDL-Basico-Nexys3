@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Cristian Padilla/Desktop/circuitos digitales/Circuitos digitales 2/ControladorVGA/test_isim_beh.exe" -prj "C:/Users/Cristian Padilla/Desktop/circuitos digitales/Circuitos digitales 2/ControladorVGA/test_beh.prj" "work.test" 

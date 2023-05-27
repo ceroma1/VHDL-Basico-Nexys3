@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sat May 27 09:15:05 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "H_Sync" LOCATE = SITE "N6" LEVEL 1;
+COMP "Blue<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "Blue<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "reset" LOCATE = SITE "B8" LEVEL 1;
+COMP "V_Sync" LOCATE = SITE "P7" LEVEL 1;
+COMP "Red<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "Red<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "Green<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "Red<2>" LOCATE = SITE "N7" LEVEL 1;
+COMP "Green<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "Green<2>" LOCATE = SITE "V6" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "U0/unseg" BEL "U0/cuenta_1" BEL "U0/cuenta_0" BEL
+        "U0/aux" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
