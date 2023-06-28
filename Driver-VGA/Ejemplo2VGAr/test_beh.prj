@@ -1,0 +1,5 @@
+vhdl work "VGA.vhd"
+vhdl work "Move.vhd"
+vhdl work "DivFreq.vhd"
+vhdl work "main.vhd"
+vhdl work "test.vhd"

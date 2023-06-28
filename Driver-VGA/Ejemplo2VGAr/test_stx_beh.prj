@@ -1,0 +1,5 @@
+vhdl isim_temp "VGA.vhd"
+vhdl isim_temp "Move.vhd"
+vhdl isim_temp "DivFreq.vhd"
+vhdl isim_temp "main.vhd"
+vhdl isim_temp "test.vhd"
