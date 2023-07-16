@@ -1,4 +1,4 @@
-# **Indice de Ejemplos Para Nexys 3.**
+# **Indice de Ejemplos Para Nexys 3 usando ISE Design suite 14.7.**
 
 ## **Combinacionales Basicos.**
 * **Ejemplo Codificador Genérico.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloquesCombinacionales/Codigeneric)
