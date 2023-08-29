@@ -48,3 +48,6 @@
 * **Ejemplo Semaforo peatonal caso uno** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/semaforoPeatonV0)
 * **Ejemplo semaforo peatonal caso dos** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/SemaforoPeatonV2)
 * **Ejemplo Semaforo peatonal solucion alternativa caso dos** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basico-Nexys3/tree/master/BloqueMaquinaEstados/SemaforoPeatonV1)
+
+![image](https://github.com/ceroma1/VHDL-Basico-Nexys3/assets/49888643/6439d73b-2291-425a-875c-f9c37a3e9304)
+
